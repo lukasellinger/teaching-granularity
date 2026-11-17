@@ -1,0 +1,190 @@
+{
+  "completed_global_step": 60,
+  "best_checkpoint_step": 40,
+  "resolved_model_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 73
+    },
+    "idk_realizations": 0,
+    "idk_semantic_cases": 0,
+    "idk_sft_weight_mass": 0,
+    "known_sft_weight_mass": 73,
+    "maximum_realizations_per_case": 1,
+    "mean_realizations_per_case": 1,
+    "rankable_cases": 73,
+    "rankable_realizations": 73,
+    "realizations": 73,
+    "realizations_by_source": {
+      "granola": 73
+    },
+    "semantic_cases": 73,
+    "sft_weight_mass_by_source": {
+      "granola": 73
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1359.000000000003
+    },
+    "idk_realizations": 93,
+    "idk_semantic_cases": 93,
+    "idk_sft_weight_mass": 296.6830985915493,
+    "known_sft_weight_mass": 1062.3169014084506,
+    "maximum_realizations_per_case": 14,
+    "mean_realizations_per_case": 3.1901408450704225,
+    "rankable_cases": 331,
+    "rankable_realizations": 1239,
+    "realizations": 1359,
+    "realizations_by_source": {
+      "vital_persons": 1359
+    },
+    "semantic_cases": 426,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1358.9999999999836
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "granola_dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 8
+    },
+    "idk_realizations": 0,
+    "idk_semantic_cases": 0,
+    "idk_sft_weight_mass": 0,
+    "known_sft_weight_mass": 8,
+    "maximum_realizations_per_case": 1,
+    "mean_realizations_per_case": 1,
+    "rankable_cases": 8,
+    "rankable_realizations": 8,
+    "realizations": 8,
+    "realizations_by_source": {
+      "granola": 8
+    },
+    "semantic_cases": 8,
+    "sft_weight_mass_by_source": {
+      "granola": 8
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "rank_balance": {
+    "cap": 4,
+    "level_base_mass": {
+      "P112_GRANOLA_1": 2,
+      "P112_GRANOLA_4": 8,
+      "P170_GRANOLA_1": 1,
+      "P170_GRANOLA_2_5": 2,
+      "P170_GRANOLA_4": 9,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 3,
+      "P176_GRANOLA_2_5": 1,
+      "P176_GRANOLA_4": 20,
+      "P40_GRANOLA_1": 4,
+      "P40_GRANOLA_4": 4,
+      "P69_GRANOLA_2": 2,
+      "P69_GRANOLA_3": 3,
+      "P69_GRANOLA_4": 13
+    },
+    "level_case_counts": {
+      "P112_GRANOLA_1": 2,
+      "P112_GRANOLA_4": 8,
+      "P170_GRANOLA_1": 1,
+      "P170_GRANOLA_2_5": 2,
+      "P170_GRANOLA_4": 9,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 3,
+      "P176_GRANOLA_2_5": 1,
+      "P176_GRANOLA_4": 20,
+      "P40_GRANOLA_1": 4,
+      "P40_GRANOLA_4": 4,
+      "P69_GRANOLA_2": 2,
+      "P69_GRANOLA_3": 3,
+      "P69_GRANOLA_4": 13
+    },
+    "level_factors": {
+      "P112_GRANOLA_1": 1,
+      "P112_GRANOLA_4": 1,
+      "P170_GRANOLA_1": 1,
+      "P170_GRANOLA_2_5": 1,
+      "P170_GRANOLA_4": 1,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 1,
+      "P176_GRANOLA_2_5": 1,
+      "P176_GRANOLA_4": 1,
+      "P40_GRANOLA_1": 1,
+      "P40_GRANOLA_4": 1,
+      "P69_GRANOLA_2": 1,
+      "P69_GRANOLA_3": 1,
+      "P69_GRANOLA_4": 1
+    },
+    "modality_balanced_mass": {
+      "granola:P112": 10,
+      "granola:P170": 12,
+      "granola:P175": 1,
+      "granola:P176": 24,
+      "granola:P40": 8,
+      "granola:P69": 18
+    },
+    "modality_base_mass": {
+      "granola:P112": 10,
+      "granola:P170": 12,
+      "granola:P175": 1,
+      "granola:P176": 24,
+      "granola:P40": 8,
+      "granola:P69": 18
+    },
+    "mode": "none",
+    "raw_modality_factors": {
+      "granola:P112": 1,
+      "granola:P170": 1,
+      "granola:P175": 1,
+      "granola:P176": 1,
+      "granola:P40": 1,
+      "granola:P69": 1
+    },
+    "raw_within_modality_level_factors": {
+      "P112_GRANOLA_1": 1,
+      "P112_GRANOLA_4": 1,
+      "P170_GRANOLA_1": 1,
+      "P170_GRANOLA_2_5": 1,
+      "P170_GRANOLA_4": 1,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 1,
+      "P176_GRANOLA_2_5": 1,
+      "P176_GRANOLA_4": 1,
+      "P40_GRANOLA_1": 1,
+      "P40_GRANOLA_4": 1,
+      "P69_GRANOLA_2": 1,
+      "P69_GRANOLA_3": 1,
+      "P69_GRANOLA_4": 1
+    }
+  },
+  "training_sources": {
+    "checkpoint_selection": "vital_persons_dev",
+    "mode": "granola-only",
+    "sft_loss_fraction": {
+      "granola": 1,
+      "vital_persons": 0
+    }
+  },
+  "recorded_revision_argument": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b"
+}

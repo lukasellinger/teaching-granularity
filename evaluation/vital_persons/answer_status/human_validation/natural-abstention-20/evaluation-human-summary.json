@@ -1,0 +1,10 @@
+{
+  "items": 20,
+  "labels": {
+    "Answer": 14,
+    "No answer": 6
+  },
+  "annotations_sha256": "5b16228683a0bde1faeb9a1011661def950a96d016246b14982cfb9a34d90eea",
+  "annotations_file": "../annotations.csv",
+  "items_sha256": "c0edce6a978a5639504740ddb6e07014808f85862a85a61929c9c6f6fd662eea"
+}

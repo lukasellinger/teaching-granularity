@@ -1,0 +1,15 @@
+{
+  "adapter_sha256": "aa1b2d4be203f908b50dc02776fc892b0278f17fdcb53fe0052befb740adcac1",
+  "files": {
+    "adapter_config.json": "0d9ccdb908a85d0f663271baad46f86fbea095809b8c112e228578b8a001aea2",
+    "adapter_model.safetensors": "ec19b499e5f04d26e8df303f670d8a215a851d99cd2d0d379a367b2794bbf3ed",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ablations/lfm/short/combined-balanced",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ablations/lfm/short/combined-balanced"
+}

@@ -1,0 +1,50 @@
+{
+  "multiple_log_odds_threshold": -3.375,
+  "decision_rule": "Predict Multiple when log P(Multiple)-log P(Single) >= threshold.",
+  "calibration": "Frozen threshold supplied externally; not fitted on this split.",
+  "metrics": {
+    "items": 200,
+    "accuracy": 0.865,
+    "valid_output_rate": 1.0,
+    "balanced_accuracy": 0.8841911764705883,
+    "macro_f1": 0.854803581511656,
+    "single_precision": 0.9658119658119658,
+    "single_precision_wilson_95": {
+      "lower": 0.9153821514157074,
+      "upper": 0.9866261581805496
+    },
+    "single_recall": 0.8308823529411765,
+    "multiple_precision": 0.7228915662650602,
+    "multiple_recall": 0.9375,
+    "unsafe_false_single": {
+      "count": 4,
+      "rate_among_gold_multiple": 0.0625,
+      "wilson_95": {
+        "lower": 0.024571201396618017,
+        "upper": 0.14997485092208662
+      },
+      "meaning": "Multiple text incorrectly admitted as Single."
+    },
+    "conservative_false_multiple": {
+      "count": 23,
+      "rate_among_gold_single": 0.16911764705882354,
+      "meaning": "Safe Single text rejected; loses training data but does not contaminate it."
+    },
+    "class_f1": {
+      "Single": 0.8932806324110673,
+      "Multiple": 0.8163265306122448
+    },
+    "confusion": {
+      "Single": {
+        "Single": 113,
+        "Multiple": 23,
+        "Invalid": 0
+      },
+      "Multiple": {
+        "Single": 4,
+        "Multiple": 60,
+        "Invalid": 0
+      }
+    }
+  }
+}

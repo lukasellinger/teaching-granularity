@@ -1,0 +1,15 @@
+{
+  "adapter_sha256": "6d7105c7cd7ab24c90f57d2a07218b223cc7d4cf2fc7491bf653ff4d322d5ec6",
+  "files": {
+    "adapter_config.json": "5d027e55523003363bf078d28f9d90ac2a57b6412e47c60dab8a5a1cfd728450",
+    "adapter_model.safetensors": "4a92917ab455721d11b2cc37338ecbc75ff35edf502907730a45d1475a8dbb9d",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ablations/lfm/short/combined-weight-0.5",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ablations/lfm/short/combined-weight-0.5"
+}

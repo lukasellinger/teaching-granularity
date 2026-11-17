@@ -1,0 +1,49 @@
+<View className="review">
+  <Style>
+    .review {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color:#1d2939; background:#f5f7fa; padding:20px;}
+    .review .shell {max-width:1100px; margin:auto;}
+    .review .card {background:white; border:1px solid #d8e0eb; border-radius:10px; padding:18px; margin-bottom:16px;}
+    .review .answers {display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px;}
+    .review .answer {white-space:pre-wrap; overflow-wrap:anywhere; font-size:17px; line-height:1.65;}
+    .review .question {font-size:20px; font-weight:600; line-height:1.5;}
+    .review .help {font-size:14px; line-height:1.6; color:#475467;}
+    .review .prior {display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+    .review .options label {display:inline-flex; align-items:center; padding:12px; margin:5px; border:1px solid #cbd5e1; border-radius:8px; cursor:pointer;}
+    .review .options label:hover {background:#edf3ff;}
+    @media(max-width:760px) {.review .answers,.review .prior {grid-template-columns:1fr;} .review {padding:10px;}}
+  </Style>
+  <View className="shell">
+    <Header value="Discuss and adjudicate granularity" size="3" />
+    <Text name="progress" value="$progress" />
+    <View className="card help">
+      <Text name="instructions" value="Compare only the information answering the question. Ignore factual correctness, answer length and unrelated details. Choose a common label after discussion, or Unresolved if you still disagree. A new common label may differ from both original judgments. Unresolved is a failure to reach consensus; Not comparable is a shared judgment that the answers cannot be ordered. Original independent judgments remain unchanged." />
+    </View>
+    <View className="card question"><Text name="question" value="$prompt" /></View>
+    <View className="answers">
+      <View className="card"><Header value="Answer A" size="4" /><View className="answer"><Text name="answer_a" value="$response_a" /></View></View>
+      <View className="card"><Header value="Answer B" size="4" /><View className="answer"><Text name="answer_b" value="$response_b" /></View></View>
+    </View>
+    <View className="card">
+      <Header value="Original independent judgments" size="4" />
+      <View className="help"><Text name="mapping_help" value="Both labels below refer to the A/B order displayed above. The original annotation tasks may have used different A/B orders." /></View>
+      <View className="prior">
+        <View><Header value="Annotator 1" size="5" /><Text name="prior_1" value="$annotator_1_label" /></View>
+        <View><Header value="Annotator 2" size="5" /><Text name="prior_2" value="$annotator_2_label" /></View>
+      </View>
+    </View>
+    <View className="card">
+      <Header value="Common decision" size="4" />
+      <View className="options">
+        <Choices name="final_specificity" toName="answer_a" choice="single-radio" required="true" showInline="true">
+          <Choice value="A more fine-grained" hotkey="1" />
+          <Choice value="B more fine-grained" hotkey="2" />
+          <Choice value="Same granularity" hotkey="3" />
+          <Choice value="Not comparable" hotkey="4" />
+          <Choice value="Abstention present" hotkey="5" />
+          <Choice value="Unresolved" hotkey="6" />
+        </Choices>
+      </View>
+      <TextArea name="resolution_note" toName="answer_a" required="true" rows="3" placeholder="Briefly explain the common decision, or why disagreement remains." />
+    </View>
+  </View>
+</View>

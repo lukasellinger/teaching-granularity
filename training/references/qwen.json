@@ -1,0 +1,66 @@
+{
+  "model": "qwen",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 411.1999999999992,
+      "vital_persons": 7812.79999999994
+    },
+    "idk_realizations": 308,
+    "idk_semantic_cases": 308,
+    "idk_sft_weight_mass": 396.69343883942577,
+    "known_sft_weight_mass": 7827.306561160434,
+    "maximum_realizations_per_case": 15,
+    "mean_realizations_per_case": 2.513447432762836,
+    "rankable_cases": 2957,
+    "rankable_realizations": 7866,
+    "realizations": 8224,
+    "realizations_by_source": {
+      "granola": 85,
+      "vital_persons": 8139
+    },
+    "semantic_cases": 3272,
+    "sft_weight_mass_by_source": {
+      "granola": 411.19999999999953,
+      "vital_persons": 7812.800000000032
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1050.999999999996
+    },
+    "idk_realizations": 38,
+    "idk_semantic_cases": 38,
+    "idk_sft_weight_mass": 101.6234096692112,
+    "known_sft_weight_mass": 949.3765903307889,
+    "maximum_realizations_per_case": 18,
+    "mean_realizations_per_case": 2.6743002544529264,
+    "rankable_cases": 355,
+    "rankable_realizations": 1004,
+    "realizations": 1051,
+    "realizations_by_source": {
+      "vital_persons": 1051
+    },
+    "semantic_cases": 393,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1050.9999999999914
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "completed_global_step": 1000,
+  "best_checkpoint_step": 500,
+  "recorded_revision_argument": null,
+  "resolved_model_revision": null
+}

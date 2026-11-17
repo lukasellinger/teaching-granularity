@@ -1,0 +1,25 @@
+{
+  "adapter_sha256": "f19a11fe4af4dac7f519ae34547103196af9226d9fe783f7073d00a80cbd9110",
+  "files": {
+    "adapter_config.json": "6363989921e89f50c4b6301efc9cc672613f79b1fa36f0f0c3e834c04766e585",
+    "adapter_model.safetensors": "f12efd2b9cbf36fb98c95ba2ca67a6871bf8ebd20eff34a3baa18870070f48c2",
+    "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "b767583b60f70a8fb23fc7208ed6da4dd56a318501e08afb50925b6e8f9a99d2"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "cd4f4ff6cb7b9d9a0f82ab022f8d03b8a1414078",
+  "subfolder": "gemma",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/cd4f4ff6cb7b9d9a0f82ab022f8d03b8a1414078/gemma",
+  "model_id": "google/gemma-4-31B-it",
+  "base_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "training_config": "training/configs/gemma.json",
+  "training_results": "training/references/gemma.json",
+  "vital_persons_results": "evaluation/vital_persons/results/gemma",
+  "generalization_generations": {
+    "granola": "generalization/generations/granola/gemma.jsonl",
+    "simpleqa": "generalization/generations/simpleqa/gemma.jsonl",
+    "truthfulqa": "generalization/generations/truthfulqa/gemma.jsonl"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "items": 154,
+    "strict_exact_match": 0.987012987012987,
+    "whitespace_normalized_exact_match": 0.987012987012987,
+    "formatting_tolerant_exact_match": 0.987012987012987,
+    "accepted_reference_match": 0.987012987012987,
+    "replacement_exactly_once_rate": 0.9935064935064936,
+    "replacement_expression_exactly_once_rate": 1.0,
+    "valid_output_rate": 1.0,
+    "person_name_preservation_rate": 1.0,
+    "output_validation_failures": 0,
+    "truncated_outputs": 0,
+    "empty_outputs": 0
+  },
+  "people": 40,
+  "heldout_used_for_selection": false,
+  "references": "AI teacher drafts reviewed under the specified output policy, not independent human gold"
+}

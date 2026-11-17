@@ -1,0 +1,29 @@
+[project]
+name = "teaching-granularity"
+version = "0.1.0"
+description = "Code and evaluation for teaching answer granularity"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.2.6", "datasets==5.1.0"]
+
+[project.optional-dependencies]
+generation = [
+    "torch>=2.12,<3", "transformers==5.17.0", "peft==0.20.0",
+    "accelerate>=1.15,<2", "spacy==3.8.16", "tqdm>=4.66,<5", "mistral-common>=1.9,<2",
+]
+scoring = ["granuscore==1.0.1"]
+judge = ["openai>=2,<4", "python-dotenv>=1,<2"]
+analysis = ["statsmodels>=0.14,<1", "scipy>=1.13,<2"]
+plotting = ["matplotlib>=3.9,<4"]
+normalization = ["pydantic>=2,<3", "requests>=2.32,<3", "tqdm>=4.66,<5"]
+test = ["pytest>=8,<10"]
+training = [
+    "torch>=2.12,<3", "transformers==5.17.0", "peft==0.20.0",
+    "accelerate>=1.15,<2", "mistral-common>=1.9,<2", "pydantic>=2,<3",
+    "wandb>=0.24,<1", "python-dotenv>=1,<2",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"

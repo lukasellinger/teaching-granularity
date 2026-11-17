@@ -1,0 +1,21 @@
+{
+  "model_repository": "lukasellinger/teaching-granularity-adapters",
+  "model_revision": "9ab2f768173984455c71e9cf5d84b3baf8341bf7",
+  "model_subfolder": "pipeline/location-filter",
+  "adapter_weights_sha256": "e898036dd8547d243e493cc5de5d7c9c4bdc5c1e622532c968e466a086407db9",
+  "frozen_threshold": -3.375,
+  "retrieval": "Original reports recovered read-only from social-medium-2; copied without running inference.",
+  "reports": {
+    "heldout": {
+      "original_relative_path": "evaluations/location-expression-filter/sft-safety-v4-heldout-threshold-m3.375/comparison.json",
+      "sha256": "7da0ca8ccc546b4b757c39e518dd0f70357b8573997bf6efbd8029d1225091a9",
+      "cases": 200
+    },
+    "development": {
+      "original_relative_path": "runs/location-expression-filter/Qwen3.5-0.8B/sft-safety-v4-coverage-corrected-w3-seed42/finetuned-dev.json",
+      "sha256": "a76ba45304b60a7497c57f39978f06238d174c23512e62ecf9cb9b831183238a",
+      "cases": 140
+    }
+  },
+  "annotation_note": "The reviewed fields inside original reports are historical acceptance markers, not evidence that all labels were independently human-reviewed. Current reference annotations carry corrected provenance."
+}

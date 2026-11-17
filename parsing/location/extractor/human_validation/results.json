@@ -1,0 +1,115 @@
+{
+  "items": 100,
+  "by_model": {
+    "QWEN3_5_9B": 34,
+    "GEMMA4_31B": 33,
+    "LFM2_5_1_2B": 33
+  },
+  "reviewed_flags": 0,
+  "metrics": {
+    "strict_exact_match": {
+      "matches": 91,
+      "total": 100,
+      "accuracy": 0.91,
+      "wilson_95": {
+        "lower": 0.837737871472837,
+        "upper": 0.9519274599974348
+      }
+    },
+    "normalized_exact_match": {
+      "matches": 91,
+      "total": 100,
+      "accuracy": 0.91,
+      "wilson_95": {
+        "lower": 0.837737871472837,
+        "upper": 0.9519274599974348
+      }
+    },
+    "descriptor_tolerant_match": {
+      "matches": 91,
+      "total": 100,
+      "accuracy": 0.91,
+      "wilson_95": {
+        "lower": 0.837737871472837,
+        "upper": 0.9519274599974348
+      }
+    }
+  },
+  "statuses": {
+    "ok": 100
+  },
+  "mismatches": [
+    {
+      "item_id": "23a8c38ac3668740f6dc1211",
+      "question": "Where did Zhuge Liang die?",
+      "answer": "Zhuge Liang died at **Wuzhang Plains** (Wuzhang Plain, Wade-Giles: Wu-tchang Plain), also known as Wuzhangdu, located in what is now **Chengkou County, Chongqing Municip",
+      "expected_output": "Wuzhang Plains; Wuzhang Plain; Wu-tchang Plain; Wuzhangdu; Chengkou County; Chongqing Municip",
+      "actual_output": "Wuzhang Plains; Wuzhang Plain; Wade-Giles: Wu-tchang Plain; Wuzhangdu; Chengkou County; Chongqing Municip",
+      "status": "ok"
+    },
+    {
+      "item_id": "3314fe4676bc03cb38db27d1",
+      "question": "Where did Andrea Palladio die?",
+      "answer": "Andrea Palladio died in **Villa Vesperuna** (also known as Villa Pisani), located in the comune of **Cedegole**, near the town of **Padua** (Padova) in the Veneto region of northern Italy.",
+      "expected_output": "Villa Vesperuna; Villa Pisani; comune of Cedegole; near Padua; near Padova; Veneto region; northern Italy",
+      "actual_output": "Villa Vesperuna; Villa Pisani; comune of Cedegole; near Padua; Padova; Veneto region; northern Italy",
+      "status": "ok"
+    },
+    {
+      "item_id": "07f4eeffbcdae81bcac95801",
+      "question": "Where did Dōgen die?",
+      "answer": "Dōgen died at **Eihei-ji** (永平寺), the monastery he founded in the mountains of Echizen Province (modern-day Fukui Prefecture), Japan.",
+      "expected_output": "Eihei-ji; 永平寺; mountains of Echizen Province; Fukui Prefecture; Japan",
+      "actual_output": "Eihei-ji; 永平寺; Echizen Province; Fukui Prefecture; Japan",
+      "status": "ok"
+    },
+    {
+      "item_id": "0b2aaed642aad6f5b34ae9b2",
+      "question": "Where did Cardinal Richelieu die?",
+      "answer": "Cardinal Richelieu died at his residence in **Paris**, specifically at the **Hotel de Richelieu** (now known as the Bibliothèque nationale de France - Richelieu site).\n\nHe passed away on **December 4, 1",
+      "expected_output": "Paris; Hotel de Richelieu; Bibliothèque nationale de France - Richelieu site",
+      "actual_output": "his residence; Paris; Hotel de Richelieu; Bibliothèque nationale de France; Richelieu site",
+      "status": "ok"
+    },
+    {
+      "item_id": "cd9839d94ea1bd00a0a4655f",
+      "question": "Where was Saint Nicholas born?",
+      "answer": "Saint Nicholas is traditionally believed to have been born in a town about 400 km (250 miles) southwest of modern-day Bari, in the region known today as Apulia, in southern Italy. According to historical accounts, he was born in",
+      "expected_output": "about 400 km (250 miles) southwest of modern-day Bari; Apulia; southern Italy",
+      "actual_output": "region known today as Apulia; southern Italy",
+      "status": "ok"
+    },
+    {
+      "item_id": "d3e39b916f337586e326ab32",
+      "question": "Where did Justinian I die?",
+      "answer": "Justinian I died in **Ravenna**, Italy.\n\nAt the time of his death on November 14, 565 AD, Ravenna served as the capital of the **Exarchate of Ravenna**, which was the",
+      "expected_output": "Ravenna; Italy; Exarchate of Ravenna",
+      "actual_output": "Ravenna; Italy",
+      "status": "ok"
+    },
+    {
+      "item_id": "bfeff18b321f7a433a5d2c56",
+      "question": "Where was John Muir born?",
+      "answer": "John Muir was born in Alabama County, Scotland, Scotland, in what is now the American state of Kentucky.",
+      "expected_output": "Alabama County; Scotland; state of Kentucky",
+      "actual_output": "Alabama County; Scotland; American state of Kentucky",
+      "status": "ok"
+    },
+    {
+      "item_id": "2b15f2e24acbb6dd977dd192",
+      "question": "Where did Antonin Artaud die?",
+      "answer": "Antonin Artaud died in **Ivry-sur-Seine**, a suburb of Paris, France. \n\nHe passed away on January 21, 1948, at the Rodez asylum, where he had been committed",
+      "expected_output": "Ivry-sur-Seine; Paris; France; Rodez asylum",
+      "actual_output": "Ivry-sur-Seine; France; Rodez asylum",
+      "status": "ok"
+    },
+    {
+      "item_id": "b66d65fca3079184fad57091",
+      "question": "Where was Moctezuma I born?",
+      "answer": "Moctezuma II was born in **Moteczotl (or Motecatzl)**, in the **Valley of Mexico**, near modern-day **Tenochtitlan** (the capital of the Aztec Empire).",
+      "expected_output": "IDK",
+      "actual_output": "Moteczotl; Motecatzl; Valley of Mexico; Tenochtitlan; Aztec Empire",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "pairs": 20,
+  "responses": 40,
+  "unique_people": 20,
+  "split": "test",
+  "seed": 20261116,
+  "pairs_by_model": {
+    "gemma": 5,
+    "ministral": 5,
+    "lfm": 5,
+    "qwen": 5
+  },
+  "pairs_by_relation": {
+    "birthplace": 10,
+    "deathplace": 10
+  },
+  "eligible_people_by_model": {
+    "lfm": 20,
+    "ministral": 20,
+    "qwen": 20,
+    "gemma": 20
+  },
+  "sampling": "Five matched Base/FT question pairs per model; ten birth and ten death questions; distinct people. Gold-available test questions only. No filtering by response length, quality, abstention, extraction/normalization status or correctness.",
+  "exclusions": "Exclude whole identifiable people from recorded extractor train/dev/reference data, normalizer development/regression cases, inspected-person registry, prior audits and reviewed evaluation corrections.",
+  "exclusion_scope": "No overlap with recorded development inputs; unrecorded historical inspection cannot be verified.",
+  "excluded_people": 1080,
+  "excluded_questions": 1072,
+  "source_sha256": {
+    "evaluation/vital_persons/results/lfm/test/location_extractions/base_plain.jsonl": "89f754a78fa3412910fcd589d50051ad04d81b52959c7901c91a1d0160b2f1ab",
+    "evaluation/vital_persons/results-corrected/lfm/test/outcomes/location/base_plain.jsonl": "c7183747ebe23283c1a24f97e3cdb2c7f5b1c72eeb357d8e62f9f5ab3854fa7c",
+    "evaluation/vital_persons/results/lfm/test/location_extractions/finetuned.jsonl": "e7129b792d664def5e54ff10fe181bbd085b0a1f3d833e99e59a3a426d65f1c9",
+    "evaluation/vital_persons/results-corrected/lfm/test/outcomes/location/finetuned.jsonl": "30ab6c787b758b3d186079bd481c56448c57fc2e9e0207a54e3f9e37bb11d4e2",
+    "evaluation/vital_persons/results/ministral/test/location_extractions/base_plain.jsonl": "e1de0d005e7434daf00c48ac8cc46af237a79042d8a15a145891a5263aacaa88",
+    "evaluation/vital_persons/results-corrected/ministral/test/outcomes/location/base_plain.jsonl": "4c564f6ccc9e21cfaf5449ece63fdb0b5076c085b2c24a22da77f4193f986509",
+    "evaluation/vital_persons/results/ministral/test/location_extractions/finetuned.jsonl": "c2fbfda8bccb14716e4ce9fd802ba08cfb387428cafb0a66248dbfce21c84ef3",
+    "evaluation/vital_persons/results-corrected/ministral/test/outcomes/location/finetuned.jsonl": "69c9727976cd05c1d4f725b32e4ec7a11f6b674b1b4dcbed69f289c98a99c9b9",
+    "evaluation/vital_persons/results/qwen/test/location_extractions/base_plain.jsonl": "0a055a37d8e04370c589a3bb15982953e2b47e2bed6002ebe2390d88249502e7",
+    "evaluation/vital_persons/results-corrected/qwen/test/outcomes/location/base_plain.jsonl": "2aa669b83f209f00eabd987ac2dac937aa84340b81aebb1e9c401aa5f1a551be",
+    "evaluation/vital_persons/results/qwen/test/location_extractions/finetuned.jsonl": "2ed2bbd4d233232394e9a0292f558f15085f23d6efc565e43d3084a669dbeb41",
+    "evaluation/vital_persons/results-corrected/qwen/test/outcomes/location/finetuned.jsonl": "2fb996109172196f54647e19b2350e9d2f2fe72ea3781f88054e77c18c6ecdcd",
+    "evaluation/vital_persons/results/gemma/test/location_extractions/base_plain.jsonl": "02ffd538201acdac5063cb910321a664707b5a344664ace445ff11b0e5fa6095",
+    "evaluation/vital_persons/results-corrected/gemma/test/outcomes/location/base_plain.jsonl": "c428a23a2d2b3de735d8d03a707396eea34ca3803f09cfdcf2235fb841a3c966",
+    "evaluation/vital_persons/results/gemma/test/location_extractions/finetuned.jsonl": "9efa53f3d843b951a2c8edd793ee494ea90c36f165994342cb390e2fde82a354",
+    "evaluation/vital_persons/results-corrected/gemma/test/outcomes/location/finetuned.jsonl": "b1f3f8df3c13f3ff8838b13f53c03ddcabafdf68aed9de12552d0cef6ac474e9"
+  },
+  "exclusion_source_sha256": {
+    "parsing/location/extractor/training/train.jsonl": "a64387ba224720804907dde8a3eb3e62b02bd9334b676cefe916f1d9da1ed5dc",
+    "parsing/location/extractor/training/dev.jsonl": "bf619f4da06f6b1b3a281a6de867d717350cfb501d7a18849f52efc6c9a698c6",
+    "parsing/location/extractor/human_validation/annotations.jsonl": "e07d98932ad8575f0df890c0160dbcf71fbe45b54eab5ab1ab70df890af85944",
+    "parsing/location/extractor/human_validation/excluded_people.txt": "48d8cc59570f0413b3c08bbc30820580269320b9d36fb2904be32d328c84ad67",
+    "data_preparation/vital_persons/metadata/gold_adapted.jsonl": "67e21a32df8086803718120869dc314a8fcb531ce8df78d5ae1284762ac2ffff",
+    "parsing/location/normalization/human_validation/prior_questions.json": "76e16d840865e5d69722ed15f8d0aa6cc217dbcb350285a0a741d1a71cb9f044",
+    "evaluation/vital_persons/corrections.jsonl": "1809276db9e963c0aecef7c0771249fe3d7a198effbf05b41e00a2318d414900",
+    "parsing/location/normalization/tests/fixtures/regressions.jsonl": "d51520633ce2174e91ddf5eb6afa34a1b117c4f53fee68d416cc7d2507d88a49",
+    "parsing/location/normalization/human_validation/audits/base-ft-20pairs-v1/cases.jsonl": "45220adab5d4ecde829105ca2da01e7ce921aee13438b95a836ff11f46d7ddf8"
+  },
+  "script_sha256": "a6bd85c6a77228ef0ba43973d8d76e11067711f254da58e282d5180d119be165",
+  "utility_gains": {
+    "PLACE": 1.0,
+    "SUBCITY": 1.0,
+    "CITY": 1.0,
+    "REGION": 0.7956079727960204,
+    "COUNTRY": 0.5045964370514611,
+    "CONTINENT": 0.18147431856723387
+  },
+  "scope": "Audit frozen saved evaluation outputs; no new inference, corrections or pipeline changes.",
+  "human_review": "complete; final accepted export is annotations.final.csv",
+  "evaluation_taxonomy": "four-level",
+  "protocol": "Final annotation rubric; sampled questions, answers, source pipeline outputs and final human labels are unchanged."
+}

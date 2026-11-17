@@ -1,0 +1,66 @@
+{
+  "model": "ministral",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 463.00000000000006,
+      "vital_persons": 8797.000000000171
+    },
+    "idk_realizations": 608,
+    "idk_semantic_cases": 608,
+    "idk_sft_weight_mass": 986.4581335301366,
+    "known_sft_weight_mass": 8273.541866470521,
+    "maximum_realizations_per_case": 15,
+    "mean_realizations_per_case": 3.0025940337224384,
+    "rankable_cases": 2468,
+    "rankable_realizations": 8574,
+    "realizations": 9260,
+    "realizations_by_source": {
+      "granola": 69,
+      "vital_persons": 9191
+    },
+    "semantic_cases": 3084,
+    "sft_weight_mass_by_source": {
+      "granola": 463.0000000000001,
+      "vital_persons": 8797.000000000697
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1096.0000000000052
+    },
+    "idk_realizations": 76,
+    "idk_semantic_cases": 76,
+    "idk_sft_weight_mass": 226.3478260869565,
+    "known_sft_weight_mass": 869.6521739130435,
+    "maximum_realizations_per_case": 14,
+    "mean_realizations_per_case": 2.9782608695652173,
+    "rankable_cases": 291,
+    "rankable_realizations": 1007,
+    "realizations": 1096,
+    "realizations_by_source": {
+      "vital_persons": 1096
+    },
+    "semantic_cases": 368,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1096.0000000000023
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "completed_global_step": 800,
+  "best_checkpoint_step": 300,
+  "recorded_revision_argument": "b6d637bef2393152b3da2b2fde72eecdee30557e",
+  "resolved_model_revision": "b6d637bef2393152b3da2b2fde72eecdee30557e"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+  "base_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "adapter_sha256": "7ebd6921f32b9a82c8154d323eefe5d5263ef685801a7789c35497e36cbbdd16",
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "subfolder": "ablations/lfm/greedy-control/greedy",
+  "private": true,
+  "files": {
+    "adapter_config.json": "83a774fef5a479b553ef95c8c5a3790e5499892a957a45077aee2de0513f4361",
+    "adapter_model.safetensors": "676c3511bf0637502a9b72fcf5cf681fd96d5cb66a63b06de4ad1c0f24e4d60c",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "revision": "9ab2f768173984455c71e9cf5d84b3baf8341bf7",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/9ab2f768173984455c71e9cf5d84b3baf8341bf7/ablations/lfm/greedy-control/greedy"
+}

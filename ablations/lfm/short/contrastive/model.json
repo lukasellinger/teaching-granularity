@@ -1,0 +1,15 @@
+{
+  "adapter_sha256": "d090627acaa9437293f5106c945fa3ac1968b2f9d667c29c6d8db659c733a122",
+  "files": {
+    "adapter_config.json": "ff8792bee9f3a1b5500b6e7e9bf5751455a31046c804fdf709e48a25d1d7f68e",
+    "adapter_model.safetensors": "4c2dde412fc610ff14ce65b0f0d0f46ce0dd4929d91b5737628aa67622b7408f",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ablations/lfm/short/contrastive",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ablations/lfm/short/contrastive"
+}

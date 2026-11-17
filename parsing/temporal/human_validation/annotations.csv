@@ -1,0 +1,980 @@
+"annotation_id","annotator","answer","answer_status","automatic_category","automatic_parse_status","completeness_review","confidence","created_at","error_types","event_anchoring_review","final_prediction","granularity_review","id","item_id","lead_time","modality","multiple_values_review","normalization_review","normalized_relevant_candidates","overall_pipeline_review","prompt","raw_extracted_mentions","span_review","task_uid","updated_at","wikidata_completion_review","wikidata_entity_review"
+3079,"1","Abu Bakr was born in the year 610 CE.","One clear requested value","YEAR","parsed","Correct","High","2026-09-29T09:48:43.433953Z","No error","Correct","{
+  ""century"": 7,
+  ""century_modifier"": ""early"",
+  ""day"": null,
+  ""decade"": 610,
+  ""decade_modifier"": ""early"",
+  ""level"": ""YEAR"",
+  ""month"": null,
+  ""season"": null,
+  ""year"": 610,
+  ""year_modifier"": null
+}","Correct",5395,"78d4458fe8c346ea6d52",26.871,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 7,
+    ""century_modifier"": ""early"",
+    ""day"": null,
+    ""decade"": 610,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 610,
+    ""year_modifier"": null
+  }
+]","Correct","When was Abu Bakr born?","[
+  {
+    ""century"": 7,
+    ""century_modifier"": ""early"",
+    ""day"": null,
+    ""decade"": 610,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 610,
+    ""year_modifier"": null
+  }
+]","Correct","extract-aa52625006-78d4458fe8c346ea6d52","2026-09-29T09:48:43.433968Z","Not applicable","Not applicable"
+3080,"1","Irving Thalberg, the legendary Hollywood producer known as the ""Boy Wonder"" of the film industry, died on **February 15, 1936**.
+
+He passed away at the age of 36 from complications related to tuberculosis and a heart condition. His death occurred just a few months after the release of *The Great Ziegfeld*, a film he produced that won the first Academy Award for Best Picture. At the time of his death, he was the most powerful producer in the world, working for Metro-Goldwyn-Mayer (MGM).","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:49:10.651435Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""mid"",
+  ""day"": 15,
+  ""decade"": 1930,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 2,
+  ""season"": ""winter"",
+  ""year"": 1936,
+  ""year_modifier"": ""early""
+}","Correct",5396,"d3367ef4881a293e82a9",30.71,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 15,
+    ""decade"": 1930,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1936,
+    ""year_modifier"": ""early""
+  }
+]","Correct","When did Irving Thalberg die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 15,
+    ""decade"": 1930,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1936,
+    ""year_modifier"": ""early""
+  }
+]","Correct","extract-aa52625006-d3367ef4881a293e82a9","2026-09-29T09:50:33.273270Z","Not applicable","Not applicable"
+3081,"1","Don Bradman was born on **May 27, 1908**.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:49:33.265604Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""early"",
+  ""day"": 27,
+  ""decade"": 1900,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 5,
+  ""season"": ""spring"",
+  ""year"": 1908,
+  ""year_modifier"": ""mid""
+}","Correct",5397,"3e14981bbf122674c07c",26.823999999999998,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 27,
+    ""decade"": 1900,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1908,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When was Don Bradman born?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 27,
+    ""decade"": 1900,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1908,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-3e14981bbf122674c07c","2026-09-29T09:50:39.285847Z","Not applicable","Not applicable"
+3082,"1","Cyrus the Great was born around 600 BCE. However, the exact date of his birth is not well-documented. He was the founder of the Achaemenid Empire and is known for his significant contributions to Persian history.","One clear requested value","YEAR","parsed","Correct","High","2026-09-29T09:49:56.430152Z","No error","Correct","{
+  ""century"": -6,
+  ""century_modifier"": ""late"",
+  ""day"": null,
+  ""decade"": -600,
+  ""decade_modifier"": ""early"",
+  ""level"": ""YEAR"",
+  ""month"": null,
+  ""season"": null,
+  ""year"": -600,
+  ""year_modifier"": null
+}","Correct",5398,"638168ba3c31fb262cea",28.06,"temporal","Not applicable","Correct","[
+  {
+    ""century"": -6,
+    ""century_modifier"": ""late"",
+    ""day"": null,
+    ""decade"": -600,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": -600,
+    ""year_modifier"": null
+  }
+]","Correct","When was Cyrus the Great born?","[
+  {
+    ""century"": -6,
+    ""century_modifier"": ""late"",
+    ""day"": null,
+    ""decade"": -600,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": -600,
+    ""year_modifier"": null
+  }
+]","Correct","extract-aa52625006-638168ba3c31fb262cea","2026-09-29T09:50:45.803743Z","Not applicable","Not applicable"
+3083,"1","Bertolt Brecht, the renowned German playwright and director, passed away on May 11, 1956. He was a significant figure in the world of theater, known for his contributions to epic theatre and his political activism. His works often reflected his views on social justice and his critique of capitalist society.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:50:21.705480Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""mid"",
+  ""day"": 11,
+  ""decade"": 1950,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 5,
+  ""season"": ""spring"",
+  ""year"": 1956,
+  ""year_modifier"": ""mid""
+}","Correct",5399,"88a68e32ed2ee45b4df2",25.078,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 11,
+    ""decade"": 1950,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1956,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When did Bertolt Brecht die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 11,
+    ""decade"": 1950,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1956,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-88a68e32ed2ee45b4df2","2026-09-29T09:50:21.705493Z","Not applicable","Not applicable"
+3084,"1","Louis XVI was born on **August 23, 1754**.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:51:16.907199Z","No error","Correct","{
+  ""century"": 18,
+  ""century_modifier"": ""mid"",
+  ""day"": 23,
+  ""decade"": 1750,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 8,
+  ""season"": ""summer"",
+  ""year"": 1754,
+  ""year_modifier"": ""mid""
+}","Correct",5400,"411616d7669856c85285",21.708,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""mid"",
+    ""day"": 23,
+    ""decade"": 1750,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 8,
+    ""season"": ""summer"",
+    ""year"": 1754,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When was Louis XVI born?","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""mid"",
+    ""day"": 23,
+    ""decade"": 1750,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 8,
+    ""season"": ""summer"",
+    ""year"": 1754,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-411616d7669856c85285","2026-09-29T09:51:16.907213Z","Not applicable","Not applicable"
+3085,"1","Taejo of Goryeo, whose personal name was **Wang Geon** (also known as Wang Kwon), died on **April 18, 943** (according to the traditional Korean calendar, this corresponds to the 10th day of the 3rd month of the 27th year of his reign).
+
+He was the founder of the Goryeo Dynasty in Korea. Following his death, he was succeeded by his son, Wangjong.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:52:05.141479Z","No error","Correct","{
+  ""century"": 10,
+  ""century_modifier"": ""mid"",
+  ""day"": 18,
+  ""decade"": 940,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 4,
+  ""season"": ""spring"",
+  ""year"": 943,
+  ""year_modifier"": ""early""
+}","Correct",5401,"4171fe73e8a0b681a100",48.034,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 10,
+    ""century_modifier"": ""mid"",
+    ""day"": 18,
+    ""decade"": 940,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 4,
+    ""season"": ""spring"",
+    ""year"": 943,
+    ""year_modifier"": ""early""
+  }
+]","Correct","When did Taejo of Goryeo die?","[
+  {
+    ""century"": 10,
+    ""century_modifier"": ""mid"",
+    ""day"": 18,
+    ""decade"": 940,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 4,
+    ""season"": ""spring"",
+    ""year"": 943,
+    ""year_modifier"": ""early""
+  }
+]","Correct","extract-aa52625006-4171fe73e8a0b681a100","2026-09-29T09:52:05.141496Z","Not applicable","Not applicable"
+3086,"1","Irenaeus of Lyons was born around 130 AD.","One clear requested value","YEAR","parsed","Correct","High","2026-09-29T09:52:29.459391Z","No error","Correct","{
+  ""century"": 2,
+  ""century_modifier"": ""early"",
+  ""day"": null,
+  ""decade"": 130,
+  ""decade_modifier"": ""early"",
+  ""level"": ""YEAR"",
+  ""month"": null,
+  ""season"": null,
+  ""year"": 130,
+  ""year_modifier"": null
+}","Correct",5402,"6bd892ede9c8ae22dedc",24.123,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 2,
+    ""century_modifier"": ""early"",
+    ""day"": null,
+    ""decade"": 130,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 130,
+    ""year_modifier"": null
+  }
+]","Correct","When was Irenaeus born?","[
+  {
+    ""century"": 2,
+    ""century_modifier"": ""early"",
+    ""day"": null,
+    ""decade"": 130,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 130,
+    ""year_modifier"": null
+  }
+]","Correct","extract-aa52625006-6bd892ede9c8ae22dedc","2026-09-29T09:52:29.459405Z","Not applicable","Not applicable"
+3087,"1","Adam Smith was born on June 5, 1723.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:52:55.060529Z","No error","Correct","{
+  ""century"": 18,
+  ""century_modifier"": ""early"",
+  ""day"": 5,
+  ""decade"": 1720,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 6,
+  ""season"": ""summer"",
+  ""year"": 1723,
+  ""year_modifier"": ""mid""
+}","Correct",5403,"f23e918c4f34d9fea35c",25.402,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""early"",
+    ""day"": 5,
+    ""decade"": 1720,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 6,
+    ""season"": ""summer"",
+    ""year"": 1723,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When was Adam Smith born?","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""early"",
+    ""day"": 5,
+    ""decade"": 1720,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 6,
+    ""season"": ""summer"",
+    ""year"": 1723,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-f23e918c4f34d9fea35c","2026-09-29T09:52:55.060541Z","Not applicable","Not applicable"
+3088,"1","Bayinnaung, the last great king of the Toungoo Dynasty who briefly unified most of mainland Southeast Asia, died on **August 10, 1581**.
+
+He passed away at his capital in Ava (modern-day Mandalay, Myanmar) at the age of 52. His death occurred during a period of severe political instability and rebellion across his vast empire, which he had spent decades building. Following his death, the empire rapidly fragmented as his successors struggled to maintain control over the diverse territories he had conquered.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:53:16.920797Z","No error","Correct","{
+  ""century"": 16,
+  ""century_modifier"": ""late"",
+  ""day"": 10,
+  ""decade"": 1580,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 8,
+  ""season"": ""summer"",
+  ""year"": 1581,
+  ""year_modifier"": ""mid""
+}","Correct",5404,"bb83709652f78e78be3a",21.654,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 10,
+    ""decade"": 1580,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 8,
+    ""season"": ""summer"",
+    ""year"": 1581,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When did Bayinnaung die?","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 10,
+    ""decade"": 1580,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 8,
+    ""season"": ""summer"",
+    ""year"": 1581,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-bb83709652f78e78be3a","2026-09-29T09:53:16.920813Z","Not applicable","Not applicable"
+3089,"1","Georges Lemaître died on May 2, 1966.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:53:36.353011Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""mid"",
+  ""day"": 2,
+  ""decade"": 1960,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 5,
+  ""season"": ""spring"",
+  ""year"": 1966,
+  ""year_modifier"": ""mid""
+}","Correct",5405,"8232b00d92161f0c0582",19.24,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 2,
+    ""decade"": 1960,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1966,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","When did Georges Lemaître die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 2,
+    ""decade"": 1960,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 5,
+    ""season"": ""spring"",
+    ""year"": 1966,
+    ""year_modifier"": ""mid""
+  }
+]","Correct","extract-aa52625006-8232b00d92161f0c0582","2026-09-29T09:53:36.353021Z","Not applicable","Not applicable"
+3090,"1","Évariste Galois was born on **October 25, 1811**.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:53:53.694517Z","No error","Correct","{
+  ""century"": 19,
+  ""century_modifier"": ""early"",
+  ""day"": 25,
+  ""decade"": 1810,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 10,
+  ""season"": ""autumn"",
+  ""year"": 1811,
+  ""year_modifier"": ""late""
+}","Correct",5406,"f99f432e3cf71d7fead4",17.151,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""early"",
+    ""day"": 25,
+    ""decade"": 1810,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 10,
+    ""season"": ""autumn"",
+    ""year"": 1811,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was Évariste Galois born?","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""early"",
+    ""day"": 25,
+    ""decade"": 1810,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 10,
+    ""season"": ""autumn"",
+    ""year"": 1811,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-f99f432e3cf71d7fead4","2026-09-29T09:53:53.694532Z","Not applicable","Not applicable"
+3091,"1","Martin Heidegger passed away on February 2, 1976.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:54:10.605064Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""late"",
+  ""day"": 2,
+  ""decade"": 1970,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 2,
+  ""season"": ""winter"",
+  ""year"": 1976,
+  ""year_modifier"": ""early""
+}","Correct",5407,"867bf9c40a18218af5c3",16.713,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""late"",
+    ""day"": 2,
+    ""decade"": 1970,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1976,
+    ""year_modifier"": ""early""
+  }
+]","Correct","When did Martin Heidegger die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""late"",
+    ""day"": 2,
+    ""decade"": 1970,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1976,
+    ""year_modifier"": ""early""
+  }
+]","Correct","extract-aa52625006-867bf9c40a18218af5c3","2026-09-29T09:54:10.605078Z","Not applicable","Not applicable"
+3092,"1","Theodor Mommsen, the renowned German historian and classical scholar who was awarded the Nobel Prize in Literature in 1902, was born on **November 30, 1817**.
+
+He was born in Goslar, in the Kingdom of Hanover (now part of Germany).","Multiple requested values","DAY","parsed","Correct","High","2026-09-29T09:54:47.355644Z","No error","Correct","{
+  ""century"": 19,
+  ""century_modifier"": ""early"",
+  ""day"": 30,
+  ""decade"": 1810,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 11,
+  ""season"": ""autumn"",
+  ""year"": 1817,
+  ""year_modifier"": ""late""
+}","Correct",5408,"9922fa480abbac323acf",36.554,"temporal","Correct","Correct","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""early"",
+    ""day"": 30,
+    ""decade"": 1810,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 1817,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was Theodor Mommsen born?","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""early"",
+    ""day"": 30,
+    ""decade"": 1810,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 1817,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-9922fa480abbac323acf","2026-09-29T09:54:47.355658Z","Not applicable","Not applicable"
+3093,"1","Muhammad Ali Jinnah, the founder of Pakistan, passed away on **14 December 1948**. He was 89 years old at the time of his death. His death marked the end of a pivotal era in South Asian history, as he had been instrumental in the creation of Pakistan in 1947.","Multiple requested values","DAY","parsed","Correct","High","2026-09-29T09:55:17.071027Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""mid"",
+  ""day"": 14,
+  ""decade"": 1940,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 12,
+  ""season"": ""winter"",
+  ""year"": 1948,
+  ""year_modifier"": ""late""
+}","Correct",5409,"4e6365df5fa94554704c",36.433,"temporal","Correct","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 14,
+    ""decade"": 1940,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 12,
+    ""season"": ""winter"",
+    ""year"": 1948,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When did Muhammad Ali Jinnah die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 14,
+    ""decade"": 1940,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 12,
+    ""season"": ""winter"",
+    ""year"": 1948,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-4e6365df5fa94554704c","2026-09-29T09:56:07.491565Z","Not applicable","Not applicable"
+3094,"1","Irving Thalberg was born on **February 3, 1899**, in San Francisco, California.
+
+He was a prominent American film producer and one of the most influential figures in the early history of Hollywood, known for his work with Metro-Goldwyn-Mayer (MGM) during the 1920s and 1930s. He passed away on July 15, 1936, at the age of 37.","Multiple requested values","DAY","parsed","Correct","High","2026-09-29T09:55:53.457021Z","No error","Correct","{
+  ""century"": 19,
+  ""century_modifier"": ""late"",
+  ""day"": 3,
+  ""decade"": 1890,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 2,
+  ""season"": ""winter"",
+  ""year"": 1899,
+  ""year_modifier"": ""early""
+}","Correct",5410,"c7fff4f811915ce9cdfc",36.185,"temporal","Correct","Correct","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""late"",
+    ""day"": 3,
+    ""decade"": 1890,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1899,
+    ""year_modifier"": ""early""
+  }
+]","Correct","When was Irving Thalberg born?","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""late"",
+    ""day"": 3,
+    ""decade"": 1890,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 2,
+    ""season"": ""winter"",
+    ""year"": 1899,
+    ""year_modifier"": ""early""
+  }
+]","Correct","extract-aa52625006-c7fff4f811915ce9cdfc","2026-09-29T09:55:53.457036Z","Not applicable","Not applicable"
+3095,"1","John Donne was born on October 20, 1572.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:56:35.754177Z","No error","Correct","{
+  ""century"": 16,
+  ""century_modifier"": ""late"",
+  ""day"": 20,
+  ""decade"": 1570,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 10,
+  ""season"": ""autumn"",
+  ""year"": 1572,
+  ""year_modifier"": ""late""
+}","Correct",5411,"83b3e0a92f59ec285eab",12.989,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 20,
+    ""decade"": 1570,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 10,
+    ""season"": ""autumn"",
+    ""year"": 1572,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was John Donne born?","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 20,
+    ""decade"": 1570,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 10,
+    ""season"": ""autumn"",
+    ""year"": 1572,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-83b3e0a92f59ec285eab","2026-09-29T09:56:35.754190Z","Not applicable","Not applicable"
+3096,"1","Al-Ghazali (also known as Al-Ghazali al-Qaradisi) was born in 1058 CE (1308 AD) and died in 1166 CE (1273 AD). He passed away in the city of Tunis, which was part of the Almohad Caliphate at the time.","Multiple requested values","MULTIPLE","multiple","Correct","High","2026-09-29T09:57:33.065780Z","No error","Correct","null","Correct",5412,"521dd8c6de7682fe0534",57.102,"temporal","Correct","Correct","[
+  {
+    ""century"": 12,
+    ""century_modifier"": ""mid"",
+    ""day"": null,
+    ""decade"": 1160,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 1166,
+    ""year_modifier"": null
+  },
+  {
+    ""century"": 13,
+    ""century_modifier"": ""late"",
+    ""day"": null,
+    ""decade"": 1270,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 1273,
+    ""year_modifier"": null
+  }
+]","Correct","When did Al-Ghazali die?","[
+  {
+    ""century"": 12,
+    ""century_modifier"": ""mid"",
+    ""day"": null,
+    ""decade"": 1160,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 1166,
+    ""year_modifier"": null
+  },
+  {
+    ""century"": 13,
+    ""century_modifier"": ""late"",
+    ""day"": null,
+    ""decade"": 1270,
+    ""decade_modifier"": ""early"",
+    ""level"": ""YEAR"",
+    ""month"": null,
+    ""season"": null,
+    ""year"": 1273,
+    ""year_modifier"": null
+  }
+]","Correct","extract-aa52625006-521dd8c6de7682fe0534","2026-09-29T09:57:33.065793Z","Not applicable","Not applicable"
+3097,"1","Little Richard was born on September 8, 1932.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:57:52.251482Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""early"",
+  ""day"": 8,
+  ""decade"": 1930,
+  ""decade_modifier"": ""early"",
+  ""level"": ""DAY"",
+  ""month"": 9,
+  ""season"": ""autumn"",
+  ""year"": 1932,
+  ""year_modifier"": ""late""
+}","Correct",5413,"9103b8a0888eecf57f55",18.955,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 8,
+    ""decade"": 1930,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1932,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was Little Richard born?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 8,
+    ""decade"": 1930,
+    ""decade_modifier"": ""early"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1932,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-9103b8a0888eecf57f55","2026-09-29T09:57:52.251496Z","Not applicable","Not applicable"
+3098,"1","John B. Watson died on September 25, 1958.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:58:15.899894Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""mid"",
+  ""day"": 25,
+  ""decade"": 1950,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 9,
+  ""season"": ""autumn"",
+  ""year"": 1958,
+  ""year_modifier"": ""late""
+}","Correct",5414,"390c578f50b5874a23e7",23.417,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 25,
+    ""decade"": 1950,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1958,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When did John B. Watson die?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""mid"",
+    ""day"": 25,
+    ""decade"": 1950,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1958,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-390c578f50b5874a23e7","2026-09-29T09:58:15.899906Z","Not applicable","Not applicable"
+3099,"1","Carlos Fuentes, the renowned Mexican novelist, essayist, and diplomat, was born on **November 11, 1928**.
+
+He was born in Mexico City and is widely considered one of the most important figures in Latin American literature, often associated with the ""Boom"" movement alongside authors like Gabriel García Márquez and Julio Cortázar. He passed away on May 15, 2012.","Multiple requested values","DAY","parsed","Correct","High","2026-09-29T09:58:54.843330Z","No error","Correct","{
+  ""century"": 20,
+  ""century_modifier"": ""early"",
+  ""day"": 11,
+  ""decade"": 1920,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 11,
+  ""season"": ""autumn"",
+  ""year"": 1928,
+  ""year_modifier"": ""late""
+}","Correct",5415,"37cfa25e9478af18a7db",38.735,"temporal","Correct","Correct","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 11,
+    ""decade"": 1920,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 1928,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was Carlos Fuentes born?","[
+  {
+    ""century"": 20,
+    ""century_modifier"": ""early"",
+    ""day"": 11,
+    ""decade"": 1920,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 1928,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-37cfa25e9478af18a7db","2026-09-29T09:58:54.843348Z","Not applicable","Not applicable"
+3100,"1","Joseph Stalin was born on **December 18, 1878**.
+
+He was born in the village of Gori, in the Kutaisi Governorate of the Russian Empire (now in Georgia). While his birth name was Ioseb Besarionis dze Jughashvili, he later adopted the pseudonym ""Stalin,"" which means ""man of steel"" in Russian.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T09:59:19.216029Z","No error","Correct","{
+  ""century"": 19,
+  ""century_modifier"": ""late"",
+  ""day"": 18,
+  ""decade"": 1870,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 12,
+  ""season"": ""winter"",
+  ""year"": 1878,
+  ""year_modifier"": ""late""
+}","Correct",5416,"044c4d1526f228a62e49",24.168,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""late"",
+    ""day"": 18,
+    ""decade"": 1870,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 12,
+    ""season"": ""winter"",
+    ""year"": 1878,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When was Joseph Stalin born?","[
+  {
+    ""century"": 19,
+    ""century_modifier"": ""late"",
+    ""day"": 18,
+    ""decade"": 1870,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 12,
+    ""season"": ""winter"",
+    ""year"": 1878,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-044c4d1526f228a62e49","2026-09-29T09:59:19.216045Z","Not applicable","Not applicable"
+3101,"1","King Juan Carlos I of Spain passed away on **November 19, 2014**, at the age of 87.
+
+He died at the Royal Palace of Zarzuela in Madrid, surrounded by his family. His death was announced by the Spanish royal family later that day, marking the end of a reign that lasted from 1975 until his abdication in 2014.","Multiple requested values","DAY","parsed","Correct","High","2026-09-29T10:00:16.771149Z","No error","Correct","{
+  ""century"": 21,
+  ""century_modifier"": ""early"",
+  ""day"": 19,
+  ""decade"": 2010,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 11,
+  ""season"": ""autumn"",
+  ""year"": 2014,
+  ""year_modifier"": ""late""
+}","Correct",5417,"ef44be95ba1f43a52bc3",57.341,"temporal","Correct","Correct","[
+  {
+    ""century"": 21,
+    ""century_modifier"": ""early"",
+    ""day"": 19,
+    ""decade"": 2010,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 2014,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When did Juan Carlos I die?","[
+  {
+    ""century"": 21,
+    ""century_modifier"": ""early"",
+    ""day"": 19,
+    ""decade"": 2010,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 11,
+    ""season"": ""autumn"",
+    ""year"": 2014,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-ef44be95ba1f43a52bc3","2026-09-29T10:00:16.771160Z","Not applicable","Not applicable"
+3102,"1","Gerolamo Cardano died on September 24, 1576.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T10:00:39.676853Z","No error","Correct","{
+  ""century"": 16,
+  ""century_modifier"": ""late"",
+  ""day"": 24,
+  ""decade"": 1570,
+  ""decade_modifier"": ""mid"",
+  ""level"": ""DAY"",
+  ""month"": 9,
+  ""season"": ""autumn"",
+  ""year"": 1576,
+  ""year_modifier"": ""late""
+}","Correct",5418,"360cef429c3631a3fe96",22.702,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 24,
+    ""decade"": 1570,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1576,
+    ""year_modifier"": ""late""
+  }
+]","Correct","When did Gerolamo Cardano die?","[
+  {
+    ""century"": 16,
+    ""century_modifier"": ""late"",
+    ""day"": 24,
+    ""decade"": 1570,
+    ""decade_modifier"": ""mid"",
+    ""level"": ""DAY"",
+    ""month"": 9,
+    ""season"": ""autumn"",
+    ""year"": 1576,
+    ""year_modifier"": ""late""
+  }
+]","Correct","extract-aa52625006-360cef429c3631a3fe96","2026-09-29T10:00:39.676869Z","Not applicable","Not applicable"
+3103,"1","Auguste Comte was born on **January 19, 1798**.","One clear requested value","DAY","parsed","Correct","High","2026-09-29T10:00:59.093916Z","No error","Correct","{
+  ""century"": 18,
+  ""century_modifier"": ""late"",
+  ""day"": 19,
+  ""decade"": 1790,
+  ""decade_modifier"": ""late"",
+  ""level"": ""DAY"",
+  ""month"": 1,
+  ""season"": ""winter"",
+  ""year"": 1798,
+  ""year_modifier"": ""early""
+}","Correct",5419,"7c6dfa0cd92629be306c",19.215,"temporal","Not applicable","Correct","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""late"",
+    ""day"": 19,
+    ""decade"": 1790,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 1,
+    ""season"": ""winter"",
+    ""year"": 1798,
+    ""year_modifier"": ""early""
+  }
+]","Correct","When was Auguste Comte born?","[
+  {
+    ""century"": 18,
+    ""century_modifier"": ""late"",
+    ""day"": 19,
+    ""decade"": 1790,
+    ""decade_modifier"": ""late"",
+    ""level"": ""DAY"",
+    ""month"": 1,
+    ""season"": ""winter"",
+    ""year"": 1798,
+    ""year_modifier"": ""early""
+  }
+]","Correct","extract-aa52625006-7c6dfa0cd92629be306c","2026-09-29T10:00:59.093928Z","Not applicable","Not applicable"

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "cases.jsonl": "45220adab5d4ecde829105ca2da01e7ce921aee13438b95a836ff11f46d7ddf8",
+    "tasks.json": "266ee90b0ee20dea57d47e5a8848bd78865ca23d21dd1779e85f6e82d38f11c5",
+    "exclusions.json": "0e46a09791c1ad6916561b456673b4e3f43fe7517ff469b8f5ea781b0fa7c668",
+    "labeling_config.xml": "06727e8afaaed6b9ad820ea5c5adbc36acc897465e1d110c142b44f38f67498b",
+    "manifest.json": "a8b9d0aa28ab59f258067943f79bc0e73cd669e12b52cdc0a4ab3dc28dc550bd"
+  },
+  "scope": "Final audit package. Original sampled inputs and pipeline outputs unchanged; contains the final annotation rubric."
+}

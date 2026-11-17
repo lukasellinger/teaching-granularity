@@ -1,0 +1,82 @@
+{
+  "completed_global_step": 360,
+  "best_checkpoint_step": 260,
+  "resolved_model_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 0
+    },
+    "idk_realizations": 367,
+    "idk_semantic_cases": 367,
+    "idk_sft_weight_mass": 201.58877249529948,
+    "known_sft_weight_mass": 1843.4112275047005,
+    "maximum_realizations_per_case": 1,
+    "mean_realizations_per_case": 1,
+    "rankable_cases": 0,
+    "rankable_realizations": 0,
+    "realizations": 2045,
+    "realizations_by_source": {
+      "vital_persons": 2045
+    },
+    "semantic_cases": 2045,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 2045.0000000000173
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1359.000000000003
+    },
+    "idk_realizations": 93,
+    "idk_semantic_cases": 93,
+    "idk_sft_weight_mass": 296.6830985915493,
+    "known_sft_weight_mass": 1062.3169014084506,
+    "maximum_realizations_per_case": 14,
+    "mean_realizations_per_case": 3.1901408450704225,
+    "rankable_cases": 331,
+    "rankable_realizations": 1239,
+    "realizations": 1359,
+    "realizations_by_source": {
+      "vital_persons": 1359
+    },
+    "semantic_cases": 426,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1358.9999999999836
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "granola_dev": null,
+  "rank_balance": {
+    "cap": 4,
+    "level_base_mass": {},
+    "level_case_counts": {},
+    "level_factors": {},
+    "modality_balanced_mass": {},
+    "modality_base_mass": {},
+    "mode": "none",
+    "raw_modality_factors": {},
+    "raw_within_modality_level_factors": {}
+  },
+  "training_sources": {
+    "checkpoint_selection": "vital_persons_dev",
+    "mode": "vital-only",
+    "sft_loss_fraction": {
+      "granola": 0,
+      "vital_persons": 1
+    }
+  },
+  "recorded_revision_argument": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b"
+}

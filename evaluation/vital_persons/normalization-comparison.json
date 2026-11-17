@@ -1,0 +1,6443 @@
+{
+  "comparison": "corrected minus uncorrected saved normalization; both use updated gold and the audited answer-presence judge",
+  "gold_sha256": "67e21a32df8086803718120869dc314a8fcb531ce8df78d5ae1284762ac2ffff",
+  "corrections_sha256": "1809276db9e963c0aecef7c0771249fe3d7a198effbf05b41e00a2318d414900",
+  "correction_inputs": 417,
+  "correction_rows": 442,
+  "validation": {
+    "same_cases_answers_gold_and_answer_status_labels": true,
+    "temporal_results_identical": true,
+    "original_location_files_unchanged": true
+  },
+  "location_changes": {
+    "rows": 13120,
+    "corrected_rows": 442,
+    "truth_changed": 246,
+    "became_correct": 240,
+    "parse_status_changed": 218,
+    "became_incorrect": 6
+  },
+  "rows": [
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.2846153846153846,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.19722222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.28304313825227706,
+        "error_penalty": -0.6961538461538461,
+        "uniform_error_utility": -0.41311070790156906
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.29615384615384616,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.19722222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.2945815997907386,
+        "error_penalty": -0.6846153846153846,
+        "uniform_error_utility": -0.390033784824646
+      },
+      "difference": {
+        "truth_accuracy": 0.011538461538461553,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.011538461538461553,
+        "error_penalty": 0.011538461538461497,
+        "uniform_error_utility": 0.02307692307692305
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.36923076923076925,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.19722222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.35991711032182716,
+        "error_penalty": -0.6076923076923078,
+        "uniform_error_utility": -0.24777519737048054
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3769230769230769,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.19722222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.3683955411956886,
+        "error_penalty": -0.6,
+        "uniform_error_utility": -0.23160445880431138
+      },
+      "difference": {
+        "truth_accuracy": 0.007692307692307665,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.008478430873861464,
+        "error_penalty": 0.007692307692307776,
+        "uniform_error_utility": 0.016170738566169157
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3038461538461538,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.1804054054054054,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.02702702702702703
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.2980101396193522,
+        "error_penalty": -0.6884615384615385,
+        "uniform_error_utility": -0.3904513988421863
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.31153846153846154,
+        "target_match_accuracy": 0.05,
+        "macro_target_match_accuracy": 0.1804054054054054,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.875
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.02702702702702703
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3064885704932136,
+        "error_penalty": -0.6807692307692308,
+        "uniform_error_utility": -0.37428066027601714
+      },
+      "difference": {
+        "truth_accuracy": 0.0076923076923077205,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.008478430873861409,
+        "error_penalty": 0.007692307692307665,
+        "uniform_error_utility": 0.016170738566169185
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.31153846153846154,
+        "target_match_accuracy": 0.05625,
+        "macro_target_match_accuracy": 0.1376984126984127,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.625
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.06349206349206349
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.2855291889838524,
+        "error_penalty": -0.6538461538461539,
+        "uniform_error_utility": -0.3683169648623015
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.31153846153846154,
+        "target_match_accuracy": 0.05625,
+        "macro_target_match_accuracy": 0.1376984126984127,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.625
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.06349206349206349
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.2855291889838524,
+        "error_penalty": -0.6538461538461539,
+        "uniform_error_utility": -0.3683169648623015
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4346153846153846,
+        "target_match_accuracy": 0.425,
+        "macro_target_match_accuracy": 0.30768758792014606,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.25
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.37209302325581395
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.6190476190476191
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.2972972972972973
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.15965206038297,
+        "error_penalty": -0.15384615384615385,
+        "uniform_error_utility": 0.005805906536816133
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4346153846153846,
+        "target_match_accuracy": 0.425,
+        "macro_target_match_accuracy": 0.30768758792014606,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 8,
+            "accuracy": 0.25
+          },
+          "CONTINENT": {
+            "cases": 43,
+            "accuracy": 0.37209302325581395
+          },
+          "COUNTRY": {
+            "cases": 63,
+            "accuracy": 0.6190476190476191
+          },
+          "IDK": {
+            "cases": 37,
+            "accuracy": 0.2972972972972973
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.15965206038297,
+        "error_penalty": -0.15384615384615385,
+        "uniform_error_utility": 0.005805906536816133
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.14826498422712933,
+        "target_match_accuracy": 0.04912280701754386,
+        "macro_target_match_accuracy": 0.1729957805907173,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.0379746835443038
+          }
+        },
+        "positive_information_reward": 0.12242686688980219,
+        "error_penalty": -0.8485804416403786,
+        "uniform_error_utility": -0.7261535747505764
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.14826498422712933,
+        "target_match_accuracy": 0.04912280701754386,
+        "macro_target_match_accuracy": 0.1729957805907173,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.0379746835443038
+          }
+        },
+        "positive_information_reward": 0.12242686688980219,
+        "error_penalty": -0.8485804416403786,
+        "uniform_error_utility": -0.7261535747505764
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.1861198738170347,
+        "target_match_accuracy": 0.056140350877192984,
+        "macro_target_match_accuracy": 0.16417337936325277,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.9090909090909091
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.0759493670886076
+          }
+        },
+        "positive_information_reward": 0.15415019050205633,
+        "error_penalty": -0.8012618296529969,
+        "uniform_error_utility": -0.6471116391509405
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.1861198738170347,
+        "target_match_accuracy": 0.056140350877192984,
+        "macro_target_match_accuracy": 0.16417337936325277,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.9090909090909091
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.0759493670886076
+          }
+        },
+        "positive_information_reward": 0.15415019050205633,
+        "error_penalty": -0.8012618296529969,
+        "uniform_error_utility": -0.6471116391509405
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.17350157728706625,
+        "target_match_accuracy": 0.05263157894736842,
+        "macro_target_match_accuracy": 0.1751054852320675,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.05063291139240506
+          }
+        },
+        "positive_information_reward": 0.14621029252633097,
+        "error_penalty": -0.8264984227129338,
+        "uniform_error_utility": -0.6802881301866028
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.17350157728706625,
+        "target_match_accuracy": 0.05263157894736842,
+        "macro_target_match_accuracy": 0.1751054852320675,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.05063291139240506
+          }
+        },
+        "positive_information_reward": 0.14621029252633097,
+        "error_penalty": -0.8264984227129338,
+        "uniform_error_utility": -0.6802881301866028
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.09779179810725552,
+        "target_match_accuracy": 0.14385964912280702,
+        "macro_target_match_accuracy": 0.19074332840155625,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.5454545454545454
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.5357142857142857
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.06329113924050633
+          }
+        },
+        "positive_information_reward": 0.07369999398009872,
+        "error_penalty": -0.3817034700315457,
+        "uniform_error_utility": -0.30800347605144696
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.09779179810725552,
+        "target_match_accuracy": 0.14385964912280702,
+        "macro_target_match_accuracy": 0.19074332840155625,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.5454545454545454
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.5357142857142857
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.06329113924050633
+          }
+        },
+        "positive_information_reward": 0.07369999398009872,
+        "error_penalty": -0.3817034700315457,
+        "uniform_error_utility": -0.30800347605144696
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5993690851735016,
+        "target_match_accuracy": 0.4245614035087719,
+        "macro_target_match_accuracy": 0.2809144892592884,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.532608695652174
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.16666666666666666
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.5178571428571429
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.46835443037974683
+          }
+        },
+        "positive_information_reward": 0.19688585568622274,
+        "error_penalty": -0.11671924290220821,
+        "uniform_error_utility": 0.08016661278401453
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5993690851735016,
+        "target_match_accuracy": 0.4245614035087719,
+        "macro_target_match_accuracy": 0.2809144892592884,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 92,
+            "accuracy": 0.532608695652174
+          },
+          "DAY": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "DECADE": {
+            "cases": 36,
+            "accuracy": 0.16666666666666666
+          },
+          "IDK": {
+            "cases": 56,
+            "accuracy": 0.5178571428571429
+          },
+          "MONTH": {
+            "cases": 11,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.46835443037974683
+          }
+        },
+        "positive_information_reward": 0.19688585568622274,
+        "error_penalty": -0.11671924290220821,
+        "uniform_error_utility": 0.08016661278401453
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.34959349593495936,
+        "target_match_accuracy": 0.1111111111111111,
+        "macro_target_match_accuracy": 0.18142857142857144,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.8571428571428571
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.05
+          }
+        },
+        "positive_information_reward": 0.34710091023734985,
+        "error_penalty": -0.6504065040650406,
+        "uniform_error_utility": -0.3033055938276908
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.37398373983739835,
+        "target_match_accuracy": 0.1111111111111111,
+        "macro_target_match_accuracy": 0.18142857142857144,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.8571428571428571
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.05
+          }
+        },
+        "positive_information_reward": 0.3731528779381952,
+        "error_penalty": -0.6260162601626016,
+        "uniform_error_utility": -0.2528633822244064
+      },
+      "difference": {
+        "truth_accuracy": 0.02439024390243899,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.026051967700845335,
+        "error_penalty": 0.024390243902439046,
+        "uniform_error_utility": 0.05044221160328438
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.34146341463414637,
+        "target_match_accuracy": 0.13333333333333333,
+        "macro_target_match_accuracy": 0.19940476190476192,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.8928571428571429
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.10416666666666667
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3406325527349432,
+        "error_penalty": -0.6341463414634146,
+        "uniform_error_utility": -0.29351378872847145
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3943089430894309,
+        "target_match_accuracy": 0.13333333333333333,
+        "macro_target_match_accuracy": 0.19940476190476192,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.8928571428571429
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.10416666666666667
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3934780811902277,
+        "error_penalty": -0.5813008130081301,
+        "uniform_error_utility": -0.18782273181790235
+      },
+      "difference": {
+        "truth_accuracy": 0.05284552845528451,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.05284552845528451,
+        "error_penalty": 0.05284552845528456,
+        "uniform_error_utility": 0.1056910569105691
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.24390243902439024,
+        "target_match_accuracy": 0.08,
+        "macro_target_match_accuracy": 0.1285714285714286,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.6428571428571429
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.24307157712518707,
+        "error_penalty": -0.7560975609756098,
+        "uniform_error_utility": -0.5130259838504226
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.2967479674796748,
+        "target_match_accuracy": 0.08,
+        "macro_target_match_accuracy": 0.1285714285714286,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.6428571428571429
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.2967479674796748,
+        "error_penalty": -0.7032520325203252,
+        "uniform_error_utility": -0.4065040650406504
+      },
+      "difference": {
+        "truth_accuracy": 0.05284552845528456,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.053676390354487735,
+        "error_penalty": 0.05284552845528456,
+        "uniform_error_utility": 0.10652191880977224
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3699186991869919,
+        "target_match_accuracy": 0.25333333333333335,
+        "macro_target_match_accuracy": 0.32000753465943343,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.9285714285714286
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.05063291139240506
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.5208333333333334
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.1
+          }
+        },
+        "positive_information_reward": 0.35166754033878184,
+        "error_penalty": -0.3252032520325203,
+        "uniform_error_utility": 0.026464288306261498
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3943089430894309,
+        "target_match_accuracy": 0.24888888888888888,
+        "macro_target_match_accuracy": 0.3100075346594334,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.9285714285714286
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.05063291139240506
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.5208333333333334
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.05
+          }
+        },
+        "positive_information_reward": 0.37771950803962717,
+        "error_penalty": -0.30081300813008127,
+        "uniform_error_utility": 0.07690649990954589
+      },
+      "difference": {
+        "truth_accuracy": 0.02439024390243899,
+        "target_match_accuracy": -0.004444444444444473,
+        "macro_target_match_accuracy": -0.010000000000000009,
+        "positive_information_reward": 0.026051967700845335,
+        "error_penalty": 0.024390243902439046,
+        "uniform_error_utility": 0.05044221160328439
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3617886178861789,
+        "target_match_accuracy": 0.3511111111111111,
+        "macro_target_match_accuracy": 0.2974897528631706,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.10714285714285714
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.36
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.2911392405063291
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.7291666666666666
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.13605857254901044,
+        "error_penalty": -0.0975609756097561,
+        "uniform_error_utility": 0.03849759693925433
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3617886178861789,
+        "target_match_accuracy": 0.3511111111111111,
+        "macro_target_match_accuracy": 0.2974897528631706,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 28,
+            "accuracy": 0.10714285714285714
+          },
+          "CONTINENT": {
+            "cases": 50,
+            "accuracy": 0.36
+          },
+          "COUNTRY": {
+            "cases": 79,
+            "accuracy": 0.2911392405063291
+          },
+          "IDK": {
+            "cases": 48,
+            "accuracy": 0.7291666666666666
+          },
+          "REGION": {
+            "cases": 20,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.13605857254901044,
+        "error_penalty": -0.0975609756097561,
+        "uniform_error_utility": 0.03849759693925433
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.40445859872611467,
+        "target_match_accuracy": 0.2846975088967972,
+        "macro_target_match_accuracy": 0.16943187531422824,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9871794871794872
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.029411764705882353
+          }
+        },
+        "positive_information_reward": 0.3941892404059153,
+        "error_penalty": -0.5955414012738853,
+        "uniform_error_utility": -0.20135216086797
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.40445859872611467,
+        "target_match_accuracy": 0.2846975088967972,
+        "macro_target_match_accuracy": 0.16943187531422824,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9871794871794872
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.029411764705882353
+          }
+        },
+        "positive_information_reward": 0.3941892404059153,
+        "error_penalty": -0.5955414012738853,
+        "uniform_error_utility": -0.20135216086797
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.42356687898089174,
+        "target_match_accuracy": 0.28113879003558717,
+        "macro_target_match_accuracy": 0.1672951231774761,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9743589743589743
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.029411764705882353
+          }
+        },
+        "positive_information_reward": 0.4080472055127819,
+        "error_penalty": -0.5636942675159236,
+        "uniform_error_utility": -0.15564706200314166
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.42356687898089174,
+        "target_match_accuracy": 0.28113879003558717,
+        "macro_target_match_accuracy": 0.1672951231774761,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9743589743589743
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.029411764705882353
+          }
+        },
+        "positive_information_reward": 0.4080472055127819,
+        "error_penalty": -0.5636942675159236,
+        "uniform_error_utility": -0.15564706200314166
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.410828025477707,
+        "target_match_accuracy": 0.2704626334519573,
+        "macro_target_match_accuracy": 0.16138763197586728,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9487179487179487
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.0196078431372549
+          }
+        },
+        "positive_information_reward": 0.3979465078441103,
+        "error_penalty": -0.589171974522293,
+        "uniform_error_utility": -0.19122546667818274
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.410828025477707,
+        "target_match_accuracy": 0.2704626334519573,
+        "macro_target_match_accuracy": 0.16138763197586728,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.9487179487179487
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.0196078431372549
+          }
+        },
+        "positive_information_reward": 0.3979465078441103,
+        "error_penalty": -0.589171974522293,
+        "uniform_error_utility": -0.19122546667818274
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.28662420382165604,
+        "target_match_accuracy": 0.2669039145907473,
+        "macro_target_match_accuracy": 0.19770344035049917,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.7051282051282052
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.39285714285714285
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.08823529411764706
+          }
+        },
+        "positive_information_reward": 0.2616843336154577,
+        "error_penalty": -0.5095541401273886,
+        "uniform_error_utility": -0.2478698065119309
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.28662420382165604,
+        "target_match_accuracy": 0.2669039145907473,
+        "macro_target_match_accuracy": 0.19770344035049917,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.7051282051282052
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.39285714285714285
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.08823529411764706
+          }
+        },
+        "positive_information_reward": 0.2616843336154577,
+        "error_penalty": -0.5095541401273886,
+        "uniform_error_utility": -0.2478698065119309
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7070063694267515,
+        "target_match_accuracy": 0.4306049822064057,
+        "macro_target_match_accuracy": 0.31477039758773506,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.05263157894736842
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.2692307692307692
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.05555555555555555
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.5357142857142857
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.25
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.7254901960784313
+          }
+        },
+        "positive_information_reward": 0.40749365619532296,
+        "error_penalty": -0.09554140127388533,
+        "uniform_error_utility": 0.31195225492143763
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7070063694267515,
+        "target_match_accuracy": 0.4306049822064057,
+        "macro_target_match_accuracy": 0.31477039758773506,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 19,
+            "accuracy": 0.05263157894736842
+          },
+          "DAY": {
+            "cases": 78,
+            "accuracy": 0.2692307692307692
+          },
+          "DECADE": {
+            "cases": 18,
+            "accuracy": 0.05555555555555555
+          },
+          "IDK": {
+            "cases": 28,
+            "accuracy": 0.5357142857142857
+          },
+          "MONTH": {
+            "cases": 36,
+            "accuracy": 0.25
+          },
+          "YEAR": {
+            "cases": 102,
+            "accuracy": 0.7254901960784313
+          }
+        },
+        "positive_information_reward": 0.40749365619532296,
+        "error_penalty": -0.09554140127388533,
+        "uniform_error_utility": 0.31195225492143763
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.38866396761133604,
+        "target_match_accuracy": 0.18631178707224336,
+        "macro_target_match_accuracy": 0.18018880124143283,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.8363636363636363
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.05405405405405406
+          }
+        },
+        "positive_information_reward": 0.3861814733537978,
+        "error_penalty": -0.6072874493927125,
+        "uniform_error_utility": -0.22110597603891474
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4331983805668016,
+        "target_match_accuracy": 0.18631178707224336,
+        "macro_target_match_accuracy": 0.17665071770334928,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.8727272727272727
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.4331983805668016,
+        "error_penalty": -0.562753036437247,
+        "uniform_error_utility": -0.12955465587044535
+      },
+      "difference": {
+        "truth_accuracy": 0.04453441295546556,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": -0.0035380835380835474,
+        "positive_information_reward": 0.04701690721300378,
+        "error_penalty": 0.04453441295546556,
+        "uniform_error_utility": 0.0915513201684694
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3805668016194332,
+        "target_match_accuracy": 0.18250950570342206,
+        "macro_target_match_accuracy": 0.1765524376050692,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.8181818181818182
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.05405405405405406
+          }
+        },
+        "positive_information_reward": 0.37808430736189497,
+        "error_penalty": -0.611336032388664,
+        "uniform_error_utility": -0.233251725026769
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.42105263157894735,
+        "target_match_accuracy": 0.18631178707224336,
+        "macro_target_match_accuracy": 0.17665071770334928,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.8727272727272727
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.4202251334931013,
+        "error_penalty": -0.5708502024291497,
+        "uniform_error_utility": -0.1506250689360485
+      },
+      "difference": {
+        "truth_accuracy": 0.040485829959514164,
+        "target_match_accuracy": 0.0038022813688212975,
+        "macro_target_match_accuracy": 9.828009828008466e-05,
+        "positive_information_reward": 0.042140826131206344,
+        "error_penalty": 0.04048582995951422,
+        "uniform_error_utility": 0.08262665609072051
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.291497975708502,
+        "target_match_accuracy": 0.155893536121673,
+        "macro_target_match_accuracy": 0.14932885038148197,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.7090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.02702702702702703
+          }
+        },
+        "positive_information_reward": 0.291497975708502,
+        "error_penalty": -0.7085020242914979,
+        "uniform_error_utility": -0.41700404858299595
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3603238866396761,
+        "target_match_accuracy": 0.17110266159695817,
+        "macro_target_match_accuracy": 0.16210526315789475,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.8
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.010526315789473684
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3603238866396761,
+        "error_penalty": -0.6396761133603239,
+        "uniform_error_utility": -0.2793522267206478
+      },
+      "difference": {
+        "truth_accuracy": 0.06882591093117413,
+        "target_match_accuracy": 0.015209125475285162,
+        "macro_target_match_accuracy": 0.012776412776412782,
+        "positive_information_reward": 0.06882591093117413,
+        "error_penalty": 0.06882591093117396,
+        "uniform_error_utility": 0.13765182186234814
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5141700404858299,
+        "target_match_accuracy": 0.26996197718631176,
+        "macro_target_match_accuracy": 0.257918548807841,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.9818181818181818
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.11578947368421053
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.13793103448275862
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.05405405405405406
+          }
+        },
+        "positive_information_reward": 0.4786430035379945,
+        "error_penalty": -0.3481781376518219,
+        "uniform_error_utility": 0.13046486588617262
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5263157894736842,
+        "target_match_accuracy": 0.26996197718631176,
+        "macro_target_match_accuracy": 0.257918548807841,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.9818181818181818
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.11578947368421053
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.13793103448275862
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.05405405405405406
+          }
+        },
+        "positive_information_reward": 0.49078875252584875,
+        "error_penalty": -0.3360323886639676,
+        "uniform_error_utility": 0.15475636386188113
+      },
+      "difference": {
+        "truth_accuracy": 0.012145748987854255,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.012145748987854255,
+        "error_penalty": 0.012145748987854255,
+        "uniform_error_utility": 0.02429149797570851
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5708502024291497,
+        "target_match_accuracy": 0.3840304182509506,
+        "macro_target_match_accuracy": 0.30771033499843786,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.2909090909090909
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.3191489361702128
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.6526315789473685
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.27586206896551724
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.269345176149658,
+        "error_penalty": -0.23076923076923078,
+        "uniform_error_utility": 0.03857594538042725
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5708502024291497,
+        "target_match_accuracy": 0.3840304182509506,
+        "macro_target_match_accuracy": 0.30771033499843786,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 55,
+            "accuracy": 0.2909090909090909
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.3191489361702128
+          },
+          "COUNTRY": {
+            "cases": 95,
+            "accuracy": 0.6526315789473685
+          },
+          "IDK": {
+            "cases": 29,
+            "accuracy": 0.27586206896551724
+          },
+          "REGION": {
+            "cases": 37,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.269345176149658,
+        "error_penalty": -0.23076923076923078,
+        "uniform_error_utility": 0.03857594538042725
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5514018691588785,
+        "target_match_accuracy": 0.6099290780141844,
+        "macro_target_match_accuracy": 0.1804305830918611,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9939759036144579
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.08860759493670886
+          }
+        },
+        "positive_information_reward": 0.5384863343956906,
+        "error_penalty": -0.44236760124610597,
+        "uniform_error_utility": 0.09611873314958465
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5514018691588785,
+        "target_match_accuracy": 0.6099290780141844,
+        "macro_target_match_accuracy": 0.1804305830918611,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9939759036144579
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.08860759493670886
+          }
+        },
+        "positive_information_reward": 0.5384863343956906,
+        "error_penalty": -0.44236760124610597,
+        "uniform_error_utility": 0.09611873314958465
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5545171339563862,
+        "target_match_accuracy": 0.6205673758865248,
+        "macro_target_match_accuracy": 0.18675969701591177,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9939759036144579
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.12658227848101267
+          }
+        },
+        "positive_information_reward": 0.5393358957352447,
+        "error_penalty": -0.4330218068535826,
+        "uniform_error_utility": 0.10631408888166205
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5545171339563862,
+        "target_match_accuracy": 0.6205673758865248,
+        "macro_target_match_accuracy": 0.18675969701591177,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9939759036144579
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.12658227848101267
+          }
+        },
+        "positive_information_reward": 0.5393358957352447,
+        "error_penalty": -0.4330218068535826,
+        "uniform_error_utility": 0.10631408888166205
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5607476635514018,
+        "target_match_accuracy": 0.6134751773049646,
+        "macro_target_match_accuracy": 0.1847516648873977,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9819277108433735
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.12658227848101267
+          }
+        },
+        "positive_information_reward": 0.5412612470758642,
+        "error_penalty": -0.4361370716510904,
+        "uniform_error_utility": 0.10512417542477384
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5607476635514018,
+        "target_match_accuracy": 0.6134751773049646,
+        "macro_target_match_accuracy": 0.1847516648873977,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9819277108433735
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.12658227848101267
+          }
+        },
+        "positive_information_reward": 0.5412612470758642,
+        "error_penalty": -0.4361370716510904,
+        "uniform_error_utility": 0.10512417542477384
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6355140186915887,
+        "target_match_accuracy": 0.7304964539007093,
+        "macro_target_match_accuracy": 0.2510548523206751,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.5063291139240507
+          }
+        },
+        "positive_information_reward": 0.573806463711913,
+        "error_penalty": -0.3489096573208722,
+        "uniform_error_utility": 0.2248968063910408
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6355140186915887,
+        "target_match_accuracy": 0.7304964539007093,
+        "macro_target_match_accuracy": 0.2510548523206751,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.5063291139240507
+          }
+        },
+        "positive_information_reward": 0.573806463711913,
+        "error_penalty": -0.3489096573208722,
+        "uniform_error_utility": 0.2248968063910408
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.67601246105919,
+        "target_match_accuracy": 0.599290780141844,
+        "macro_target_match_accuracy": 0.28838702206858374,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7289156626506024
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.4444444444444444
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.5569620253164557
+          }
+        },
+        "positive_information_reward": 0.531421741107085,
+        "error_penalty": -0.22429906542056072,
+        "uniform_error_utility": 0.30712267568652424
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.67601246105919,
+        "target_match_accuracy": 0.599290780141844,
+        "macro_target_match_accuracy": 0.28838702206858374,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7289156626506024
+          },
+          "DECADE": {
+            "cases": 6,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 9,
+            "accuracy": 0.4444444444444444
+          },
+          "MONTH": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 79,
+            "accuracy": 0.5569620253164557
+          }
+        },
+        "positive_information_reward": 0.531421741107085,
+        "error_penalty": -0.22429906542056072,
+        "uniform_error_utility": 0.30712267568652424
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5461538461538461,
+        "target_match_accuracy": 0.5890909090909091,
+        "macro_target_match_accuracy": 0.2138081395348837,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9127906976744186
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.15625
+          }
+        },
+        "positive_information_reward": 0.5437954766091849,
+        "error_penalty": -0.44615384615384623,
+        "uniform_error_utility": 0.09764163045533869
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5615384615384615,
+        "target_match_accuracy": 0.5890909090909091,
+        "macro_target_match_accuracy": 0.2138081395348837,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9127906976744186
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.15625
+          }
+        },
+        "positive_information_reward": 0.5591800919938003,
+        "error_penalty": -0.4307692307692308,
+        "uniform_error_utility": 0.12841086122456946
+      },
+      "difference": {
+        "truth_accuracy": 0.015384615384615441,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.01538461538461533,
+        "error_penalty": 0.015384615384615441,
+        "uniform_error_utility": 0.03076923076923077
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5346153846153846,
+        "target_match_accuracy": 0.5672727272727273,
+        "macro_target_match_accuracy": 0.2337043189368771,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.872093023255814
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.07142857142857142
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.1
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.125
+          }
+        },
+        "positive_information_reward": 0.5314708918891695,
+        "error_penalty": -0.4192307692307692,
+        "uniform_error_utility": 0.1122401226584003
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5346153846153846,
+        "target_match_accuracy": 0.5672727272727273,
+        "macro_target_match_accuracy": 0.2337043189368771,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.872093023255814
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.07142857142857142
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.1
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.125
+          }
+        },
+        "positive_information_reward": 0.5314708918891695,
+        "error_penalty": -0.4192307692307692,
+        "uniform_error_utility": 0.1122401226584003
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6192307692307693,
+        "target_match_accuracy": 0.6036363636363636,
+        "macro_target_match_accuracy": 0.22663904007916874,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9244186046511628
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.02127659574468085
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.1875
+          }
+        },
+        "positive_information_reward": 0.6141808781855214,
+        "error_penalty": -0.36923076923076925,
+        "uniform_error_utility": 0.24495010895475208
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6269230769230769,
+        "target_match_accuracy": 0.6036363636363636,
+        "macro_target_match_accuracy": 0.22663904007916874,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9244186046511628
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.02127659574468085
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.1875
+          }
+        },
+        "positive_information_reward": 0.621873185877829,
+        "error_penalty": -0.3615384615384616,
+        "uniform_error_utility": 0.26033472433936744
+      },
+      "difference": {
+        "truth_accuracy": 0.007692307692307665,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.007692307692307665,
+        "error_penalty": 0.007692307692307665,
+        "uniform_error_utility": 0.015384615384615358
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4807692307692308,
+        "target_match_accuracy": 0.5709090909090909,
+        "macro_target_match_accuracy": 0.3648769173676398,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.8255813953488372
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0425531914893617
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.8
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.15625
+          }
+        },
+        "positive_information_reward": 0.4684308984037768,
+        "error_penalty": -0.3730769230769231,
+        "uniform_error_utility": 0.09535397532685372
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.49615384615384617,
+        "target_match_accuracy": 0.5709090909090909,
+        "macro_target_match_accuracy": 0.3648769173676398,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.8255813953488372
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.0425531914893617
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.8
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.15625
+          }
+        },
+        "positive_information_reward": 0.48381551378839216,
+        "error_penalty": -0.35769230769230764,
+        "uniform_error_utility": 0.1261232060960845
+      },
+      "difference": {
+        "truth_accuracy": 0.015384615384615385,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.015384615384615385,
+        "error_penalty": 0.015384615384615441,
+        "uniform_error_utility": 0.03076923076923077
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6653846153846154,
+        "target_match_accuracy": 0.6472727272727272,
+        "macro_target_match_accuracy": 0.3059433978935463,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9127906976744186
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.14285714285714285
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.2553191489361702
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.21875
+          }
+        },
+        "positive_information_reward": 0.6040413624516452,
+        "error_penalty": -0.3269230769230769,
+        "uniform_error_utility": 0.27711828552856826
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6692307692307692,
+        "target_match_accuracy": 0.6472727272727272,
+        "macro_target_match_accuracy": 0.3059433978935463,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 172,
+            "accuracy": 0.9127906976744186
+          },
+          "CONTINENT": {
+            "cases": 14,
+            "accuracy": 0.14285714285714285
+          },
+          "COUNTRY": {
+            "cases": 47,
+            "accuracy": 0.2553191489361702
+          },
+          "IDK": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 32,
+            "accuracy": 0.21875
+          }
+        },
+        "positive_information_reward": 0.607887516297799,
+        "error_penalty": -0.32307692307692304,
+        "uniform_error_utility": 0.284810593220876
+      },
+      "difference": {
+        "truth_accuracy": 0.0038461538461538325,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0038461538461538325,
+        "error_penalty": 0.003846153846153888,
+        "uniform_error_utility": 0.0076923076923077205
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5266457680250783,
+        "target_match_accuracy": 0.6632302405498282,
+        "macro_target_match_accuracy": 0.22587719298245612,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.35526315789473684
+          }
+        },
+        "positive_information_reward": 0.4867979745255003,
+        "error_penalty": -0.47021943573667707,
+        "uniform_error_utility": 0.016578538788823195
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5266457680250783,
+        "target_match_accuracy": 0.6632302405498282,
+        "macro_target_match_accuracy": 0.22587719298245612,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.35526315789473684
+          }
+        },
+        "positive_information_reward": 0.4867979745255003,
+        "error_penalty": -0.47021943573667707,
+        "uniform_error_utility": 0.016578538788823195
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5611285266457681,
+        "target_match_accuracy": 0.6391752577319587,
+        "macro_target_match_accuracy": 0.2745895864158388,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9457831325301205
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.3333333333333333
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.3684210526315789
+          }
+        },
+        "positive_information_reward": 0.5019222037553757,
+        "error_penalty": -0.34169278996865204,
+        "uniform_error_utility": 0.1602294137867236
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5611285266457681,
+        "target_match_accuracy": 0.6391752577319587,
+        "macro_target_match_accuracy": 0.2745895864158388,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9457831325301205
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.3333333333333333
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.3684210526315789
+          }
+        },
+        "positive_information_reward": 0.5019222037553757,
+        "error_penalty": -0.34169278996865204,
+        "uniform_error_utility": 0.1602294137867236
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5768025078369906,
+        "target_match_accuracy": 0.6597938144329897,
+        "macro_target_match_accuracy": 0.23557387444514902,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9397590361445783
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.47368421052631576
+          }
+        },
+        "positive_information_reward": 0.5100098575324806,
+        "error_penalty": -0.42006269592476486,
+        "uniform_error_utility": 0.08994716160771574
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5768025078369906,
+        "target_match_accuracy": 0.6597938144329897,
+        "macro_target_match_accuracy": 0.23557387444514902,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.9397590361445783
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.47368421052631576
+          }
+        },
+        "positive_information_reward": 0.5100098575324806,
+        "error_penalty": -0.42006269592476486,
+        "uniform_error_utility": 0.08994716160771574
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6802507836990596,
+        "target_match_accuracy": 0.8041237113402062,
+        "macro_target_match_accuracy": 0.5588873998130218,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.14285714285714285
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7891566265060241
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.6666666666666666
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.7941176470588235
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.9605263157894737
+          }
+        },
+        "positive_information_reward": 0.5119030768516026,
+        "error_penalty": -0.2789968652037618,
+        "uniform_error_utility": 0.2329062116478408
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6802507836990596,
+        "target_match_accuracy": 0.8041237113402062,
+        "macro_target_match_accuracy": 0.5588873998130218,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.14285714285714285
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7891566265060241
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.6666666666666666
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.7941176470588235
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.9605263157894737
+          }
+        },
+        "positive_information_reward": 0.5119030768516026,
+        "error_penalty": -0.2789968652037618,
+        "uniform_error_utility": 0.2329062116478408
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "dev",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6739811912225705,
+        "target_match_accuracy": 0.6185567010309279,
+        "macro_target_match_accuracy": 0.2806706702972882,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7289156626506024
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.3235294117647059
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.631578947368421
+          }
+        },
+        "positive_information_reward": 0.5313544311500288,
+        "error_penalty": -0.3260188087774295,
+        "uniform_error_utility": 0.20533562237259928
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6739811912225705,
+        "target_match_accuracy": 0.6185567010309279,
+        "macro_target_match_accuracy": 0.2806706702972882,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 166,
+            "accuracy": 0.7289156626506024
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 3,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 34,
+            "accuracy": 0.3235294117647059
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.631578947368421
+          }
+        },
+        "positive_information_reward": 0.5313544311500288,
+        "error_penalty": -0.3260188087774295,
+        "uniform_error_utility": 0.20533562237259928
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.29133858267716534,
+        "target_match_accuracy": 0.01818181818181818,
+        "macro_target_match_accuracy": 0.22222222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.28777878890804526,
+        "error_penalty": -0.6692913385826771,
+        "uniform_error_utility": -0.3815125496746319
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3110236220472441,
+        "target_match_accuracy": 0.01818181818181818,
+        "macro_target_match_accuracy": 0.22222222222222224,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.30826852129861215,
+        "error_penalty": -0.6496062992125984,
+        "uniform_error_utility": -0.3413377779139863
+      },
+      "difference": {
+        "truth_accuracy": 0.01968503937007876,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.020489732390566895,
+        "error_penalty": 0.019685039370078705,
+        "uniform_error_utility": 0.0401747717606456
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.33858267716535434,
+        "target_match_accuracy": 0.012121212121212121,
+        "macro_target_match_accuracy": 0.2,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.33031737491945845,
+        "error_penalty": -0.6496062992125984,
+        "uniform_error_utility": -0.31928892429314
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.35826771653543305,
+        "target_match_accuracy": 0.012121212121212121,
+        "macro_target_match_accuracy": 0.2,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3508071073100253,
+        "error_penalty": -0.6299212598425197,
+        "uniform_error_utility": -0.2791141525324944
+      },
+      "difference": {
+        "truth_accuracy": 0.019685039370078705,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.02048973239056684,
+        "error_penalty": 0.019685039370078705,
+        "uniform_error_utility": 0.0401747717606456
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.2874015748031496,
+        "target_match_accuracy": 0.012121212121212121,
+        "macro_target_match_accuracy": 0.12222222222222223,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 0.5
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.2857921887621734,
+        "error_penalty": -0.6850393700787402,
+        "uniform_error_utility": -0.3992471813165668
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3188976377952756,
+        "target_match_accuracy": 0.006060606060606061,
+        "macro_target_match_accuracy": 0.1,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 0.5
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3188976377952756,
+        "error_penalty": -0.6535433070866141,
+        "uniform_error_utility": -0.3346456692913386
+      },
+      "difference": {
+        "truth_accuracy": 0.031496062992125984,
+        "target_match_accuracy": -0.006060606060606061,
+        "macro_target_match_accuracy": -0.022222222222222227,
+        "positive_information_reward": 0.0331054490331022,
+        "error_penalty": 0.03149606299212604,
+        "uniform_error_utility": 0.06460151202522818
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.2952755905511811,
+        "target_match_accuracy": 0.04242424242424243,
+        "macro_target_match_accuracy": 0.23348982785602504,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.056338028169014086
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.2784039643722217,
+        "error_penalty": -0.6496062992125984,
+        "uniform_error_utility": -0.37120233484037674
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.30708661417322836,
+        "target_match_accuracy": 0.04242424242424243,
+        "macro_target_match_accuracy": 0.23348982785602504,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 1.0
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.056338028169014086
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "positive_information_reward": 0.29101968101475706,
+        "error_penalty": -0.6377952755905512,
+        "uniform_error_utility": -0.34677559457579415
+      },
+      "difference": {
+        "truth_accuracy": 0.011811023622047279,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.012615716642535357,
+        "error_penalty": 0.011811023622047223,
+        "uniform_error_utility": 0.02442674026458258
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4763779527559055,
+        "target_match_accuracy": 0.5212121212121212,
+        "macro_target_match_accuracy": 0.4087109793262499,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 0.5
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.5526315789473685
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.7464788732394366
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.24444444444444444
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.17804403573818764,
+        "error_penalty": -0.08267716535433073,
+        "uniform_error_utility": 0.09536687038385691
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4763779527559055,
+        "target_match_accuracy": 0.5212121212121212,
+        "macro_target_match_accuracy": 0.4087109793262499,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 2,
+            "accuracy": 0.5
+          },
+          "CONTINENT": {
+            "cases": 38,
+            "accuracy": 0.5526315789473685
+          },
+          "COUNTRY": {
+            "cases": 71,
+            "accuracy": 0.7464788732394366
+          },
+          "IDK": {
+            "cases": 45,
+            "accuracy": 0.24444444444444444
+          },
+          "REGION": {
+            "cases": 9,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.17804403573818764,
+        "error_penalty": -0.08267716535433073,
+        "uniform_error_utility": 0.09536687038385691
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.13836477987421383,
+        "target_match_accuracy": 0.0273972602739726,
+        "macro_target_match_accuracy": 0.17105263157894737,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.02631578947368421
+          }
+        },
+        "positive_information_reward": 0.12012064456584953,
+        "error_penalty": -0.8553459119496853,
+        "uniform_error_utility": -0.7352252673838359
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.13836477987421383,
+        "target_match_accuracy": 0.0273972602739726,
+        "macro_target_match_accuracy": 0.17105263157894737,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.02631578947368421
+          }
+        },
+        "positive_information_reward": 0.12012064456584953,
+        "error_penalty": -0.8553459119496853,
+        "uniform_error_utility": -0.7352252673838359
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.14779874213836477,
+        "target_match_accuracy": 0.023972602739726026,
+        "macro_target_match_accuracy": 0.16885964912280702,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.013157894736842105
+          }
+        },
+        "positive_information_reward": 0.12751837413495226,
+        "error_penalty": -0.839622641509434,
+        "uniform_error_utility": -0.7121042673744817
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.14779874213836477,
+        "target_match_accuracy": 0.023972602739726026,
+        "macro_target_match_accuracy": 0.16885964912280702,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.013157894736842105
+          }
+        },
+        "positive_information_reward": 0.12751837413495226,
+        "error_penalty": -0.839622641509434,
+        "uniform_error_utility": -0.7121042673744817
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.13836477987421383,
+        "target_match_accuracy": 0.023972602739726026,
+        "macro_target_match_accuracy": 0.16885964912280702,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.013157894736842105
+          }
+        },
+        "positive_information_reward": 0.11722344913679059,
+        "error_penalty": -0.8616352201257862,
+        "uniform_error_utility": -0.7444117709889956
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.13836477987421383,
+        "target_match_accuracy": 0.023972602739726026,
+        "macro_target_match_accuracy": 0.16885964912280702,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.013157894736842105
+          }
+        },
+        "positive_information_reward": 0.11722344913679059,
+        "error_penalty": -0.8616352201257862,
+        "uniform_error_utility": -0.7444117709889956
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.09433962264150944,
+        "target_match_accuracy": 0.1541095890410959,
+        "macro_target_match_accuracy": 0.1968567251461988,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 0.6666666666666666
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.475
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.039473684210526314
+          }
+        },
+        "positive_information_reward": 0.07003135496002408,
+        "error_penalty": -0.4276729559748428,
+        "uniform_error_utility": -0.3576416010148187
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.09433962264150944,
+        "target_match_accuracy": 0.1541095890410959,
+        "macro_target_match_accuracy": 0.1968567251461988,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 0.6666666666666666
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.475
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.039473684210526314
+          }
+        },
+        "positive_information_reward": 0.07003135496002408,
+        "error_penalty": -0.4276729559748428,
+        "uniform_error_utility": -0.3576416010148187
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "lfm",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.559748427672956,
+        "target_match_accuracy": 0.4143835616438356,
+        "macro_target_match_accuracy": 0.3119139046887625,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.5116279069767442
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 0.16666666666666666
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.23529411764705882
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.45
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.1
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.40789473684210525
+          }
+        },
+        "positive_information_reward": 0.17957928221989275,
+        "error_penalty": -0.1446540880503145,
+        "uniform_error_utility": 0.03492519416957825
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.559748427672956,
+        "target_match_accuracy": 0.4143835616438356,
+        "macro_target_match_accuracy": 0.3119139046887625,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 86,
+            "accuracy": 0.5116279069767442
+          },
+          "DAY": {
+            "cases": 6,
+            "accuracy": 0.16666666666666666
+          },
+          "DECADE": {
+            "cases": 34,
+            "accuracy": 0.23529411764705882
+          },
+          "IDK": {
+            "cases": 80,
+            "accuracy": 0.45
+          },
+          "MONTH": {
+            "cases": 10,
+            "accuracy": 0.1
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.40789473684210525
+          }
+        },
+        "positive_information_reward": 0.17957928221989275,
+        "error_penalty": -0.1446540880503145,
+        "uniform_error_utility": 0.03492519416957825
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3858267716535433,
+        "target_match_accuracy": 0.09865470852017937,
+        "macro_target_match_accuracy": 0.2,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.9090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          }
+        },
+        "positive_information_reward": 0.383412692592079,
+        "error_penalty": -0.6141732283464567,
+        "uniform_error_utility": -0.23076053575437772
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4409448818897638,
+        "target_match_accuracy": 0.09865470852017937,
+        "macro_target_match_accuracy": 0.2,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.9090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          }
+        },
+        "positive_information_reward": 0.43933549584878756,
+        "error_penalty": -0.5590551181102362,
+        "uniform_error_utility": -0.11971962226144867
+      },
+      "difference": {
+        "truth_accuracy": 0.055118110236220486,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.055922803256708564,
+        "error_penalty": 0.055118110236220486,
+        "uniform_error_utility": 0.11104091349292905
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.41338582677165353,
+        "target_match_accuracy": 0.11659192825112108,
+        "macro_target_match_accuracy": 0.22634508348794063,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.9090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.04081632653061224
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.18181818181818182
+          }
+        },
+        "positive_information_reward": 0.40741195394106916,
+        "error_penalty": -0.5748031496062992,
+        "uniform_error_utility": -0.16739119566523006
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.44881889763779526,
+        "target_match_accuracy": 0.10762331838565023,
+        "macro_target_match_accuracy": 0.20816326530612245,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.9545454545454546
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.04081632653061224
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.045454545454545456
+          }
+        },
+        "positive_information_reward": 0.44686848990965145,
+        "error_penalty": -0.5393700787401575,
+        "uniform_error_utility": -0.09250158883050606
+      },
+      "difference": {
+        "truth_accuracy": 0.035433070866141725,
+        "target_match_accuracy": -0.00896860986547085,
+        "macro_target_match_accuracy": -0.018181818181818188,
+        "positive_information_reward": 0.039456535968582285,
+        "error_penalty": 0.03543307086614167,
+        "uniform_error_utility": 0.074889606834724
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3188976377952756,
+        "target_match_accuracy": 0.07174887892376682,
+        "macro_target_match_accuracy": 0.14545454545454545,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.6363636363636364
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          }
+        },
+        "positive_information_reward": 0.314874172692835,
+        "error_penalty": -0.6653543307086613,
+        "uniform_error_utility": -0.3504801580158264
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3661417322834646,
+        "target_match_accuracy": 0.07174887892376682,
+        "macro_target_match_accuracy": 0.14545454545454545,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.7272727272727273
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.3661417322834646,
+        "error_penalty": -0.6181102362204725,
+        "uniform_error_utility": -0.25196850393700787
+      },
+      "difference": {
+        "truth_accuracy": 0.047244094488189003,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.05126755959062956,
+        "error_penalty": 0.04724409448818889,
+        "uniform_error_utility": 0.09851165407881851
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.38976377952755903,
+        "target_match_accuracy": 0.16143497757847533,
+        "macro_target_match_accuracy": 0.2437803160694727,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.8636363636363636
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.024096385542168676
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.2857142857142857
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.045454545454545456
+          }
+        },
+        "positive_information_reward": 0.37369684636908773,
+        "error_penalty": -0.2952755905511811,
+        "uniform_error_utility": 0.07842125581790664
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4330708661417323,
+        "target_match_accuracy": 0.16591928251121077,
+        "macro_target_match_accuracy": 0.2528712251603818,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.9090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.024096385542168676
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.2857142857142857
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.045454545454545456
+          }
+        },
+        "positive_information_reward": 0.4178086260037491,
+        "error_penalty": -0.25196850393700787,
+        "uniform_error_utility": 0.1658401220667412
+      },
+      "difference": {
+        "truth_accuracy": 0.04330708661417326,
+        "target_match_accuracy": 0.004484304932735439,
+        "macro_target_match_accuracy": 0.009090909090909094,
+        "positive_information_reward": 0.04411177963466134,
+        "error_penalty": 0.04330708661417321,
+        "uniform_error_utility": 0.08741886624883456
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3188976377952756,
+        "target_match_accuracy": 0.37668161434977576,
+        "macro_target_match_accuracy": 0.2986331938102546,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.3191489361702128
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.40963855421686746
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.673469387755102
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.11130137315072237,
+        "error_penalty": -0.06299212598425197,
+        "uniform_error_utility": 0.048309247166470407
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3188976377952756,
+        "target_match_accuracy": 0.37668161434977576,
+        "macro_target_match_accuracy": 0.2986331938102546,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          },
+          "CONTINENT": {
+            "cases": 47,
+            "accuracy": 0.3191489361702128
+          },
+          "COUNTRY": {
+            "cases": 83,
+            "accuracy": 0.40963855421686746
+          },
+          "IDK": {
+            "cases": 49,
+            "accuracy": 0.673469387755102
+          },
+          "REGION": {
+            "cases": 22,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.11130137315072237,
+        "error_penalty": -0.06299212598425197,
+        "uniform_error_utility": 0.048309247166470407
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3836477987421384,
+        "target_match_accuracy": 0.2391304347826087,
+        "macro_target_match_accuracy": 0.16419294990723562,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.9545454545454546
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.030612244897959183
+          }
+        },
+        "positive_information_reward": 0.3749562124549616,
+        "error_penalty": -0.6132075471698113,
+        "uniform_error_utility": -0.23825133471484977
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3836477987421384,
+        "target_match_accuracy": 0.2391304347826087,
+        "macro_target_match_accuracy": 0.16419294990723562,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.9545454545454546
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.030612244897959183
+          }
+        },
+        "positive_information_reward": 0.3749562124549616,
+        "error_penalty": -0.6132075471698113,
+        "uniform_error_utility": -0.23825133471484977
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.39622641509433965,
+        "target_match_accuracy": 0.25,
+        "macro_target_match_accuracy": 0.17011956297670583,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.9696969696969697
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.05102040816326531
+          }
+        },
+        "positive_information_reward": 0.381740437949045,
+        "error_penalty": -0.578616352201258,
+        "uniform_error_utility": -0.1968759142522129
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.39622641509433965,
+        "target_match_accuracy": 0.25,
+        "macro_target_match_accuracy": 0.17011956297670583,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.9696969696969697
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.05102040816326531
+          }
+        },
+        "positive_information_reward": 0.381740437949045,
+        "error_penalty": -0.578616352201258,
+        "uniform_error_utility": -0.1968759142522129
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.39308176100628933,
+        "target_match_accuracy": 0.25,
+        "macro_target_match_accuracy": 0.1717687074829932,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.030612244897959183
+          }
+        },
+        "positive_information_reward": 0.3872873701481715,
+        "error_penalty": -0.5911949685534592,
+        "uniform_error_utility": -0.20390759840528766
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.39308176100628933,
+        "target_match_accuracy": 0.25,
+        "macro_target_match_accuracy": 0.1717687074829932,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.030612244897959183
+          }
+        },
+        "positive_information_reward": 0.3872873701481715,
+        "error_penalty": -0.5911949685534592,
+        "uniform_error_utility": -0.20390759840528766
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.23270440251572327,
+        "target_match_accuracy": 0.16666666666666666,
+        "macro_target_match_accuracy": 0.14488421631278772,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.5303030303030303
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.2777777777777778
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.061224489795918366
+          }
+        },
+        "positive_information_reward": 0.21448274963702132,
+        "error_penalty": -0.5408805031446542,
+        "uniform_error_utility": -0.32639775350763284
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.23270440251572327,
+        "target_match_accuracy": 0.16666666666666666,
+        "macro_target_match_accuracy": 0.14488421631278772,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.5303030303030303
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.2777777777777778
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.061224489795918366
+          }
+        },
+        "positive_information_reward": 0.21448274963702132,
+        "error_penalty": -0.5408805031446542,
+        "uniform_error_utility": -0.32639775350763284
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "ministral",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6949685534591195,
+        "target_match_accuracy": 0.42391304347826086,
+        "macro_target_match_accuracy": 0.3495793958199973,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.2
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.25757575757575757
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.6111111111111112
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.19298245614035087
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.7448979591836735
+          }
+        },
+        "positive_information_reward": 0.3996432417856979,
+        "error_penalty": -0.10377358490566035,
+        "uniform_error_utility": 0.2958696568800375
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6949685534591195,
+        "target_match_accuracy": 0.42391304347826086,
+        "macro_target_match_accuracy": 0.3495793958199973,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 15,
+            "accuracy": 0.2
+          },
+          "DAY": {
+            "cases": 66,
+            "accuracy": 0.25757575757575757
+          },
+          "DECADE": {
+            "cases": 22,
+            "accuracy": 0.09090909090909091
+          },
+          "IDK": {
+            "cases": 18,
+            "accuracy": 0.6111111111111112
+          },
+          "MONTH": {
+            "cases": 57,
+            "accuracy": 0.19298245614035087
+          },
+          "YEAR": {
+            "cases": 98,
+            "accuracy": 0.7448979591836735
+          }
+        },
+        "positive_information_reward": 0.3996432417856979,
+        "error_penalty": -0.10377358490566035,
+        "uniform_error_utility": 0.2958696568800375
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3464566929133858,
+        "target_match_accuracy": 0.17045454545454544,
+        "macro_target_match_accuracy": 0.18378947368421053,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.84
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.07894736842105263
+          }
+        },
+        "positive_information_reward": 0.3440426138519215,
+        "error_penalty": -0.6496062992125984,
+        "uniform_error_utility": -0.3055636853606769
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.4015748031496063,
+        "target_match_accuracy": 0.16287878787878787,
+        "macro_target_match_accuracy": 0.172,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.86
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.4015748031496063,
+        "error_penalty": -0.594488188976378,
+        "uniform_error_utility": -0.19291338582677164
+      },
+      "difference": {
+        "truth_accuracy": 0.055118110236220486,
+        "target_match_accuracy": -0.007575757575757569,
+        "macro_target_match_accuracy": -0.011789473684210544,
+        "positive_information_reward": 0.05753218929768483,
+        "error_penalty": 0.055118110236220375,
+        "uniform_error_utility": 0.11265029953390526
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.40551181102362205,
+        "target_match_accuracy": 0.17045454545454544,
+        "macro_target_match_accuracy": 0.1825263157894737,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.86
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.05263157894736842
+          }
+        },
+        "positive_information_reward": 0.4006836529006934,
+        "error_penalty": -0.5748031496062993,
+        "uniform_error_utility": -0.17411949670560584
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.452755905511811,
+        "target_match_accuracy": 0.17045454545454544,
+        "macro_target_match_accuracy": 0.18126315789473685,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.88
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.02631578947368421
+          }
+        },
+        "positive_information_reward": 0.4503418264503467,
+        "error_penalty": -0.5275590551181102,
+        "uniform_error_utility": -0.07721722866776354
+      },
+      "difference": {
+        "truth_accuracy": 0.04724409448818895,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": -0.001263157894736855,
+        "positive_information_reward": 0.049658173549653295,
+        "error_penalty": 0.047244094488189115,
+        "uniform_error_utility": 0.0969022680378423
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.3661417322834646,
+        "target_match_accuracy": 0.17045454545454544,
+        "macro_target_match_accuracy": 0.18505263157894736,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.82
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.10526315789473684
+          }
+        },
+        "positive_information_reward": 0.3629229602015121,
+        "error_penalty": -0.6338582677165354,
+        "uniform_error_utility": -0.2709353075150233
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.41338582677165353,
+        "target_match_accuracy": 0.1553030303030303,
+        "macro_target_match_accuracy": 0.16399999999999998,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.82
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.0
+          }
+        },
+        "positive_information_reward": 0.41338582677165353,
+        "error_penalty": -0.5866141732283464,
+        "uniform_error_utility": -0.1732283464566929
+      },
+      "difference": {
+        "truth_accuracy": 0.04724409448818895,
+        "target_match_accuracy": -0.015151515151515138,
+        "macro_target_match_accuracy": -0.02105263157894738,
+        "positive_information_reward": 0.05046286657014143,
+        "error_penalty": 0.047244094488189003,
+        "uniform_error_utility": 0.0977069610583304
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.515748031496063,
+        "target_match_accuracy": 0.24621212121212122,
+        "macro_target_match_accuracy": 0.27019548872180454,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.92
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.08571428571428572
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.24
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.10526315789473684
+          }
+        },
+        "positive_information_reward": 0.4831504938457999,
+        "error_penalty": -0.35039370078740156,
+        "uniform_error_utility": 0.13275679305839833
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5393700787401575,
+        "target_match_accuracy": 0.24621212121212122,
+        "macro_target_match_accuracy": 0.27019548872180454,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.92
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.08571428571428572
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.24
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.10526315789473684
+          }
+        },
+        "positive_information_reward": 0.5067725410898943,
+        "error_penalty": -0.32677165354330706,
+        "uniform_error_utility": 0.1800008875465873
+      },
+      "difference": {
+        "truth_accuracy": 0.023622047244094557,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.023622047244094446,
+        "error_penalty": 0.023622047244094502,
+        "uniform_error_utility": 0.047244094488188976
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6535433070866141,
+        "target_match_accuracy": 0.4356060606060606,
+        "macro_target_match_accuracy": 0.3330648360030511,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.2
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.41304347826086957
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.7333333333333333
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.24
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.07894736842105263
+          }
+        },
+        "positive_information_reward": 0.3017470601474336,
+        "error_penalty": -0.17716535433070868,
+        "uniform_error_utility": 0.12458170581672488
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6535433070866141,
+        "target_match_accuracy": 0.4356060606060606,
+        "macro_target_match_accuracy": 0.3330648360030511,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 50,
+            "accuracy": 0.2
+          },
+          "CONTINENT": {
+            "cases": 46,
+            "accuracy": 0.41304347826086957
+          },
+          "COUNTRY": {
+            "cases": 105,
+            "accuracy": 0.7333333333333333
+          },
+          "IDK": {
+            "cases": 25,
+            "accuracy": 0.24
+          },
+          "REGION": {
+            "cases": 38,
+            "accuracy": 0.07894736842105263
+          }
+        },
+        "positive_information_reward": 0.3017470601474336,
+        "error_penalty": -0.17716535433070868,
+        "uniform_error_utility": 0.12458170581672488
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.610062893081761,
+        "target_match_accuracy": 0.6323024054982818,
+        "macro_target_match_accuracy": 0.19201906500354934,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.15789473684210525
+          }
+        },
+        "positive_information_reward": 0.5897825250783485,
+        "error_penalty": -0.389937106918239,
+        "uniform_error_utility": 0.1998454181601095
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.610062893081761,
+        "target_match_accuracy": 0.6323024054982818,
+        "macro_target_match_accuracy": 0.19201906500354934,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.15789473684210525
+          }
+        },
+        "positive_information_reward": 0.5897825250783485,
+        "error_penalty": -0.389937106918239,
+        "uniform_error_utility": 0.1998454181601095
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.60062893081761,
+        "target_match_accuracy": 0.6460481099656358,
+        "macro_target_match_accuracy": 0.19956140350877194,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.19736842105263158
+          }
+        },
+        "positive_information_reward": 0.5760027696706091,
+        "error_penalty": -0.37735849056603776,
+        "uniform_error_utility": 0.19864427910457141
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.60062893081761,
+        "target_match_accuracy": 0.6460481099656358,
+        "macro_target_match_accuracy": 0.19956140350877194,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 1.0
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.19736842105263158
+          }
+        },
+        "positive_information_reward": 0.5760027696706091,
+        "error_penalty": -0.37735849056603776,
+        "uniform_error_utility": 0.19864427910457141
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6226415094339622,
+        "target_match_accuracy": 0.6460481099656358,
+        "macro_target_match_accuracy": 0.20079099482811072,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.21052631578947367
+          }
+        },
+        "positive_information_reward": 0.5936695551433728,
+        "error_penalty": -0.3773584905660376,
+        "uniform_error_utility": 0.21631106457733523
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6226415094339622,
+        "target_match_accuracy": 0.6460481099656358,
+        "macro_target_match_accuracy": 0.20079099482811072,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.21052631578947367
+          }
+        },
+        "positive_information_reward": 0.5936695551433728,
+        "error_penalty": -0.3773584905660376,
+        "uniform_error_utility": 0.21631106457733523
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7138364779874213,
+        "target_match_accuracy": 0.7491408934707904,
+        "macro_target_match_accuracy": 0.3070861444669136,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.058823529411764705
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.25
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.5394736842105263
+          }
+        },
+        "positive_information_reward": 0.6378052123845632,
+        "error_penalty": -0.2767295597484277,
+        "uniform_error_utility": 0.3610756526361355
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7138364779874213,
+        "target_match_accuracy": 0.7491408934707904,
+        "macro_target_match_accuracy": 0.3070861444669136,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.9942196531791907
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.058823529411764705
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.25
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.5394736842105263
+          }
+        },
+        "positive_information_reward": 0.6378052123845632,
+        "error_penalty": -0.2767295597484277,
+        "uniform_error_utility": 0.3610756526361355
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "qwen",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7012578616352201,
+        "target_match_accuracy": 0.6323024054982818,
+        "macro_target_match_accuracy": 0.31308623692860166,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.2
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.791907514450867
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.23529411764705882
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.125
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.5263157894736842
+          }
+        },
+        "positive_information_reward": 0.5699792267971543,
+        "error_penalty": -0.19496855345911945,
+        "uniform_error_utility": 0.37501067333803484
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.7012578616352201,
+        "target_match_accuracy": 0.6323024054982818,
+        "macro_target_match_accuracy": 0.31308623692860166,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 5,
+            "accuracy": 0.2
+          },
+          "DAY": {
+            "cases": 173,
+            "accuracy": 0.791907514450867
+          },
+          "DECADE": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 17,
+            "accuracy": 0.23529411764705882
+          },
+          "MONTH": {
+            "cases": 16,
+            "accuracy": 0.125
+          },
+          "YEAR": {
+            "cases": 76,
+            "accuracy": 0.5263157894736842
+          }
+        },
+        "positive_information_reward": 0.5699792267971543,
+        "error_penalty": -0.19496855345911945,
+        "uniform_error_utility": 0.37501067333803484
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.562992125984252,
+        "target_match_accuracy": 0.5878136200716846,
+        "macro_target_match_accuracy": 0.2064331535810287,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9195402298850575
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.024390243902439025
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.08823529411764706
+          }
+        },
+        "positive_information_reward": 0.5566772314664998,
+        "error_penalty": -0.42913385826771644,
+        "uniform_error_utility": 0.1275433731987834
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.594488188976378,
+        "target_match_accuracy": 0.5806451612903226,
+        "macro_target_match_accuracy": 0.19466844769867578,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9195402298850575
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.024390243902439025
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.029411764705882353
+          }
+        },
+        "positive_information_reward": 0.5897826804996021,
+        "error_penalty": -0.39763779527559057,
+        "uniform_error_utility": 0.19214488522401157
+      },
+      "difference": {
+        "truth_accuracy": 0.03149606299212604,
+        "target_match_accuracy": -0.007168458781361964,
+        "macro_target_match_accuracy": -0.011764705882352927,
+        "positive_information_reward": 0.03310544903310231,
+        "error_penalty": 0.03149606299212587,
+        "uniform_error_utility": 0.06460151202522818
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5433070866141733,
+        "target_match_accuracy": 0.5519713261648745,
+        "macro_target_match_accuracy": 0.20813337950823727,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.8448275862068966
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.04878048780487805
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.14705882352941177
+          }
+        },
+        "positive_information_reward": 0.5345781130349568,
+        "error_penalty": -0.35039370078740156,
+        "uniform_error_utility": 0.18418441224755527
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5551181102362205,
+        "target_match_accuracy": 0.5448028673835126,
+        "macro_target_match_accuracy": 0.19636867362588434,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.8448275862068966
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.04878048780487805
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.08823529411764706
+          }
+        },
+        "positive_information_reward": 0.5479985226979803,
+        "error_penalty": -0.33858267716535434,
+        "uniform_error_utility": 0.209415845532626
+      },
+      "difference": {
+        "truth_accuracy": 0.011811023622047223,
+        "target_match_accuracy": -0.007168458781361964,
+        "macro_target_match_accuracy": -0.011764705882352927,
+        "positive_information_reward": 0.013420409663023491,
+        "error_penalty": 0.011811023622047223,
+        "uniform_error_utility": 0.025231433285070715
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6338582677165354,
+        "target_match_accuracy": 0.6093189964157706,
+        "macro_target_match_accuracy": 0.24445159056053037,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9137931034482759
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.07317073170731707
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.23529411764705882
+          }
+        },
+        "positive_information_reward": 0.627884394885951,
+        "error_penalty": -0.33858267716535434,
+        "uniform_error_utility": 0.2893017177205967
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6535433070866141,
+        "target_match_accuracy": 0.6093189964157706,
+        "macro_target_match_accuracy": 0.23498573525289007,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9252873563218391
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.07317073170731707
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.17647058823529413
+          }
+        },
+        "positive_information_reward": 0.649178820297006,
+        "error_penalty": -0.31889763779527563,
+        "uniform_error_utility": 0.3302811825017304
+      },
+      "difference": {
+        "truth_accuracy": 0.019685039370078705,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": -0.009465855307640297,
+        "positive_information_reward": 0.021294425411054974,
+        "error_penalty": 0.019685039370078705,
+        "uniform_error_utility": 0.04097946478113368
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "location",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5039370078740157,
+        "target_match_accuracy": 0.5770609318996416,
+        "macro_target_match_accuracy": 0.3048695676756825,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.8275862068965517
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.14634146341463414
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.2857142857142857
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.2647058823529412
+          }
+        },
+        "positive_information_reward": 0.4799457941568162,
+        "error_penalty": -0.36220472440944884,
+        "uniform_error_utility": 0.11774106974736737
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5433070866141733,
+        "target_match_accuracy": 0.5734767025089605,
+        "macro_target_match_accuracy": 0.29898721473450607,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.8275862068965517
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.0
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.14634146341463414
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.2857142857142857
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.23529411764705882
+          }
+        },
+        "positive_information_reward": 0.5201205659174618,
+        "error_penalty": -0.3228346456692914,
+        "uniform_error_utility": 0.19728592024817043
+      },
+      "difference": {
+        "truth_accuracy": 0.03937007874015752,
+        "target_match_accuracy": -0.0035842293906810374,
+        "macro_target_match_accuracy": -0.00588235294117645,
+        "positive_information_reward": 0.0401747717606456,
+        "error_penalty": 0.039370078740157466,
+        "uniform_error_utility": 0.07954485050080307
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "location",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.610236220472441,
+        "target_match_accuracy": 0.6451612903225806,
+        "macro_target_match_accuracy": 0.30258730032401304,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9080459770114943
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.08695652173913043
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.34146341463414637
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.17647058823529413
+          }
+        },
+        "positive_information_reward": 0.5549964759699189,
+        "error_penalty": -0.3897637795275589,
+        "uniform_error_utility": 0.1652326964423599
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.610236220472441,
+        "target_match_accuracy": 0.6451612903225806,
+        "macro_target_match_accuracy": 0.30258730032401304,
+        "target_match_by_category": {
+          "CITY": {
+            "cases": 174,
+            "accuracy": 0.9080459770114943
+          },
+          "CONTINENT": {
+            "cases": 23,
+            "accuracy": 0.08695652173913043
+          },
+          "COUNTRY": {
+            "cases": 41,
+            "accuracy": 0.34146341463414637
+          },
+          "IDK": {
+            "cases": 7,
+            "accuracy": 0.0
+          },
+          "REGION": {
+            "cases": 34,
+            "accuracy": 0.17647058823529413
+          }
+        },
+        "positive_information_reward": 0.5549964759699189,
+        "error_penalty": -0.3897637795275589,
+        "uniform_error_utility": 0.1652326964423599
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_plain",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5,
+        "target_match_accuracy": 0.7671232876712328,
+        "macro_target_match_accuracy": 0.2620104949874687,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9894736842105263
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.03571428571428571
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.546875
+          }
+        },
+        "positive_information_reward": 0.45799066627864543,
+        "error_penalty": -0.4842767295597484,
+        "uniform_error_utility": -0.026286063281102934
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5,
+        "target_match_accuracy": 0.7671232876712328,
+        "macro_target_match_accuracy": 0.2620104949874687,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9894736842105263
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.03571428571428571
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.546875
+          }
+        },
+        "positive_information_reward": 0.45799066627864543,
+        "error_penalty": -0.4842767295597484,
+        "uniform_error_utility": -0.026286063281102934
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_idk_user_prompt",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5345911949685535,
+        "target_match_accuracy": 0.726027397260274,
+        "macro_target_match_accuracy": 0.24295504385964914,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9421052631578948
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.515625
+          }
+        },
+        "positive_information_reward": 0.47870600151208537,
+        "error_penalty": -0.3584905660377359,
+        "uniform_error_utility": 0.12021543547434951
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5345911949685535,
+        "target_match_accuracy": 0.726027397260274,
+        "macro_target_match_accuracy": 0.24295504385964914,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9421052631578948
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.0
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.515625
+          }
+        },
+        "positive_information_reward": 0.47870600151208537,
+        "error_penalty": -0.3584905660377359,
+        "uniform_error_utility": 0.12021543547434951
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_granularity_instruction",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5691823899371069,
+        "target_match_accuracy": 0.7328767123287672,
+        "macro_target_match_accuracy": 0.26532738095238095,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.03571428571428571
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.65625
+          }
+        },
+        "positive_information_reward": 0.4917886705262292,
+        "error_penalty": -0.41823899371069173,
+        "uniform_error_utility": 0.07354967681553745
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.5691823899371069,
+        "target_match_accuracy": 0.7328767123287672,
+        "macro_target_match_accuracy": 0.26532738095238095,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.9
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.03571428571428571
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.65625
+          }
+        },
+        "positive_information_reward": 0.4917886705262292,
+        "error_penalty": -0.41823899371069173,
+        "uniform_error_utility": 0.07354967681553745
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "base_drag",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6289308176100629,
+        "target_match_accuracy": 0.8253424657534246,
+        "macro_target_match_accuracy": 0.6467536027568922,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.25
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.8157894736842105
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 1.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.8928571428571429
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.921875
+          }
+        },
+        "positive_information_reward": 0.5146661852515017,
+        "error_penalty": -0.31446540880503154,
+        "uniform_error_utility": 0.2002007764464701
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6289308176100629,
+        "target_match_accuracy": 0.8253424657534246,
+        "macro_target_match_accuracy": 0.6467536027568922,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.25
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.8157894736842105
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 1.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.8928571428571429
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.921875
+          }
+        },
+        "positive_information_reward": 0.5146661852515017,
+        "error_penalty": -0.31446540880503154,
+        "uniform_error_utility": 0.2002007764464701
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    },
+    {
+      "model": "gemma",
+      "split": "test",
+      "modality": "temporal",
+      "variant": "finetuned",
+      "uncorrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6257861635220126,
+        "target_match_accuracy": 0.7123287671232876,
+        "macro_target_match_accuracy": 0.31620848997493733,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.7789473684210526
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.32142857142857145
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.796875
+          }
+        },
+        "positive_information_reward": 0.5136520304692949,
+        "error_penalty": -0.35849056603773577,
+        "uniform_error_utility": 0.15516146443155907
+      },
+      "corrected": {
+        "cases": 328,
+        "truth_accuracy": 0.6257861635220126,
+        "target_match_accuracy": 0.7123287671232876,
+        "macro_target_match_accuracy": 0.31620848997493733,
+        "target_match_by_category": {
+          "CENTURY": {
+            "cases": 4,
+            "accuracy": 0.0
+          },
+          "DAY": {
+            "cases": 190,
+            "accuracy": 0.7789473684210526
+          },
+          "DECADE": {
+            "cases": 5,
+            "accuracy": 0.0
+          },
+          "IDK": {
+            "cases": 1,
+            "accuracy": 0.0
+          },
+          "MONTH": {
+            "cases": 28,
+            "accuracy": 0.32142857142857145
+          },
+          "YEAR": {
+            "cases": 64,
+            "accuracy": 0.796875
+          }
+        },
+        "positive_information_reward": 0.5136520304692949,
+        "error_penalty": -0.35849056603773577,
+        "uniform_error_utility": 0.15516146443155907
+      },
+      "difference": {
+        "truth_accuracy": 0.0,
+        "target_match_accuracy": 0.0,
+        "macro_target_match_accuracy": 0.0,
+        "positive_information_reward": 0.0,
+        "error_penalty": 0.0,
+        "uniform_error_utility": 0.0
+      }
+    }
+  ],
+  "location_informativeness": {
+    "metadata_sha256": "67e21a32df8086803718120869dc314a8fcb531ce8df78d5ae1284762ac2ffff",
+    "location_records": 2544,
+    "prior_candidates": 1092,
+    "remaining_candidates": {
+      "continent": 306.80558096997987,
+      "country": 31.99973045196732,
+      "region": 4.178192875127719,
+      "city": 1.0,
+      "place": 1.0
+    },
+    "informativeness": {
+      "continent": 0.18147431856723387,
+      "country": 0.5045964370514611,
+      "region": 0.7956079727960204,
+      "city": 1.0,
+      "place": 1.0
+    },
+    "definition": "Distinct city labels across birth/death gold locations. Event-weighted geometric means of compatible distinct-city counts; regions use within-event then across-event geometric means.",
+    "original_script": "uncertainty-granularity-calibration/scripts/calc_location_informativeness.py"
+  }
+}

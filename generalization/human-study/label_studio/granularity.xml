@@ -1,0 +1,70 @@
+<View className="granularity-study">
+  <Style>
+    .granularity-study { background: #f5f7fb; color: #182338; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .granularity-study .gs-shell { max-width: 1120px; margin: 0 auto; padding: 24px; }
+    .granularity-study .gs-shell h1, .granularity-study .gs-shell h2, .granularity-study .gs-shell h3, .granularity-study .gs-shell h4, .granularity-study .gs-shell h5 { margin: 0 0 10px; color: inherit; line-height: 1.35; }
+    .granularity-study .gs-eyebrow { color: #52627b; font-size: 12px; font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+    .granularity-study .gs-intro { margin-bottom: 18px; }
+    .granularity-study .gs-help { font-size: 14px; line-height: 1.6; color: #43516a; }
+    .granularity-study .gs-example { margin-top: 8px; padding: 9px 12px; border-left: 3px solid #9eb6e8; background: #edf2fc; border-radius: 0 6px 6px 0; color: #354866; font-size: 13px; line-height: 1.5; }
+    .granularity-study .gs-card { background: #fff; border: 1px solid #dbe2ec; border-radius: 12px; padding: 18px 20px; box-shadow: 0 2px 6px rgba(24,35,56,.035); }
+    .granularity-study .gs-question { margin-bottom: 16px; border-left: 4px solid #476fc0; }
+    .granularity-study .gs-caption { color: #52627b; font-size: 12px; font-weight: 700; letter-spacing: .06em; margin-bottom: 8px; }
+    .granularity-study .gs-question-text { font-size: 19px; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+    .granularity-study .gs-answers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 16px; }
+    .granularity-study .gs-answer-card { min-width: 0; }
+    .granularity-study .gs-answer-label { display: inline-block; padding: 4px 10px; margin-bottom: 14px; border-radius: 6px; background: #edf2fc; color: #36568d; font-size: 13px; font-weight: 700; }
+    .granularity-study .gs-answer-text { min-height: 92px; font-size: 17px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .granularity-study .gs-decision { border-color: #c5d2e8; }
+    .granularity-study .gs-shortcuts { color: #52627b; font-size: 13px; margin-bottom: 12px; }
+    .granularity-study .gs-options label { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 12px; margin: 0 8px 8px 0; border: 1px solid #cbd5e3; border-radius: 8px; background: #fff; color: #22314b; line-height: 1.4; cursor: pointer; transition: background .12s, border-color .12s; }
+    .granularity-study .gs-options label:hover { background: #f1f5fc; border-color: #7696cf; }
+    .granularity-study .gs-options label:has(input:checked), .granularity-study .gs-options label.ant-radio-wrapper-checked { background: #eaf1ff; border-color: #476fc0; }
+    .granularity-study .gs-options label:focus-within { outline: 2px solid #476fc0; outline-offset: 2px; }
+    .granularity-study .gs-notes { margin-top: 8px; }
+    .granularity-study .gs-notes textarea { border-radius: 8px; border-color: #cbd5e3; font-size: 14px; }
+    @media (max-width: 760px) {
+      .granularity-study .gs-shell { padding: 14px; }
+      .granularity-study .gs-answers { grid-template-columns: 1fr; gap: 12px; }
+      .granularity-study .gs-card { padding: 15px; }
+      .granularity-study .gs-answer-text { min-height: 0; font-size: 16px; }
+      .granularity-study .gs-options label { display: flex; margin-right: 0; }
+    }
+  </Style>
+  <View className="gs-shell">
+    <View className="gs-intro">
+      <View className="gs-eyebrow"><Text name="round_label" value="GRANULARITY · ROUND 1" /></View>
+      <Header value="Which answer is more fine-grained?" size="3" />
+      <View className="gs-help"><Text name="instructions" value="Compare only the information answering the question. question. Ignore factual correctness and answer length. Choose Same granularity if both answers are equally fine-grained; Abstention present if either abstains; Not comparable if the answers cannot be ordered by granularity." /></View>
+      <View className="gs-example"><Text name="examples" value="Finer-grained: a city rather than a country; an exact date rather than a year." /></View>
+    </View>
+    <View className="gs-card gs-question">
+      <View className="gs-caption"><Text name="question_label" value="QUESTION" /></View>
+      <View className="gs-question-text"><Text name="question" value="$prompt" /></View>
+    </View>
+    <View className="gs-answers">
+      <View className="gs-card gs-answer-card">
+        <View className="gs-answer-label"><Text name="label_a" value="ANSWER A" /></View>
+        <View className="gs-answer-text"><Text name="answer_a" value="$response_a" /></View>
+      </View>
+      <View className="gs-card gs-answer-card">
+        <View className="gs-answer-label"><Text name="label_b" value="ANSWER B" /></View>
+        <View className="gs-answer-text"><Text name="answer_b" value="$response_b" /></View>
+      </View>
+    </View>
+    <View className="gs-card gs-decision">
+      <Header value="Your judgment" size="4" />
+      <View className="gs-shortcuts"><Text name="shortcuts" value="Select one option · Keyboard shortcuts: 1–5" /></View>
+      <View className="gs-options">
+        <Choices name="specificity" toName="answer_a" choice="single-radio" showInline="true" required="true">
+          <Choice value="A more fine-grained" hotkey="1" />
+          <Choice value="B more fine-grained" hotkey="2" />
+          <Choice value="Same granularity" hotkey="3" />
+          <Choice value="Not comparable" hotkey="4" />
+          <Choice value="Abstention present" hotkey="5" />
+        </Choices>
+      </View>
+      <View className="gs-notes"><TextArea name="comment" toName="answer_a" placeholder="Optional note — for example, why the answers are not comparable" rows="2" /></View>
+    </View>
+  </View>
+</View>

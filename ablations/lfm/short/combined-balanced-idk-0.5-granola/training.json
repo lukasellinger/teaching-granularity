@@ -1,0 +1,228 @@
+{
+  "completed_global_step": 600,
+  "best_checkpoint_step": 500,
+  "resolved_model_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 530.9000000000001,
+      "vital_persons": 10087.100000000182
+    },
+    "idk_realizations": 748,
+    "idk_semantic_cases": 748,
+    "idk_sft_weight_mass": 1239.3480289094075,
+    "known_sft_weight_mass": 9378.651971091225,
+    "maximum_realizations_per_case": 18,
+    "mean_realizations_per_case": 3.0415353766828988,
+    "rankable_cases": 2742,
+    "rankable_realizations": 9653,
+    "realizations": 10618,
+    "realizations_by_source": {
+      "granola": 73,
+      "vital_persons": 10545
+    },
+    "semantic_cases": 3491,
+    "sft_weight_mass_by_source": {
+      "granola": 530.9000000000008,
+      "vital_persons": 10087.09999999986
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1359.000000000003
+    },
+    "idk_realizations": 93,
+    "idk_semantic_cases": 93,
+    "idk_sft_weight_mass": 296.6830985915493,
+    "known_sft_weight_mass": 1062.3169014084506,
+    "maximum_realizations_per_case": 14,
+    "mean_realizations_per_case": 3.1901408450704225,
+    "rankable_cases": 331,
+    "rankable_realizations": 1239,
+    "realizations": 1359,
+    "realizations_by_source": {
+      "vital_persons": 1359
+    },
+    "semantic_cases": 426,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1358.9999999999836
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "granola_dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "granola": 8
+    },
+    "idk_realizations": 0,
+    "idk_semantic_cases": 0,
+    "idk_sft_weight_mass": 0,
+    "known_sft_weight_mass": 8,
+    "maximum_realizations_per_case": 1,
+    "mean_realizations_per_case": 1,
+    "rankable_cases": 8,
+    "rankable_realizations": 8,
+    "realizations": 8,
+    "realizations_by_source": {
+      "granola": 8
+    },
+    "semantic_cases": 8,
+    "sft_weight_mass_by_source": {
+      "granola": 8
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "rank_balance": {
+    "cap": 8,
+    "level_base_mass": {
+      "CENTURY": 2751.3708505058876,
+      "CITY": 222.98197826902035,
+      "CONTINENT": 1073.3369801424028,
+      "COUNTRY": 1640.2403147246503,
+      "DAY": 336.3626451854715,
+      "DECADE": 1103.5718246534552,
+      "MONTH": 343.92135631323464,
+      "P112_GRANOLA_1": 14.545205479452049,
+      "P112_GRANOLA_4": 58.180821917808196,
+      "P170_GRANOLA_1": 7.2726027397260244,
+      "P170_GRANOLA_2_5": 14.545205479452049,
+      "P170_GRANOLA_4": 65.45342465753421,
+      "P175_GRANOLA_4": 7.2726027397260244,
+      "P176_GRANOLA_1": 21.817808219178072,
+      "P176_GRANOLA_2_5": 7.2726027397260244,
+      "P176_GRANOLA_4": 145.45205479452045,
+      "P40_GRANOLA_1": 29.090410958904098,
+      "P40_GRANOLA_4": 29.090410958904098,
+      "P69_GRANOLA_2": 14.545205479452049,
+      "P69_GRANOLA_3": 21.817808219178072,
+      "P69_GRANOLA_4": 94.54383561643832,
+      "REGION": 249.43746721619232,
+      "YEAR": 2365.8765829899266
+    },
+    "level_case_counts": {
+      "CENTURY": 728,
+      "CITY": 59,
+      "CONTINENT": 284,
+      "COUNTRY": 434,
+      "DAY": 89,
+      "DECADE": 292,
+      "MONTH": 91,
+      "P112_GRANOLA_1": 2,
+      "P112_GRANOLA_4": 8,
+      "P170_GRANOLA_1": 1,
+      "P170_GRANOLA_2_5": 2,
+      "P170_GRANOLA_4": 9,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 3,
+      "P176_GRANOLA_2_5": 1,
+      "P176_GRANOLA_4": 20,
+      "P40_GRANOLA_1": 4,
+      "P40_GRANOLA_4": 4,
+      "P69_GRANOLA_2": 2,
+      "P69_GRANOLA_3": 3,
+      "P69_GRANOLA_4": 13,
+      "REGION": 66,
+      "YEAR": 626
+    },
+    "level_factors": {
+      "CENTURY": 0.6689792368967241,
+      "CITY": 2.627285863979816,
+      "CONTINENT": 1.1974962578274058,
+      "COUNTRY": 0.9686981496788867,
+      "DAY": 1.9133011172892829,
+      "DECADE": 1.056299082870961,
+      "MONTH": 1.8921590195307056,
+      "P112_GRANOLA_1": 2.026446342920588,
+      "P112_GRANOLA_4": 1.013223171460294,
+      "P170_GRANOLA_1": 2.3399386831670683,
+      "P170_GRANOLA_2_5": 1.6545865104281545,
+      "P170_GRANOLA_4": 0.7799795610556894,
+      "P175_GRANOLA_4": 4.052892685841176,
+      "P176_GRANOLA_1": 1.3509642286137256,
+      "P176_GRANOLA_2_5": 2.3399386831670683,
+      "P176_GRANOLA_4": 0.5232261958742908,
+      "P40_GRANOLA_1": 1.4329139507898276,
+      "P40_GRANOLA_4": 1.4329139507898276,
+      "P69_GRANOLA_2": 1.654586510428154,
+      "P69_GRANOLA_3": 1.3509642286137253,
+      "P69_GRANOLA_4": 0.6489822233538884,
+      "REGION": 2.4840559137470195,
+      "YEAR": 0.7214249563244256
+    },
+    "modality_balanced_mass": {
+      "granola:P112": 88.4252353525923,
+      "granola:P170": 92.13607868967395,
+      "granola:P175": 29.4750784508641,
+      "granola:P176": 122.59684824109166,
+      "granola:P40": 83.36811139444593,
+      "granola:P69": 114.89864787133182,
+      "location": 4079.6687899876915,
+      "temporal": 6007.431210012548
+    },
+    "modality_base_mass": {
+      "granola:P112": 72.72602739726024,
+      "granola:P170": 87.27123287671229,
+      "granola:P175": 7.2726027397260244,
+      "granola:P176": 174.5424657534245,
+      "granola:P40": 58.180821917808196,
+      "granola:P69": 130.90684931506843,
+      "location": 3185.996740352301,
+      "temporal": 6901.103259648194
+    },
+    "mode": "hierarchical-sqrt",
+    "raw_modality_factors": {
+      "granola:P112": 1.1030261405182864,
+      "granola:P170": 1.0069204977995476,
+      "granola:P175": 3.4880749227427246,
+      "granola:P176": 0.7120003121097944,
+      "granola:P40": 1.2332207155790618,
+      "granola:P69": 0.8221471437193745,
+      "location": 1.258187892736318,
+      "temporal": 0.8548873730448074
+    },
+    "raw_within_modality_level_factors": {
+      "CENTURY": 0.7082713827681908,
+      "CITY": 1.8899825126982301,
+      "CONTINENT": 0.8614391822924814,
+      "COUNTRY": 0.6968493943034034,
+      "DAY": 2.025677858524641,
+      "DECADE": 1.1183402574828865,
+      "MONTH": 2.003293990703046,
+      "P112_GRANOLA_1": 1.5811388300841898,
+      "P112_GRANOLA_4": 0.7905694150420949,
+      "P170_GRANOLA_1": 2,
+      "P170_GRANOLA_2_5": 1.4142135623730951,
+      "P170_GRANOLA_4": 0.6666666666666667,
+      "P175_GRANOLA_4": 1,
+      "P176_GRANOLA_1": 1.6329931618554518,
+      "P176_GRANOLA_2_5": 2.8284271247461894,
+      "P176_GRANOLA_4": 0.6324555320336758,
+      "P40_GRANOLA_1": 1,
+      "P40_GRANOLA_4": 1,
+      "P69_GRANOLA_2": 1.7320508075688772,
+      "P69_GRANOLA_3": 1.4142135623730951,
+      "P69_GRANOLA_4": 0.6793662204867574,
+      "REGION": 1.7869476260321242,
+      "YEAR": 0.7637974741184148
+    }
+  },
+  "training_sources": null,
+  "recorded_revision_argument": null
+}

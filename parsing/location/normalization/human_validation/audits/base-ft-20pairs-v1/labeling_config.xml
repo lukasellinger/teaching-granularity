@@ -1,0 +1,40 @@
+<View>
+  <Header value="Geographic processing audit"/>
+  <Text name="question" value="$question"/>
+  <Text name="answer" value="$answer"/>
+  <Header value="Extractor output"/>
+  <Text name="extraction_status" value="$extraction_status"/>
+  <Text name="extraction" value="$extractor_output"/>
+  <Header value="Normalization and evidence"/>
+  <Text name="normalization_output" value="$normalization"/>
+  <Text name="scope" value="First judge processing against the answer, independently of whether its biographical claim is true. Check all stated event-relevant components, entity identities, containment, precision, unresolved components and within-answer consensus. Appropriate partial or unresolved results can be correct processing. IDK extraction is correct only when no requested location is stated. Do not infer missing text or repair the pipeline during annotation."/>
+  <Choices name="review_outcome" toName="answer" choice="single" required="true">
+    <Choice value="All checks correct" hotkey="1"/>
+    <Choice value="Needs detailed review" hotkey="2"/>
+  </Choices>
+  <View visibleWhen="choice-selected" whenTagName="review_outcome" whenChoiceValue="Needs detailed review">
+    <Header value="Extraction completeness and event selection"/>
+    <Choices name="extraction_correct" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/></Choices>
+    <Header value="Entity resolution"/>
+    <Choices name="entity" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/><Choice value="Not applicable"/></Choices>
+    <Header value="Hierarchy completion"/>
+    <Choices name="hierarchy" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/><Choice value="Not applicable"/></Choices>
+    <Header value="Expressed granularity"/>
+    <Choices name="granularity" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/><Choice value="Not applicable"/></Choices>
+    <Header value="Unresolved or omitted components"/>
+    <Choices name="omissions" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/><Choice value="Not applicable"/></Choices>
+    <Header value="Within-answer consensus"/>
+    <Choices name="consensus" toName="answer" choice="single" required="true"><Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Cannot determine"/><Choice value="Not applicable"/></Choices>
+  </View>
+  <Header value="Effect on evaluation"/>
+  <Text name="gold_reference" value="$gold_reference"/>
+  <Text name="evaluation_help" value="Independently assign the outcome after faithful processing of the response. These saved results use FOUR evaluation levels: CITY, REGION, COUNTRY and CONTINENT. Correctly resolved places, addresses and subcity units are projected to their containing city (or the finest available supported level); do not reject them merely because they are finer than a city-level reference. All stated event-relevant components must still normalize consistently. Compare the resulting finest supported level with the reference: a wrong city cannot receive country or continent credit. Judge the score after correcting processing errors, not merely the saved partial/unresolved status. An answer solely about another person provides no requested candidate under the answer-presence rule. Use Cannot determine when the corrected evaluation outcome cannot be established. Saved scores and method identities are hidden."/>
+  <Choices name="manual_outcome" toName="answer" choice="single" required="true">
+    <Choice value="Correct"/><Choice value="Incorrect or non-evaluable"/><Choice value="No answer"/><Choice value="Cannot determine"/>
+  </Choices>
+  <View visibleWhen="choice-selected" whenTagName="manual_outcome" whenChoiceValue="Correct">
+    <Header value="Finest supported evaluation level after projection"/>
+    <Choices name="manual_level" toName="answer" choice="single" required="true"><Choice value="CITY"/><Choice value="REGION"/><Choice value="COUNTRY"/><Choice value="CONTINENT"/></Choices>
+  </View>
+  <TextArea name="notes" toName="answer" rows="3" placeholder="For errors, explain the expected extraction/normalization and any effect on evaluation."/>
+</View>

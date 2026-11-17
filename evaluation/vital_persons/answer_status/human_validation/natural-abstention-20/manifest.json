@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "scope": "full_answer",
+  "evaluation_items": 20,
+  "eligible_rows": 472,
+  "profile": "natural-abstention-challenge",
+  "eligible_pool_sha256": "39dfa9853c87ebc637a069c822bfef09101524be62e45a7184890c241eaeb987",
+  "excluded_items_sha256": [
+    "cfdd03365c76790acfd8f95334658f12c40d928b3f3644b02be4ccd59ad452de"
+  ],
+  "excluded_content_count": 40,
+  "challenge_quotas": {
+    "abstention_wording": 15,
+    "uncertainty_boundary": 5
+  },
+  "sampling": "Balanced over model/modality/method where eligible distinct responses exist; content deduplicated.",
+  "routing": "Noncanonical responses whose saved parse_status is not parsed.",
+  "caveat": "Balanced audit of routed failures, not a population prevalence estimate.",
+  "items_sha256": "c0edce6a978a5639504740ddb6e07014808f85862a85a61929c9c6f6fd662eea"
+}

@@ -1,0 +1,14 @@
+{
+  "resolution": {
+    "fingerprint": "cfb8533bf588454ab182ff8744330dcdf84f25eda2f2288905ab38d88b928caa",
+    "id": "source-order-components-v1-9489bb2d473927d9"
+  },
+  "lookup": {
+    "fingerprint": "1a8cf9036464aaa3167dec28e2f1cd67f670c6ae1d9d9347dc6ea31cf153e1ba",
+    "id": "source-order-components-v1-7fde69e4c029c068"
+  },
+  "profile": {
+    "fingerprint": "0a75ec8272281c3627ee207dcf1dddc628130aa0c3bf15ef16ba3d79c9de0d49",
+    "id": "wikidata-entity-profile-v2-2173be093f024300"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "P112": [
+    "Who founded {entity}?",
+    "Who was the founder of {entity}?",
+    "Who established {entity}?",
+    "Can you tell me who founded {entity}?",
+    "Please identify the founder of {entity}.",
+    "Please identify who founded {entity}.",
+    "Who is credited with founding {entity}?"
+  ],
+  "P127": [
+    "Who owns {entity}?",
+    "Who is the owner of {entity}?",
+    "Can you tell me who owns {entity}?",
+    "Please identify the owner of {entity}.",
+    "To whom does {entity} belong?",
+    "Under whose ownership is {entity}?",
+    "Who holds ownership of {entity}?"
+  ],
+  "P170": [
+    "Who created {entity}?",
+    "Who is the creator of {entity}?",
+    "Can you tell me who created {entity}?",
+    "Could you tell me who created {entity}?",
+    "Please tell me who created {entity}.",
+    "Do you know who created {entity}?",
+    "By whom was {entity} created?"
+  ],
+  "P175": [
+    "Who performed {entity}?",
+    "Who is the performer of {entity}?",
+    "Who is {entity} performed by?",
+    "Can you tell me who performed {entity}?",
+    "Could you tell me who performed {entity}?",
+    "Please tell me who performed {entity}.",
+    "By whom was {entity} performed?"
+  ],
+  "P176": [
+    "Which company produced {entity}?",
+    "What company is {entity} produced by?",
+    "Can you tell me which company produced {entity}?",
+    "Please identify the company that produced {entity}.",
+    "Who is the producer of {entity}?",
+    "Which company is responsible for producing {entity}?",
+    "By which company was {entity} produced?"
+  ],
+  "P26": [
+    "Who is {entity} married to?",
+    "Who is the spouse of {entity}?",
+    "Can you tell me whom {entity} married?",
+    "Please identify the spouse of {entity}.",
+    "Whom did {entity} marry?",
+    "Who is {entity}'s marriage partner?",
+    "To whom is {entity} married?"
+  ],
+  "P264": [
+    "What music label represents {entity}?",
+    "Which music label represents {entity}?",
+    "Can you tell me which label represents {entity}?",
+    "Please identify the music label representing {entity}.",
+    "What music label is {entity} represented by?",
+    "Which music label is associated with {entity}?",
+    "By which music label is {entity} represented?"
+  ],
+  "P40": [
+    "Who is {entity}'s child?",
+    "Who is a child of {entity}?",
+    "Can you tell me who {entity}'s child is?",
+    "Please identify a child of {entity}.",
+    "Which person is the child of {entity}?",
+    "Who is known to be a child of {entity}?",
+    "Whom does {entity} have as a child?"
+  ],
+  "P50": [
+    "Who is the author of {entity}?",
+    "Who wrote {entity}?",
+    "Can you tell me who authored {entity}?",
+    "Please identify the author of {entity}.",
+    "Which person wrote {entity}?",
+    "Who is credited with writing {entity}?",
+    "By whom was {entity} written?"
+  ],
+  "P69": [
+    "Where was {entity} educated?",
+    "Do you know where {entity} was educated?",
+    "Can you tell me where {entity} was educated?",
+    "Could you tell me where {entity} was educated?",
+    "Please tell me where {entity} was educated.",
+    "Would you tell me where {entity} was educated?",
+    "I would like to know where {entity} was educated."
+  ]
+}

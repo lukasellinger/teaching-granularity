@@ -1,0 +1,19 @@
+Decide whether the complete answer is safe for rewriting the requested birth/death location using the extracted event location.
+
+Single: every location-bearing detail belongs to the requested event and is represented by the extracted event location. Repeating the event or refining its venue, address, place, hierarchy, or alias remains Single, even across several clauses or sentences.
+
+Multiple: any location-bearing information does not belong to the requested event or is missing from the extracted event location. Count other events, unrelated residences or burials, travel, uncaptured affiliations or geographic titles, unrelated historical context, nationality/demonym adjectives describing people, and ambiguous or unrelated location references.
+
+Ignore geographic text that is merely part of the subject identity already supplied in the question. A geographic adjective inside the name of a calendar does not assert a location. A dynasty or polity used only to date the requested event is era context and does not by itself add a location.
+
+Do not return Multiple merely because the requested event is stated again or made more specific later when all location details are represented by the extracted event location. Anaphoric references such as "there", "this city", or "the city" remain Single only when their clause still describes the requested event.
+
+Uncertainty, debate, spelling variants, and conflicting alternatives remain Single when every stated option belongs to the requested event and is represented by the extracted event location. Return Multiple only when a location-bearing detail is unrelated to the requested event or missing from the extraction.
+
+Judge only location-bearing details actually visible in the answer: announcing further theories or details does not count when the text is truncated before stating them, but an explicitly negated location candidate does count. Repeating the same place for another person, event, or context counts as Multiple. A location incorrectly anchored to another person or event is therefore Multiple even when it is the only extracted location. Do not count purely rhetorical or metonymic wording that does not assert a location, such as "fans around the world" or "Hollywood icon".
+
+Return only Single or Multiple.
+
+Question: {question}
+Extracted event location: {event_location}
+Complete answer: {answer}

@@ -1,0 +1,51 @@
+<View>
+  <Style>
+    .card { padding: 16px; margin-bottom: 14px; border: 1px solid #d8dee8; border-radius: 10px; }
+  </Style>
+  <Header value="Correctness audit" />
+  <Text name="progress" value="$progress" />
+  <View className="card">
+    <Header value="Question" size="4" />
+    <Text name="question" value="$prompt" />
+    <Header value="Answer to judge" size="4" />
+    <Text name="answer" value="$response" />
+  </View>
+  <View className="card">
+    <Header value="Reference information" size="4" />
+    <Text name="reference" value="$reference_text" />
+    <Text name="sources" value="$reference_sources" />
+    <Text name="reference_rules" value="Granola lists acceptable finer/coarser answers. A source link alone is not evidence until read." />
+  </View>
+  <View className="card">
+    <Header value="1. Using the references only" size="4" />
+    <Text name="rules" value="Judge exactly the displayed answer, not an imagined continuation. Supported paraphrases and meaningful coarser answers can be Correct. A material contradicted claim makes the answer Incorrect. Missing support is not proof of falsity: select Cannot determine for an unsupported attribute, extra claim or conflicting references. A concrete candidate with hedging is not an abstention. Record this decision BEFORE looking anything up." />
+    <Choices name="reference_correctness" toName="answer" choice="single" required="true">
+      <Choice value="Correct" hotkey="5" />
+      <Choice value="Incorrect" hotkey="6" />
+      <Choice value="Abstain" hotkey="7" />
+      <Choice value="Cannot determine" hotkey="8" />
+    </Choices>
+  </View>
+  <View className="card">
+    <Header value="2. Verification and final judgment" size="4" />
+    <Text name="verification_rules" value="Use targeted web lookup for reference gaps, suspicious/conflicting references or time-sensitive facts. Prefer original/official sources, then reliable reference works. Search snippets and AI-generated answers alone are insufficient. Record what the source establishes; a coarser answer must still answer the question meaningfully. Use the question's stated time, or the dataset reference period where known; do not silently replace historical gold with today's facts. If unresolved, keep Cannot determine. Do not change the reference-only judgment after searching." />
+    <Choices name="evidence_route" toName="answer" choice="single" required="true">
+      <Choice value="References only" />
+      <Choice value="Web verification" />
+      <Choice value="Unresolved without lookup" />
+    </Choices>
+    <View visibleWhen="choice-selected" whenTagName="evidence_route" whenChoiceValue="Web verification">
+      <Header value="Evidence URL(s)" size="5" />
+      <TextArea name="evidence_urls" toName="answer" rows="2" required="true" placeholder="One http(s) source URL per line" />
+      <Header value="What does the evidence establish?" size="5" />
+      <TextArea name="evidence_note" toName="answer" rows="3" required="true" placeholder="Short supporting fact or quotation; mention the relevant date for changing facts" />
+    </View>
+    <Choices name="correctness" toName="answer" choice="single" required="true">
+      <Choice value="Correct" hotkey="1" />
+      <Choice value="Incorrect" hotkey="2" />
+      <Choice value="Abstain" hotkey="3" />
+      <Choice value="Cannot determine" hotkey="4" />
+    </Choices>
+    <TextArea name="review_note" toName="answer" rows="2" placeholder="Optional: ambiguity, reference issue, or a case needing a second reviewer" />
+  </View>
+</View>

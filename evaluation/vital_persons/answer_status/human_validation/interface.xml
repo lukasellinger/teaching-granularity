@@ -1,0 +1,22 @@
+<View>
+  <Style>
+    .as-card { padding: 18px; margin: 12px 0; border: 1px solid #dbe2ec; border-radius: 9px; background: #fff; color: #182338; }
+    .as-answer { white-space: pre-wrap; font-size: 16px; line-height: 1.6; }
+  </Style>
+  <Header value="Does this response supply an answer?" />
+  <Text name="instructions" value="Read the question and entire response. Does it give a candidate answer to the requested birth/death date or location, or explicitly reject the premise? Do not judge factual correctness or research facts. Coarse, partial, hedged and conflicting candidates count as Answer. An unnamed home or hospital counts as a location. Statements such as 'is still alive' or 'has not died' count as Answer, even with a knowledge-cutoff caveat. Choose No answer for unknown values, refusals, irrelevant or empty text without a requested candidate or premise rejection. Listing rejected candidates only to explain an IDK response is No answer. Other events or people do not answer the question." />
+  <View className="as-card">
+    <Header value="Question" size="4" />
+    <Text name="question" value="$question" />
+  </View>
+  <View className="as-card as-answer">
+    <Header value="Response" size="4" />
+    <Text name="answer" value="$answer" />
+  </View>
+  <Text name="examples" value="The exact day is unknown, but she died in 1900 → Answer. The location is undocumented; he was born in Paris → No answer for a deathplace question. Possibly York or Bath → Answer. She was a celebrated painter → No answer for a birth-date question." />
+  <Choices name="answer_status" toName="answer" choice="single-radio" required="true" showInline="true">
+    <Choice value="Answer" hotkey="1" />
+    <Choice value="No answer" hotkey="2" />
+  </Choices>
+  <TextArea name="comment" toName="answer" placeholder="Optional note on an ambiguous case" rows="2" />
+</View>

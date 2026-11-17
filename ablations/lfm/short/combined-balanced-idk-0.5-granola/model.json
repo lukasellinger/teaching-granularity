@@ -1,0 +1,15 @@
+{
+  "adapter_sha256": "c49472da5da10a94694af06dec51277a5ec13516bf234b85bff0e60e2d4381c2",
+  "files": {
+    "adapter_config.json": "ef7e7b8142a3fc5e8231a8d2d0b8b398c1b48d935fb9e8a078541a08194a05a6",
+    "adapter_model.safetensors": "6969e869eaf0cb18972271562836c0060f83062a19c8296d53661936270e2769",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ablations/lfm/short/combined-balanced-idk-0.5-granola",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ablations/lfm/short/combined-balanced-idk-0.5-granola"
+}

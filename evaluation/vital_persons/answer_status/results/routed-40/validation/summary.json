@@ -1,0 +1,251 @@
+{
+  "partition": "evaluation",
+  "prompt_sha256": "dc87022c3edd9c38e6334db3a9b1a50a4589251486d7c403b804842847ed787a",
+  "judge_model": "gpt-6-luna",
+  "scope": "full_answer",
+  "overall": {
+    "judge": {
+      "items": 40,
+      "agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "confusion_human_rows": {
+        "Answer": {
+          "Answer": 37,
+          "No answer": 0
+        },
+        "No answer": {
+          "Answer": 0,
+          "No answer": 3
+        }
+      },
+      "no_answer_precision": 1.0,
+      "no_answer_recall": 1.0,
+      "false_no_answers": 0,
+      "missed_no_answers": 0
+    },
+    "canonical_detector": {
+      "items": 40,
+      "agreement": 0.925,
+      "cohen_kappa": 0.0,
+      "confusion_human_rows": {
+        "Answer": {
+          "Answer": 37,
+          "No answer": 0
+        },
+        "No answer": {
+          "Answer": 3,
+          "No answer": 0
+        }
+      },
+      "no_answer_precision": null,
+      "no_answer_recall": 0.0,
+      "false_no_answers": 0,
+      "missed_no_answers": 3
+    }
+  },
+  "by_cohort": {
+    "routed": {
+      "judge": {
+        "items": 40,
+        "agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 37,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 3
+          }
+        },
+        "no_answer_precision": 1.0,
+        "no_answer_recall": 1.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      },
+      "canonical_detector": {
+        "items": 40,
+        "agreement": 0.925,
+        "cohen_kappa": 0.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 37,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 3,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": 0.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 3
+      }
+    }
+  },
+  "by_model": {
+    "gemma": {
+      "judge": {
+        "items": 10,
+        "agreement": 1.0,
+        "cohen_kappa": null,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 10,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": null,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      },
+      "canonical_detector": {
+        "items": 10,
+        "agreement": 1.0,
+        "cohen_kappa": null,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 10,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": null,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      }
+    },
+    "lfm": {
+      "judge": {
+        "items": 9,
+        "agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 8,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 1
+          }
+        },
+        "no_answer_precision": 1.0,
+        "no_answer_recall": 1.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      },
+      "canonical_detector": {
+        "items": 9,
+        "agreement": 0.8888888888888888,
+        "cohen_kappa": 0.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 8,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 1,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": 0.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 1
+      }
+    },
+    "ministral": {
+      "judge": {
+        "items": 9,
+        "agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 8,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 1
+          }
+        },
+        "no_answer_precision": 1.0,
+        "no_answer_recall": 1.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      },
+      "canonical_detector": {
+        "items": 9,
+        "agreement": 0.8888888888888888,
+        "cohen_kappa": 0.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 8,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 1,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": 0.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 1
+      }
+    },
+    "qwen": {
+      "judge": {
+        "items": 12,
+        "agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 11,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 0,
+            "No answer": 1
+          }
+        },
+        "no_answer_precision": 1.0,
+        "no_answer_recall": 1.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 0
+      },
+      "canonical_detector": {
+        "items": 12,
+        "agreement": 0.9166666666666666,
+        "cohen_kappa": 0.0,
+        "confusion_human_rows": {
+          "Answer": {
+            "Answer": 11,
+            "No answer": 0
+          },
+          "No answer": {
+            "Answer": 1,
+            "No answer": 0
+          }
+        },
+        "no_answer_precision": null,
+        "no_answer_recall": 0.0,
+        "false_no_answers": 0,
+        "missed_no_answers": 1
+      }
+    }
+  },
+  "note": "Balanced audit of routed failures; not population-level no-answer prevalence."
+}

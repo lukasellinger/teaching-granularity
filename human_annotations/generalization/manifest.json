@@ -1,0 +1,42 @@
+{
+  "pairs": 200,
+  "independent_granularity_labels": 400,
+  "adjudicated_pairs": 64,
+  "correctness_answers": 136,
+  "annotation_files_sha256": {
+    "adjudication.csv": "d35f65d8262000d805443bbcbb2a104511c0c17beb6319e13a943f82c781da32",
+    "annotator-1.csv": "ab2a94a6fbb783da5b08aeabdff0daa352b312535b944e02b54eb347e689a8d8",
+    "annotator-2.csv": "84ec2508635729a68c230b99ed7516d8e8c8d2dc5ffe9d896c88c5da8f3b1c36",
+    "correctness.csv": "60877aec86caa9c6ab782c8bd3c207419a0805401d8c21ab2ea839092b09f3c6"
+  },
+  "data_policy": "Original human labels, sampled model responses, numerical features and upstream source IDs; no benchmark question strings or reference hierarchies.",
+  "question_group": "Ordinal of normalized question in the original sorted group list; preserves original question-grouped CV without distributing question text.",
+  "datasets": {
+    "granola": {
+      "dataset_id": "google/granola-entity-questions",
+      "revision": "695e29a15ec509f9e167a920206dad716af5c98d",
+      "split": "train",
+      "held_out_relations": [
+        "P50",
+        "P26",
+        "P127",
+        "P264"
+      ]
+    },
+    "simpleqa": {
+      "dataset_id": "basicv8vc/SimpleQA",
+      "revision": "e319282ab125c3dbd0c7fd00be2e4dd54e7e8f94",
+      "split": "test"
+    },
+    "truthfulqa": {
+      "dataset_id": "domenicrosati/TruthfulQA",
+      "revision": "6a037f8d9403bbf12fb4cf6d0e91956df6a64e50",
+      "split": "train"
+    }
+  },
+  "files_sha256": {
+    "correctness.jsonl": "326af90335a92a56540b5d243d98725defc6c193e3d2684a0d5bed4dfcd7f44b",
+    "granularity.jsonl": "23efdb57a5411963a030784a7fe9b0058d96378c14a3cbd38b2415b4fe069835",
+    "pairs.jsonl": "b828a399140d470c640b22fbfccef85bb6f25cb70e9ffcc80a329dfb4c1edae1"
+  }
+}

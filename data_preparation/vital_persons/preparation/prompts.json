@@ -1,0 +1,40 @@
+{
+  "birth": [
+    "When was {person} born?",
+    "Do you know when {person} was born?",
+    "Can you tell me when {person} was born?",
+    "Could you tell me when {person} was born?",
+    "Please tell me when {person} was born.",
+    "What do we know about when {person} was born?",
+    "Would you tell me when {person} was born?"
+  ],
+  "death": [
+    "When did {person} die?",
+    "Do you know when {person} died?",
+    "Can you tell me when {person} died?",
+    "Could you tell me when {person} died?",
+    "Please tell me when {person} died.",
+    "What do we know about when {person} died?",
+    "Would you tell me when {person} died?"
+  ],
+  "birthplace": [
+    "Where was {person} born?",
+    "Do you know where {person} was born?",
+    "Can you tell me where {person} was born?",
+    "Could you tell me where {person} was born?",
+    "Please tell me where {person} was born.",
+    "What do we know about where {person} was born?",
+    "Would you tell me where {person} was born?",
+    "In what location was {person} born?"
+  ],
+  "deathplace": [
+    "Where did {person} die?",
+    "Do you know where {person} died?",
+    "Can you tell me where {person} died?",
+    "Could you tell me where {person} died?",
+    "Please tell me where {person} died.",
+    "What do we know about where {person} died?",
+    "Would you tell me where {person} died?",
+    "In what location did {person} die?"
+  ]
+}

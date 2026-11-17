@@ -1,0 +1,8 @@
+{
+  "epochs": 20, "patience": 6, "eval_steps": 10,
+  "learning_rate": 0.0001, "batch_size": 4, "gradient_accumulation": 8,
+  "lora_rank": 16, "max_length": 1024, "seed": 42,
+  "gradient_checkpointing": true,
+  "loss": "label_weighted", "weight": 3.0,
+  "minimum_multiple_recall": 0.975
+}

@@ -1,0 +1,5 @@
+{
+  "model": "gpt-6-luna",
+  "backend": "https://api.openai.com/v1",
+  "prompt_sha256": "91d6092e569c7534f5d320242d588be9a66292bc3a526e77dd9a00b3af647271"
+}

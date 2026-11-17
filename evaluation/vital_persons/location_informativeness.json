@@ -1,0 +1,21 @@
+{
+  "metadata_sha256": "67e21a32df8086803718120869dc314a8fcb531ce8df78d5ae1284762ac2ffff",
+  "location_records": 2544,
+  "prior_candidates": 1092,
+  "remaining_candidates": {
+    "continent": 306.80558096997987,
+    "country": 31.99973045196732,
+    "region": 4.178192875127719,
+    "city": 1.0,
+    "place": 1.0
+  },
+  "informativeness": {
+    "continent": 0.18147431856723387,
+    "country": 0.5045964370514611,
+    "region": 0.7956079727960204,
+    "city": 1.0,
+    "place": 1.0
+  },
+  "definition": "Distinct city labels across birth/death gold locations. Event-weighted geometric means of compatible distinct-city counts; regions use within-event then across-event geometric means.",
+  "original_script": "uncertainty-granularity-calibration/scripts/calc_location_informativeness.py"
+}

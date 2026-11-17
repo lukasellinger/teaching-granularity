@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "alpha": 0.30000000000000004,
+    "band": 0.3930460840858035,
+    "granuscore_scale": 11.279765054462944,
+    "length_scale": 7.389775826796737
+  },
+  "fit_pairs": 162,
+  "scope": "first_sentence",
+  "formula": "alpha*(FT GranuScore-base GranuScore)/granuscore_scale + (1-alpha)*(base words-FT words)/length_scale",
+  "decision": "Inside +/-band: equal; above band: FT coarser; below -band: FT finer.",
+  "calibration_in_sample": {
+    "n": 162,
+    "accuracy": 0.7283950617283951,
+    "kappa": 0.5308056872037915
+  }
+}

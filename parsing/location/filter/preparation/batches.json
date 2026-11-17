@@ -1,0 +1,67 @@
+{
+  "batches": [
+    {
+      "batch": "development-150-v1",
+      "partition": "development",
+      "seed": 20261008,
+      "size": 150,
+      "source": "extractor",
+      "excluded_previous_people": 0,
+      "original_items_sha256": "e39a23aa3b2826f359736a8ec19c9079ef342169a628fe362e890ef2ddaa0541",
+      "original_manifest_sha256": "1869d0d284c31964d6aa3532148aa5b90099bbf90dfbe2bae317ec43689f1449"
+    },
+    {
+      "batch": "development-150-v2",
+      "partition": "development",
+      "seed": 20261009,
+      "size": 150,
+      "source": "extractor",
+      "excluded_previous_people": 150,
+      "original_items_sha256": "0a89a248a60c9a8a9d2f0529878ce8ebfda57b4ff3c15e9406739ec985d96f7d",
+      "original_manifest_sha256": "44d095a06ba3cba5485cfcc2acd2138ec78dca3832701f1af3de609c37860b5a"
+    },
+    {
+      "batch": "development-200-v3",
+      "partition": "development",
+      "seed": 20261010,
+      "size": 200,
+      "source": "generations",
+      "excluded_previous_people": 300,
+      "original_items_sha256": "9fe9a10627e2328efe6d2f04cb47c1c0bfb6d5f49e726b783be37c8d502df2dc",
+      "original_manifest_sha256": "bce8542a1f718224998702a6a5c80292fc5ac8959b9eb4aa128a3ad93d2caaed"
+    },
+    {
+      "batch": "heldout-100-v1",
+      "partition": "heldout",
+      "seed": 20261011,
+      "size": 100,
+      "source": "generations",
+      "excluded_previous_people": 500,
+      "original_items_sha256": "1da4e61095b2d41552e489077f83c9b2e2cff2d43a3685b6d3a348fef88b3e46",
+      "original_manifest_sha256": "b5f94105d8770ff1adaa03a115f73650d14972a39b5f6e1fffedf9bc876e5a58"
+    },
+    {
+      "batch": "development-200-v4",
+      "partition": "development",
+      "seed": 20261012,
+      "size": 200,
+      "source": "generations",
+      "excluded_previous_people": 600,
+      "original_items_sha256": "34ff39388406de39c5a0b3c0df2e586c4796e52908710b0c8572b6a2ed2adfc3",
+      "original_manifest_sha256": "e7cac73d1a9579022b5d3cfdaed2da8fb2560067ebdf198479cbc8d42f7c5531"
+    },
+    {
+      "batch": "heldout-100-v2",
+      "partition": "heldout",
+      "seed": 20261013,
+      "size": 100,
+      "source": "generations",
+      "excluded_previous_people": 800,
+      "original_items_sha256": "68b4a38fceae6d8a34f48e8847d5de029da7c4a115dc03b30a945b2cf3e62828",
+      "original_manifest_sha256": "4b0d2d32467403bb6da6d89de0ccbd448124393b203d9f52c37ccc7d2415c63b"
+    }
+  ],
+  "annotation_source": "Codex teacher labels with selective human review; legacy reviewed flags do not identify individual human reviews.",
+  "source": "Original selected batch items joined with the accepted, corrected released labels. No train/dev membership stored; assemble recomputes it.",
+  "sampling_population_note": "The full generation/extraction population is not bundled here. sample accepts its ordered JSONL export. Saved annotated batches suffice to rebuild all released splits."
+}

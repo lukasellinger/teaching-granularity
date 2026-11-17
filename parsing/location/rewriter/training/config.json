@@ -1,0 +1,6 @@
+{
+  "epochs": 20, "patience": 5, "eval_steps": 10,
+  "learning_rate": 0.0001, "batch_size": 2, "gradient_accumulation": 16,
+  "lora_rank": 16, "max_length": 2048, "seed": 42,
+  "gradient_checkpointing": true, "loss": "token_ce", "weight": 1.0
+}

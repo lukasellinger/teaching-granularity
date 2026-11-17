@@ -1,0 +1,25 @@
+{
+  "adapter_sha256": "03c1636c54fc59d4554609a18c6e7f54217158c7f20a2c4f372c92d8377e1baa",
+  "files": {
+    "adapter_config.json": "22d0e44a723a4e197e5d94f64b8951942b0cd342e7dfb984c741d9783fa45cf8",
+    "adapter_model.safetensors": "6a2e2f6bd995cdc523705c8a706a6a3e1c8ca36862dff599d2a47943b63a6ae0",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "lfm",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/lfm",
+  "model_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+  "base_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "training_config": "training/configs/lfm.json",
+  "training_results": "training/references/lfm.json",
+  "vital_persons_results": "evaluation/vital_persons/results/lfm",
+  "generalization_generations": {
+    "granola": "generalization/generations/granola/lfm.jsonl",
+    "simpleqa": "generalization/generations/simpleqa/lfm.jsonl",
+    "truthfulqa": "generalization/generations/truthfulqa/lfm.jsonl"
+  }
+}

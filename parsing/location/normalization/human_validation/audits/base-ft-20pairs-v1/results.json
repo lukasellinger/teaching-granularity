@@ -1,0 +1,1115 @@
+{
+  "evaluation_taxonomy": "four-level",
+  "processing": {
+    "cases": 40,
+    "confirmed_correct": 36,
+    "incorrect": 4,
+    "unresolved": 0,
+    "confirmed_correct_fraction": 0.9,
+    "denominator": "All frozen cases; unresolved judgments remain in the denominator.",
+    "component_judgments": {
+      "extraction_correct": {
+        "Correct": 40
+      },
+      "entity": {
+        "Not applicable": 8,
+        "Correct": 29,
+        "Incorrect": 3
+      },
+      "hierarchy": {
+        "Not applicable": 8,
+        "Correct": 29,
+        "Cannot determine": 2,
+        "Incorrect": 1
+      },
+      "granularity": {
+        "Not applicable": 9,
+        "Correct": 28,
+        "Cannot determine": 3
+      },
+      "omissions": {
+        "Not applicable": 9,
+        "Correct": 28,
+        "Cannot determine": 3
+      },
+      "consensus": {
+        "Not applicable": 9,
+        "Correct": 28,
+        "Cannot determine": 3
+      }
+    },
+    "judgments": [
+      {
+        "item_id": "geo-01",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4415",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-02",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4416",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-03",
+        "verdict": "incorrect",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Incorrect",
+          "hierarchy": "Correct",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4417",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-04",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4418",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-05",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4419",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-06",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4420",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-07",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4421",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-08",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4422",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-09",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4423",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-10",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4424",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-11",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4425",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-12",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4426",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-13",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4427",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-14",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4428",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-15",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4429",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-16",
+        "verdict": "incorrect",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Incorrect",
+          "hierarchy": "Cannot determine",
+          "granularity": "Cannot determine",
+          "omissions": "Cannot determine",
+          "consensus": "Cannot determine"
+        },
+        "annotation_id": "4430",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-17",
+        "verdict": "incorrect",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Incorrect",
+          "hierarchy": "Cannot determine",
+          "granularity": "Cannot determine",
+          "omissions": "Cannot determine",
+          "consensus": "Cannot determine"
+        },
+        "annotation_id": "4431",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-18",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4432",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-19",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4433",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-20",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4434",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-21",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4435",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-22",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4436",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-23",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4437",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-24",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4438",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-25",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4439",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-26",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4440",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-27",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4441",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-28",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4442",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-29",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4443",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-30",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4444",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-31",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4445",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-32",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4446",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-33",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4447",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-34",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4448",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-35",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4449",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-36",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4450",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-37",
+        "verdict": "incorrect",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Incorrect",
+          "granularity": "Cannot determine",
+          "omissions": "Cannot determine",
+          "consensus": "Cannot determine"
+        },
+        "annotation_id": "4451",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-38",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4452",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-39",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Correct",
+          "hierarchy": "Correct",
+          "granularity": "Correct",
+          "omissions": "Correct",
+          "consensus": "Correct"
+        },
+        "annotation_id": "4453",
+        "annotator": "1",
+        "notes": ""
+      },
+      {
+        "item_id": "geo-40",
+        "verdict": "correct",
+        "judgments": {
+          "extraction_correct": "Correct",
+          "entity": "Not applicable",
+          "hierarchy": "Not applicable",
+          "granularity": "Not applicable",
+          "omissions": "Not applicable",
+          "consensus": "Not applicable"
+        },
+        "annotation_id": "4454",
+        "annotator": "1",
+        "notes": ""
+      }
+    ]
+  },
+  "by_method": {
+    "base_plain": {
+      "responses": 20,
+      "processing_counts": {
+        "incorrect": 4,
+        "correct": 16
+      },
+      "evaluation_resolved": 20,
+      "correctness_labels_changed": 2,
+      "utility_scores_changed": 2,
+      "mean_utility_change_x100_resolved": 20.0
+    },
+    "finetuned": {
+      "responses": 20,
+      "processing_counts": {
+        "correct": 20
+      },
+      "evaluation_resolved": 20,
+      "correctness_labels_changed": 0,
+      "utility_scores_changed": 0,
+      "mean_utility_change_x100_resolved": 0.0
+    }
+  },
+  "evaluation_judgments": [
+    {
+      "item_id": "geo-01",
+      "pair_id": "pair-09",
+      "model": "ministral",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-02",
+      "pair_id": "pair-04",
+      "model": "gemma",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-03",
+      "pair_id": "pair-17",
+      "model": "qwen",
+      "method": "base_plain",
+      "processing_verdict": "incorrect",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": true,
+      "utility_change": 2.0
+    },
+    {
+      "item_id": "geo-04",
+      "pair_id": "pair-15",
+      "model": "lfm",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-05",
+      "pair_id": "pair-15",
+      "model": "lfm",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-06",
+      "pair_id": "pair-04",
+      "model": "gemma",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-07",
+      "pair_id": "pair-11",
+      "model": "gemma",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-08",
+      "pair_id": "pair-14",
+      "model": "gemma",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-09",
+      "pair_id": "pair-18",
+      "model": "lfm",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-10",
+      "pair_id": "pair-02",
+      "model": "ministral",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-11",
+      "pair_id": "pair-17",
+      "model": "qwen",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-12",
+      "pair_id": "pair-10",
+      "model": "qwen",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-13",
+      "pair_id": "pair-05",
+      "model": "lfm",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-14",
+      "pair_id": "pair-16",
+      "model": "gemma",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-15",
+      "pair_id": "pair-06",
+      "model": "ministral",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-16",
+      "pair_id": "pair-13",
+      "model": "lfm",
+      "method": "base_plain",
+      "processing_verdict": "incorrect",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-17",
+      "pair_id": "pair-03",
+      "model": "ministral",
+      "method": "base_plain",
+      "processing_verdict": "incorrect",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-18",
+      "pair_id": "pair-03",
+      "model": "ministral",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-19",
+      "pair_id": "pair-14",
+      "model": "gemma",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-20",
+      "pair_id": "pair-19",
+      "model": "qwen",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-21",
+      "pair_id": "pair-09",
+      "model": "ministral",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-22",
+      "pair_id": "pair-02",
+      "model": "ministral",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-23",
+      "pair_id": "pair-16",
+      "model": "gemma",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-24",
+      "pair_id": "pair-08",
+      "model": "lfm",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-25",
+      "pair_id": "pair-13",
+      "model": "lfm",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-26",
+      "pair_id": "pair-20",
+      "model": "qwen",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-27",
+      "pair_id": "pair-06",
+      "model": "ministral",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-28",
+      "pair_id": "pair-12",
+      "model": "ministral",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.18147431856723387,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-29",
+      "pair_id": "pair-01",
+      "model": "gemma",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-30",
+      "pair_id": "pair-20",
+      "model": "qwen",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-31",
+      "pair_id": "pair-19",
+      "model": "qwen",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-32",
+      "pair_id": "pair-12",
+      "model": "ministral",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-33",
+      "pair_id": "pair-18",
+      "model": "lfm",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-34",
+      "pair_id": "pair-10",
+      "model": "qwen",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.5045964370514611,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-35",
+      "pair_id": "pair-11",
+      "model": "gemma",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 0.7956079727960204,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-36",
+      "pair_id": "pair-07",
+      "model": "qwen",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-37",
+      "pair_id": "pair-07",
+      "model": "qwen",
+      "method": "base_plain",
+      "processing_verdict": "incorrect",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": true,
+      "utility_change": 2.0
+    },
+    {
+      "item_id": "geo-38",
+      "pair_id": "pair-08",
+      "model": "lfm",
+      "method": "base_plain",
+      "processing_verdict": "correct",
+      "manual_outcome": "Incorrect or non-evaluable",
+      "manual_utility": -1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-39",
+      "pair_id": "pair-01",
+      "model": "gemma",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "Correct",
+      "manual_utility": 1.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    },
+    {
+      "item_id": "geo-40",
+      "pair_id": "pair-05",
+      "model": "lfm",
+      "method": "finetuned",
+      "processing_verdict": "correct",
+      "manual_outcome": "No answer",
+      "manual_utility": 0.0,
+      "correctness_label_changed": false,
+      "utility_change": 0.0
+    }
+  ],
+  "complete_pairs_for_utility": 20,
+  "audited_ft_minus_base_utility_difference_change_x100": -20.0,
+  "scope": "Descriptive results for the small balanced audit, not a population correction or full-table ranking estimate.",
+  "scorer_sha256": "a8c2259ae2a51762156eec6a6e3a5ffd9c8de2aad7f84ea5faeaf9a28c3f74fb",
+  "annotations_sha256": "5f464498821c9fcca6ec80e8673fc31b5c43dd7e9d3b9efd5de0165505a6f839",
+  "frozen_sha256": "0664b10fb55c31c49f9789e4f468c881a1d17c2c6dd1043002758e9b873cb454"
+}

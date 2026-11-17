@@ -1,0 +1,44 @@
+{
+  "max_new_tokens": 50,
+  "dtype": "bfloat16",
+  "attention_implementation": "sdpa",
+  "do_sample": false,
+  "system_prompt": null,
+  "user_prompt_template": "{question}",
+  "enable_thinking": false,
+  "seed": 42,
+  "models": {
+    "lfm": {
+      "model_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+      "revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+      "adapter_repo": "lukasellinger/teaching-granularity-adapters",
+      "adapter_revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+      "adapter_subfolder": "lfm",
+      "batch_size": 32
+    },
+    "qwen": {
+      "model_id": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "adapter_repo": "lukasellinger/teaching-granularity-adapters",
+      "adapter_revision": "cd4f4ff6cb7b9d9a0f82ab022f8d03b8a1414078",
+      "adapter_subfolder": "qwen",
+      "batch_size": 16
+    },
+    "gemma": {
+      "model_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "adapter_repo": "lukasellinger/teaching-granularity-adapters",
+      "adapter_revision": "cd4f4ff6cb7b9d9a0f82ab022f8d03b8a1414078",
+      "adapter_subfolder": "gemma",
+      "batch_size": 16
+    },
+    "ministral": {
+      "model_id": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+      "revision": "b6d637bef2393152b3da2b2fde72eecdee30557e",
+      "adapter_repo": "lukasellinger/teaching-granularity-adapters",
+      "adapter_revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+      "adapter_subfolder": "ministral",
+      "batch_size": 16
+    }
+  }
+}

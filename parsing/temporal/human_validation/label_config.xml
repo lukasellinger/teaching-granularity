@@ -1,0 +1,141 @@
+<View className="audit-root">
+  <Style>
+    .audit-root { background: #f3f6fb; color: #172033; font-family: Inter, Roboto, sans-serif; padding: 18px; }
+    .audit-shell { max-width: 1320px; margin: 0 auto; }
+    .topbar { background: linear-gradient(135deg, #172554, #1d4ed8); color: white; border-radius: 12px; padding: 18px 22px; margin-bottom: 14px; }
+    .modality { display: inline-block; background: #dbeafe; color: #1e3a8a; border-radius: 999px; padding: 5px 12px; font-weight: 700; margin-bottom: 10px; }
+    .card { background: white; border: 1px solid #dbe3ef; border-radius: 12px; padding: 16px 18px; margin-bottom: 14px; box-shadow: 0 3px 10px rgba(15,23,42,.05); }
+    .answer-card { border-left: 5px solid #2563eb; }
+    .pipeline-card { border-left: 5px solid #7c3aed; }
+    .help-card { background: #fff7ed; border: 1px solid #fdba74; border-left: 5px solid #f97316; }
+    .review-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .review-card { background: white; border: 1px solid #dbe3ef; border-radius: 12px; padding: 15px 17px; }
+    .wikidata-card { background: #f0fdf4; border-color: #86efac; }
+    .final-card { background: #eff6ff; border-color: #93c5fd; }
+    .codebox { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px; margin-bottom: 8px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    @media (max-width: 900px) { .review-grid { grid-template-columns: 1fr; } }
+  </Style>
+
+  <View className="audit-shell">
+    <View className="topbar">
+      <Header value="Extraction and normalization audit"/>
+      <Text name="task_uid" value="Task: $task_uid"/>
+    </View>
+
+    <View className="modality">
+      <Text name="modality" value="Modality: $modality"/>
+    </View>
+
+    <View className="card answer-card">
+      <Header value="Question"/>
+      <Text name="prompt" value="$prompt"/>
+      <Header value="Generated answer"/>
+      <Text name="answer" value="$answer"/>
+      <Header value="Answer status"/>
+      <Choices name="answer_status" toName="answer" choice="single" showInline="true" required="true">
+        <Choice value="One clear requested value"/>
+        <Choice value="Multiple requested values"/>
+        <Choice value="No requested value"/>
+        <Choice value="Abstention"/>
+        <Choice value="Cannot determine"/>
+      </Choices>
+    </View>
+
+    <View className="card pipeline-card">
+      <Header value="Automatic pipeline output"/>
+      <Text name="automatic_category" value="Predicted level: $automatic_category"/>
+      <Text name="automatic_parse_status" value="Parser status: $automatic_parse_status"/>
+      <View className="codebox">
+        <Header value="1. Extracted mentions"/>
+        <Text name="raw_extracted_mentions" value="$raw_extracted_mentions"/>
+      </View>
+      <View className="codebox">
+        <Header value="2. Normalized relevant candidates"/>
+        <Text name="normalized_relevant_candidates" value="$normalized_relevant_candidates"/>
+      </View>
+      <View className="codebox">
+        <Header value="3. Final prediction"/>
+        <Text name="final_prediction" value="$final_prediction"/>
+      </View>
+    </View>
+
+    <View className="card help-card">
+      <Header value="When the predicted level is IDK"/>
+      <Text name="idk_help_1" value="If the answer abstains or contains no requested value, mark granularity Correct and non-applicable extraction, normalization, and Wikidata fields Not applicable."/>
+      <Text name="idk_help_2" value="If the answer contains a requested value, IDK is wrong: mark granularity and overall pipeline Incorrect, then flag the component that missed it."/>
+    </View>
+
+    <View className="review-grid">
+      <View className="review-card">
+        <Header value="Extraction"/>
+        <Header value="Correct extracted span/value?"/>
+        <Choices name="span_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="Complete, without missing or extra values?"/>
+        <Choices name="completeness_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="Anchored to the requested event?"/>
+        <Choices name="event_anchoring_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="Multiple values handled correctly?"/>
+        <Choices name="multiple_values_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+      </View>
+
+      <View className="review-card">
+        <Header value="Interpretation"/>
+        <Header value="Normalized value correct?"/>
+        <Choices name="normalization_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="Predicted granularity correct?"/>
+        <Choices name="granularity_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+      </View>
+
+      <View className="review-card wikidata-card">
+        <Header value="Location only — Wikidata"/>
+        <Text name="wikidata_help" value="For temporal cases, select Not applicable for both fields."/>
+        <Header value="Correct Wikidata entity selected?"/>
+        <Choices name="wikidata_entity_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="City/region/country/continent completion correct?"/>
+        <Choices name="wikidata_completion_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+      </View>
+
+      <View className="review-card final-card">
+        <Header value="Final decision"/>
+        <Header value="Complete pipeline output correct?"/>
+        <Choices name="overall_pipeline_review" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="Correct"/><Choice value="Incorrect"/><Choice value="Not applicable"/><Choice value="Cannot determine"/>
+        </Choices>
+        <Header value="Error types"/>
+        <Choices name="error_types" toName="answer" choice="multiple" required="true">
+          <Choice value="No error"/>
+          <Choice value="Span extraction"/>
+          <Choice value="Missing or extra value"/>
+          <Choice value="Event anchoring"/>
+          <Choice value="Normalization"/>
+          <Choice value="Wikidata entity resolution"/>
+          <Choice value="Wikidata hierarchy completion"/>
+          <Choice value="Granularity classification"/>
+          <Choice value="Multiple-value handling"/>
+          <Choice value="Other"/>
+        </Choices>
+        <Header value="Confidence"/>
+        <Choices name="confidence" toName="answer" choice="single" showInline="true" required="true">
+          <Choice value="High"/><Choice value="Medium"/><Choice value="Low"/>
+        </Choices>
+        <TextArea name="comment" toName="answer" placeholder="Explain incorrect or uncertain cases" rows="3"/>
+      </View>
+    </View>
+  </View>
+</View>

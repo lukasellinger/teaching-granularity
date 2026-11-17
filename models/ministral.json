@@ -1,0 +1,25 @@
+{
+  "adapter_sha256": "80d85c99ed758032b4ab4934508ee3694483f08c3045ad66c17f06a2e97ae12a",
+  "files": {
+    "adapter_config.json": "620f8ef241947c0dedd37877a314db87d748aea3d158d93deb9189cbd3ffd5d1",
+    "adapter_model.safetensors": "6eac1cd552e397ee6aae4b4efbda2ab764e363b5bbf5b3f66dd29d677fc13edc",
+    "chat_template.jinja": "29272f806c61de849d785f35af48ed266b7ce7b69e5622f854a9bab801dd1582",
+    "tokenizer.json": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+    "tokenizer_config.json": "ce7ea8d28bb4ba4350064186dcf3a6dcef497b728f55b1ceee379412a8af36b2"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ministral",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ministral",
+  "model_id": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+  "base_revision": "b6d637bef2393152b3da2b2fde72eecdee30557e",
+  "training_config": "training/configs/ministral.json",
+  "training_results": "training/references/ministral.json",
+  "vital_persons_results": "evaluation/vital_persons/results/ministral",
+  "generalization_generations": {
+    "granola": "generalization/generations/granola/ministral.jsonl",
+    "simpleqa": "generalization/generations/simpleqa/ministral.jsonl",
+    "truthfulqa": "generalization/generations/truthfulqa/ministral.jsonl"
+  }
+}

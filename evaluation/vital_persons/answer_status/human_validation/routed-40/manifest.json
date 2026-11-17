@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "scope": "full_answer",
+  "evaluation_items": 40,
+  "eligible_rows": 2421,
+  "sampling": "Balanced over model/modality/method where eligible distinct responses exist; content deduplicated.",
+  "routing": "Noncanonical responses whose saved parse_status is not parsed.",
+  "caveat": "Balanced audit of routed failures, not a population prevalence estimate.",
+  "items_sha256": "101b91780f1effefe50307c9ddeea1e70ebd798651fc1668330644662e3626df"
+}

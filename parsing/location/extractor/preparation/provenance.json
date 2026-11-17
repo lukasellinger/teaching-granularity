@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "dev_fraction_of_people": 0.2,
+  "pool_examples": 668,
+  "pool_person_groups": 665,
+  "annotation_note": "Curated model responses and synthetic examples with project reference extractions. Stored review flags are preserved; independent human review is not inferred.",
+  "path_base": "Paths are relative to this file directory.",
+  "preparation_script": "../prepare.py",
+  "files": {
+    "annotations.jsonl": "bec03ae1aa76b29c04658ba68a5f620bcc351dd25bb2111f5a2af07f2210079d"
+  }
+}

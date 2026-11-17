@@ -1,0 +1,1 @@
+"""Shared location pipeline components."""

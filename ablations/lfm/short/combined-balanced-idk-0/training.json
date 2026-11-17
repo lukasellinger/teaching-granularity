@@ -1,0 +1,124 @@
+{
+  "completed_global_step": 600,
+  "best_checkpoint_step": 300,
+  "resolved_model_revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+  "train": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 9797.000000000233
+    },
+    "idk_realizations": 0,
+    "idk_semantic_cases": 0,
+    "idk_sft_weight_mass": 0,
+    "known_sft_weight_mass": 9797,
+    "maximum_realizations_per_case": 18,
+    "mean_realizations_per_case": 3.6692883895131088,
+    "rankable_cases": 2669,
+    "rankable_realizations": 9580,
+    "realizations": 9797,
+    "realizations_by_source": {
+      "vital_persons": 9797
+    },
+    "semantic_cases": 2670,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 9796.999999999929
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "dev": {
+    "case_definition": [
+      "data_source",
+      "source_model",
+      "qid",
+      "relation"
+    ],
+    "contrastive_weight_mass_by_source": {
+      "vital_persons": 1359.000000000003
+    },
+    "idk_realizations": 93,
+    "idk_semantic_cases": 93,
+    "idk_sft_weight_mass": 296.6830985915493,
+    "known_sft_weight_mass": 1062.3169014084506,
+    "maximum_realizations_per_case": 14,
+    "mean_realizations_per_case": 3.1901408450704225,
+    "rankable_cases": 331,
+    "rankable_realizations": 1239,
+    "realizations": 1359,
+    "realizations_by_source": {
+      "vital_persons": 1359
+    },
+    "semantic_cases": 426,
+    "sft_weight_mass_by_source": {
+      "vital_persons": 1358.9999999999836
+    },
+    "weighting": "N/(C*R_i)"
+  },
+  "granola_dev": null,
+  "rank_balance": {
+    "cap": 8,
+    "level_base_mass": {
+      "CENTURY": 2672.242787560912,
+      "CITY": 216.5691270138627,
+      "CONTINENT": 1042.468340202327,
+      "COUNTRY": 1593.06781566132,
+      "DAY": 326.6890221056577,
+      "DECADE": 1071.8336455601348,
+      "MONTH": 334.030348445111,
+      "REGION": 242.26376920194804,
+      "YEAR": 2297.8351442488142
+    },
+    "level_case_counts": {
+      "CENTURY": 728,
+      "CITY": 59,
+      "CONTINENT": 284,
+      "COUNTRY": 434,
+      "DAY": 89,
+      "DECADE": 292,
+      "MONTH": 91,
+      "REGION": 66,
+      "YEAR": 626
+    },
+    "level_factors": {
+      "CENTURY": 0.6689792368967262,
+      "CITY": 2.6272858639798335,
+      "CONTINENT": 1.1974962578274109,
+      "COUNTRY": 0.9686981496788835,
+      "DAY": 1.913301117289295,
+      "DECADE": 1.0562990828709673,
+      "MONTH": 1.8921590195307165,
+      "REGION": 2.4840559137470373,
+      "YEAR": 0.7214249563244226
+    },
+    "modality_balanced_mass": {
+      "location": 3962.339536190661,
+      "temporal": 5834.660463809427
+    },
+    "modality_base_mass": {
+      "location": 3094.3690520794476,
+      "temporal": 6702.630947920708
+    },
+    "mode": "hierarchical-sqrt",
+    "raw_modality_factors": {
+      "location": 1.258187892736315,
+      "temporal": 0.8548873730448083
+    },
+    "raw_within_modality_level_factors": {
+      "CENTURY": 0.708271382768185,
+      "CITY": 1.889982512698228,
+      "CONTINENT": 0.8614391822924783,
+      "COUNTRY": 0.6968493943033955,
+      "DAY": 2.0256778585246313,
+      "DECADE": 1.1183402574828805,
+      "MONTH": 2.003293990703035,
+      "REGION": 1.7869476260321226,
+      "YEAR": 0.763797474118403
+    }
+  },
+  "training_sources": null,
+  "recorded_revision_argument": null
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "data": {
+      "answer": "Abu Bakr was born in the year 610 CE.",
+      "automatic_category": "YEAR",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 7,\n  \"century_modifier\": \"early\",\n  \"day\": null,\n  \"decade\": 610,\n  \"decade_modifier\": \"early\",\n  \"level\": \"YEAR\",\n  \"month\": null,\n  \"season\": null,\n  \"year\": 610,\n  \"year_modifier\": null\n}",
+      "item_id": "78d4458fe8c346ea6d52",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 7,\n    \"century_modifier\": \"early\",\n    \"day\": null,\n    \"decade\": 610,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 610,\n    \"year_modifier\": null\n  }\n]",
+      "prompt": "When was Abu Bakr born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 7,\n    \"century_modifier\": \"early\",\n    \"day\": null,\n    \"decade\": 610,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 610,\n    \"year_modifier\": null\n  }\n]",
+      "task_uid": "extract-aa52625006-78d4458fe8c346ea6d52"
+    }
+  },
+  {
+    "data": {
+      "answer": "Irving Thalberg, the legendary Hollywood producer known as the \"Boy Wonder\" of the film industry, died on **February 15, 1936**.\n\nHe passed away at the age of 36 from complications related to tuberculosis and a heart condition. His death occurred just a few months after the release of *The Great Ziegfeld*, a film he produced that won the first Academy Award for Best Picture. At the time of his death, he was the most powerful producer in the world, working for Metro-Goldwyn-Mayer (MGM).",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"mid\",\n  \"day\": 15,\n  \"decade\": 1930,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 2,\n  \"season\": \"winter\",\n  \"year\": 1936,\n  \"year_modifier\": \"early\"\n}",
+      "item_id": "d3367ef4881a293e82a9",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 15,\n    \"decade\": 1930,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1936,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "prompt": "When did Irving Thalberg die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 15,\n    \"decade\": 1930,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1936,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "task_uid": "extract-aa52625006-d3367ef4881a293e82a9"
+    }
+  },
+  {
+    "data": {
+      "answer": "Don Bradman was born on **May 27, 1908**.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"early\",\n  \"day\": 27,\n  \"decade\": 1900,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 5,\n  \"season\": \"spring\",\n  \"year\": 1908,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "3e14981bbf122674c07c",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 27,\n    \"decade\": 1900,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1908,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When was Don Bradman born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 27,\n    \"decade\": 1900,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1908,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-3e14981bbf122674c07c"
+    }
+  },
+  {
+    "data": {
+      "answer": "Cyrus the Great was born around 600 BCE. However, the exact date of his birth is not well-documented. He was the founder of the Achaemenid Empire and is known for his significant contributions to Persian history.",
+      "automatic_category": "YEAR",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": -6,\n  \"century_modifier\": \"late\",\n  \"day\": null,\n  \"decade\": -600,\n  \"decade_modifier\": \"early\",\n  \"level\": \"YEAR\",\n  \"month\": null,\n  \"season\": null,\n  \"year\": -600,\n  \"year_modifier\": null\n}",
+      "item_id": "638168ba3c31fb262cea",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": -6,\n    \"century_modifier\": \"late\",\n    \"day\": null,\n    \"decade\": -600,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": -600,\n    \"year_modifier\": null\n  }\n]",
+      "prompt": "When was Cyrus the Great born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": -6,\n    \"century_modifier\": \"late\",\n    \"day\": null,\n    \"decade\": -600,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": -600,\n    \"year_modifier\": null\n  }\n]",
+      "task_uid": "extract-aa52625006-638168ba3c31fb262cea"
+    }
+  },
+  {
+    "data": {
+      "answer": "Bertolt Brecht, the renowned German playwright and director, passed away on May 11, 1956. He was a significant figure in the world of theater, known for his contributions to epic theatre and his political activism. His works often reflected his views on social justice and his critique of capitalist society.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"mid\",\n  \"day\": 11,\n  \"decade\": 1950,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 5,\n  \"season\": \"spring\",\n  \"year\": 1956,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "88a68e32ed2ee45b4df2",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 11,\n    \"decade\": 1950,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1956,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When did Bertolt Brecht die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 11,\n    \"decade\": 1950,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1956,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-88a68e32ed2ee45b4df2"
+    }
+  },
+  {
+    "data": {
+      "answer": "Louis XVI was born on **August 23, 1754**.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 18,\n  \"century_modifier\": \"mid\",\n  \"day\": 23,\n  \"decade\": 1750,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 8,\n  \"season\": \"summer\",\n  \"year\": 1754,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "411616d7669856c85285",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"mid\",\n    \"day\": 23,\n    \"decade\": 1750,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 8,\n    \"season\": \"summer\",\n    \"year\": 1754,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When was Louis XVI born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"mid\",\n    \"day\": 23,\n    \"decade\": 1750,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 8,\n    \"season\": \"summer\",\n    \"year\": 1754,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-411616d7669856c85285"
+    }
+  },
+  {
+    "data": {
+      "answer": "Taejo of Goryeo, whose personal name was **Wang Geon** (also known as Wang Kwon), died on **April 18, 943** (according to the traditional Korean calendar, this corresponds to the 10th day of the 3rd month of the 27th year of his reign).\n\nHe was the founder of the Goryeo Dynasty in Korea. Following his death, he was succeeded by his son, Wangjong.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 10,\n  \"century_modifier\": \"mid\",\n  \"day\": 18,\n  \"decade\": 940,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 4,\n  \"season\": \"spring\",\n  \"year\": 943,\n  \"year_modifier\": \"early\"\n}",
+      "item_id": "4171fe73e8a0b681a100",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 10,\n    \"century_modifier\": \"mid\",\n    \"day\": 18,\n    \"decade\": 940,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 4,\n    \"season\": \"spring\",\n    \"year\": 943,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "prompt": "When did Taejo of Goryeo die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 10,\n    \"century_modifier\": \"mid\",\n    \"day\": 18,\n    \"decade\": 940,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 4,\n    \"season\": \"spring\",\n    \"year\": 943,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "task_uid": "extract-aa52625006-4171fe73e8a0b681a100"
+    }
+  },
+  {
+    "data": {
+      "answer": "Irenaeus of Lyons was born around 130 AD.",
+      "automatic_category": "YEAR",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 2,\n  \"century_modifier\": \"early\",\n  \"day\": null,\n  \"decade\": 130,\n  \"decade_modifier\": \"early\",\n  \"level\": \"YEAR\",\n  \"month\": null,\n  \"season\": null,\n  \"year\": 130,\n  \"year_modifier\": null\n}",
+      "item_id": "6bd892ede9c8ae22dedc",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 2,\n    \"century_modifier\": \"early\",\n    \"day\": null,\n    \"decade\": 130,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 130,\n    \"year_modifier\": null\n  }\n]",
+      "prompt": "When was Irenaeus born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 2,\n    \"century_modifier\": \"early\",\n    \"day\": null,\n    \"decade\": 130,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 130,\n    \"year_modifier\": null\n  }\n]",
+      "task_uid": "extract-aa52625006-6bd892ede9c8ae22dedc"
+    }
+  },
+  {
+    "data": {
+      "answer": "Adam Smith was born on June 5, 1723.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 18,\n  \"century_modifier\": \"early\",\n  \"day\": 5,\n  \"decade\": 1720,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 6,\n  \"season\": \"summer\",\n  \"year\": 1723,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "f23e918c4f34d9fea35c",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"early\",\n    \"day\": 5,\n    \"decade\": 1720,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 6,\n    \"season\": \"summer\",\n    \"year\": 1723,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When was Adam Smith born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"early\",\n    \"day\": 5,\n    \"decade\": 1720,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 6,\n    \"season\": \"summer\",\n    \"year\": 1723,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-f23e918c4f34d9fea35c"
+    }
+  },
+  {
+    "data": {
+      "answer": "Bayinnaung, the last great king of the Toungoo Dynasty who briefly unified most of mainland Southeast Asia, died on **August 10, 1581**.\n\nHe passed away at his capital in Ava (modern-day Mandalay, Myanmar) at the age of 52. His death occurred during a period of severe political instability and rebellion across his vast empire, which he had spent decades building. Following his death, the empire rapidly fragmented as his successors struggled to maintain control over the diverse territories he had conquered.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 16,\n  \"century_modifier\": \"late\",\n  \"day\": 10,\n  \"decade\": 1580,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 8,\n  \"season\": \"summer\",\n  \"year\": 1581,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "bb83709652f78e78be3a",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 10,\n    \"decade\": 1580,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 8,\n    \"season\": \"summer\",\n    \"year\": 1581,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When did Bayinnaung die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 10,\n    \"decade\": 1580,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 8,\n    \"season\": \"summer\",\n    \"year\": 1581,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-bb83709652f78e78be3a"
+    }
+  },
+  {
+    "data": {
+      "answer": "Georges Lemaître died on May 2, 1966.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"mid\",\n  \"day\": 2,\n  \"decade\": 1960,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 5,\n  \"season\": \"spring\",\n  \"year\": 1966,\n  \"year_modifier\": \"mid\"\n}",
+      "item_id": "8232b00d92161f0c0582",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 2,\n    \"decade\": 1960,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1966,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "prompt": "When did Georges Lemaître die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 2,\n    \"decade\": 1960,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 5,\n    \"season\": \"spring\",\n    \"year\": 1966,\n    \"year_modifier\": \"mid\"\n  }\n]",
+      "task_uid": "extract-aa52625006-8232b00d92161f0c0582"
+    }
+  },
+  {
+    "data": {
+      "answer": "Évariste Galois was born on **October 25, 1811**.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 19,\n  \"century_modifier\": \"early\",\n  \"day\": 25,\n  \"decade\": 1810,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 10,\n  \"season\": \"autumn\",\n  \"year\": 1811,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "f99f432e3cf71d7fead4",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"early\",\n    \"day\": 25,\n    \"decade\": 1810,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 10,\n    \"season\": \"autumn\",\n    \"year\": 1811,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was Évariste Galois born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"early\",\n    \"day\": 25,\n    \"decade\": 1810,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 10,\n    \"season\": \"autumn\",\n    \"year\": 1811,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-f99f432e3cf71d7fead4"
+    }
+  },
+  {
+    "data": {
+      "answer": "Martin Heidegger passed away on February 2, 1976.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"late\",\n  \"day\": 2,\n  \"decade\": 1970,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 2,\n  \"season\": \"winter\",\n  \"year\": 1976,\n  \"year_modifier\": \"early\"\n}",
+      "item_id": "867bf9c40a18218af5c3",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"late\",\n    \"day\": 2,\n    \"decade\": 1970,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1976,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "prompt": "When did Martin Heidegger die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"late\",\n    \"day\": 2,\n    \"decade\": 1970,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1976,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "task_uid": "extract-aa52625006-867bf9c40a18218af5c3"
+    }
+  },
+  {
+    "data": {
+      "answer": "Theodor Mommsen, the renowned German historian and classical scholar who was awarded the Nobel Prize in Literature in 1902, was born on **November 30, 1817**.\n\nHe was born in Goslar, in the Kingdom of Hanover (now part of Germany).",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 19,\n  \"century_modifier\": \"early\",\n  \"day\": 30,\n  \"decade\": 1810,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 11,\n  \"season\": \"autumn\",\n  \"year\": 1817,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "9922fa480abbac323acf",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"early\",\n    \"day\": 30,\n    \"decade\": 1810,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 1817,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was Theodor Mommsen born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"early\",\n    \"day\": 30,\n    \"decade\": 1810,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 1817,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-9922fa480abbac323acf"
+    }
+  },
+  {
+    "data": {
+      "answer": "Muhammad Ali Jinnah, the founder of Pakistan, passed away on **14 December 1948**. He was 89 years old at the time of his death. His death marked the end of a pivotal era in South Asian history, as he had been instrumental in the creation of Pakistan in 1947.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"mid\",\n  \"day\": 14,\n  \"decade\": 1940,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 12,\n  \"season\": \"winter\",\n  \"year\": 1948,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "4e6365df5fa94554704c",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 14,\n    \"decade\": 1940,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 12,\n    \"season\": \"winter\",\n    \"year\": 1948,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When did Muhammad Ali Jinnah die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 14,\n    \"decade\": 1940,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 12,\n    \"season\": \"winter\",\n    \"year\": 1948,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-4e6365df5fa94554704c"
+    }
+  },
+  {
+    "data": {
+      "answer": "Irving Thalberg was born on **February 3, 1899**, in San Francisco, California.\n\nHe was a prominent American film producer and one of the most influential figures in the early history of Hollywood, known for his work with Metro-Goldwyn-Mayer (MGM) during the 1920s and 1930s. He passed away on July 15, 1936, at the age of 37.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 19,\n  \"century_modifier\": \"late\",\n  \"day\": 3,\n  \"decade\": 1890,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 2,\n  \"season\": \"winter\",\n  \"year\": 1899,\n  \"year_modifier\": \"early\"\n}",
+      "item_id": "c7fff4f811915ce9cdfc",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"late\",\n    \"day\": 3,\n    \"decade\": 1890,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1899,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "prompt": "When was Irving Thalberg born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"late\",\n    \"day\": 3,\n    \"decade\": 1890,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 2,\n    \"season\": \"winter\",\n    \"year\": 1899,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "task_uid": "extract-aa52625006-c7fff4f811915ce9cdfc"
+    }
+  },
+  {
+    "data": {
+      "answer": "John Donne was born on October 20, 1572.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 16,\n  \"century_modifier\": \"late\",\n  \"day\": 20,\n  \"decade\": 1570,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 10,\n  \"season\": \"autumn\",\n  \"year\": 1572,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "83b3e0a92f59ec285eab",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 20,\n    \"decade\": 1570,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 10,\n    \"season\": \"autumn\",\n    \"year\": 1572,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was John Donne born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 20,\n    \"decade\": 1570,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 10,\n    \"season\": \"autumn\",\n    \"year\": 1572,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-83b3e0a92f59ec285eab"
+    }
+  },
+  {
+    "data": {
+      "answer": "Al-Ghazali (also known as Al-Ghazali al-Qaradisi) was born in 1058 CE (1308 AD) and died in 1166 CE (1273 AD). He passed away in the city of Tunis, which was part of the Almohad Caliphate at the time.",
+      "automatic_category": "MULTIPLE",
+      "automatic_parse_status": "multiple",
+      "final_prediction": "null",
+      "item_id": "521dd8c6de7682fe0534",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 12,\n    \"century_modifier\": \"mid\",\n    \"day\": null,\n    \"decade\": 1160,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 1166,\n    \"year_modifier\": null\n  },\n  {\n    \"century\": 13,\n    \"century_modifier\": \"late\",\n    \"day\": null,\n    \"decade\": 1270,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 1273,\n    \"year_modifier\": null\n  }\n]",
+      "prompt": "When did Al-Ghazali die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 12,\n    \"century_modifier\": \"mid\",\n    \"day\": null,\n    \"decade\": 1160,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 1166,\n    \"year_modifier\": null\n  },\n  {\n    \"century\": 13,\n    \"century_modifier\": \"late\",\n    \"day\": null,\n    \"decade\": 1270,\n    \"decade_modifier\": \"early\",\n    \"level\": \"YEAR\",\n    \"month\": null,\n    \"season\": null,\n    \"year\": 1273,\n    \"year_modifier\": null\n  }\n]",
+      "task_uid": "extract-aa52625006-521dd8c6de7682fe0534"
+    }
+  },
+  {
+    "data": {
+      "answer": "Little Richard was born on September 8, 1932.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"early\",\n  \"day\": 8,\n  \"decade\": 1930,\n  \"decade_modifier\": \"early\",\n  \"level\": \"DAY\",\n  \"month\": 9,\n  \"season\": \"autumn\",\n  \"year\": 1932,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "9103b8a0888eecf57f55",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 8,\n    \"decade\": 1930,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1932,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was Little Richard born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 8,\n    \"decade\": 1930,\n    \"decade_modifier\": \"early\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1932,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-9103b8a0888eecf57f55"
+    }
+  },
+  {
+    "data": {
+      "answer": "John B. Watson died on September 25, 1958.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"mid\",\n  \"day\": 25,\n  \"decade\": 1950,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 9,\n  \"season\": \"autumn\",\n  \"year\": 1958,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "390c578f50b5874a23e7",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 25,\n    \"decade\": 1950,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1958,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When did John B. Watson die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"mid\",\n    \"day\": 25,\n    \"decade\": 1950,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1958,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-390c578f50b5874a23e7"
+    }
+  },
+  {
+    "data": {
+      "answer": "Carlos Fuentes, the renowned Mexican novelist, essayist, and diplomat, was born on **November 11, 1928**.\n\nHe was born in Mexico City and is widely considered one of the most important figures in Latin American literature, often associated with the \"Boom\" movement alongside authors like Gabriel García Márquez and Julio Cortázar. He passed away on May 15, 2012.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 20,\n  \"century_modifier\": \"early\",\n  \"day\": 11,\n  \"decade\": 1920,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 11,\n  \"season\": \"autumn\",\n  \"year\": 1928,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "37cfa25e9478af18a7db",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 11,\n    \"decade\": 1920,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 1928,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was Carlos Fuentes born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 20,\n    \"century_modifier\": \"early\",\n    \"day\": 11,\n    \"decade\": 1920,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 1928,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-37cfa25e9478af18a7db"
+    }
+  },
+  {
+    "data": {
+      "answer": "Joseph Stalin was born on **December 18, 1878**.\n\nHe was born in the village of Gori, in the Kutaisi Governorate of the Russian Empire (now in Georgia). While his birth name was Ioseb Besarionis dze Jughashvili, he later adopted the pseudonym \"Stalin,\" which means \"man of steel\" in Russian.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 19,\n  \"century_modifier\": \"late\",\n  \"day\": 18,\n  \"decade\": 1870,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 12,\n  \"season\": \"winter\",\n  \"year\": 1878,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "044c4d1526f228a62e49",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"late\",\n    \"day\": 18,\n    \"decade\": 1870,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 12,\n    \"season\": \"winter\",\n    \"year\": 1878,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When was Joseph Stalin born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 19,\n    \"century_modifier\": \"late\",\n    \"day\": 18,\n    \"decade\": 1870,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 12,\n    \"season\": \"winter\",\n    \"year\": 1878,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-044c4d1526f228a62e49"
+    }
+  },
+  {
+    "data": {
+      "answer": "King Juan Carlos I of Spain passed away on **November 19, 2014**, at the age of 87.\n\nHe died at the Royal Palace of Zarzuela in Madrid, surrounded by his family. His death was announced by the Spanish royal family later that day, marking the end of a reign that lasted from 1975 until his abdication in 2014.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 21,\n  \"century_modifier\": \"early\",\n  \"day\": 19,\n  \"decade\": 2010,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 11,\n  \"season\": \"autumn\",\n  \"year\": 2014,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "ef44be95ba1f43a52bc3",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 21,\n    \"century_modifier\": \"early\",\n    \"day\": 19,\n    \"decade\": 2010,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 2014,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When did Juan Carlos I die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 21,\n    \"century_modifier\": \"early\",\n    \"day\": 19,\n    \"decade\": 2010,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 11,\n    \"season\": \"autumn\",\n    \"year\": 2014,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-ef44be95ba1f43a52bc3"
+    }
+  },
+  {
+    "data": {
+      "answer": "Gerolamo Cardano died on September 24, 1576.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 16,\n  \"century_modifier\": \"late\",\n  \"day\": 24,\n  \"decade\": 1570,\n  \"decade_modifier\": \"mid\",\n  \"level\": \"DAY\",\n  \"month\": 9,\n  \"season\": \"autumn\",\n  \"year\": 1576,\n  \"year_modifier\": \"late\"\n}",
+      "item_id": "360cef429c3631a3fe96",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 24,\n    \"decade\": 1570,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1576,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "prompt": "When did Gerolamo Cardano die?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 16,\n    \"century_modifier\": \"late\",\n    \"day\": 24,\n    \"decade\": 1570,\n    \"decade_modifier\": \"mid\",\n    \"level\": \"DAY\",\n    \"month\": 9,\n    \"season\": \"autumn\",\n    \"year\": 1576,\n    \"year_modifier\": \"late\"\n  }\n]",
+      "task_uid": "extract-aa52625006-360cef429c3631a3fe96"
+    }
+  },
+  {
+    "data": {
+      "answer": "Auguste Comte was born on **January 19, 1798**.",
+      "automatic_category": "DAY",
+      "automatic_parse_status": "parsed",
+      "final_prediction": "{\n  \"century\": 18,\n  \"century_modifier\": \"late\",\n  \"day\": 19,\n  \"decade\": 1790,\n  \"decade_modifier\": \"late\",\n  \"level\": \"DAY\",\n  \"month\": 1,\n  \"season\": \"winter\",\n  \"year\": 1798,\n  \"year_modifier\": \"early\"\n}",
+      "item_id": "7c6dfa0cd92629be306c",
+      "modality": "temporal",
+      "normalized_relevant_candidates": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"late\",\n    \"day\": 19,\n    \"decade\": 1790,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 1,\n    \"season\": \"winter\",\n    \"year\": 1798,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "prompt": "When was Auguste Comte born?",
+      "raw_extracted_mentions": "[\n  {\n    \"century\": 18,\n    \"century_modifier\": \"late\",\n    \"day\": 19,\n    \"decade\": 1790,\n    \"decade_modifier\": \"late\",\n    \"level\": \"DAY\",\n    \"month\": 1,\n    \"season\": \"winter\",\n    \"year\": 1798,\n    \"year_modifier\": \"early\"\n  }\n]",
+      "task_uid": "extract-aa52625006-7c6dfa0cd92629be306c"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{question}
+Extract location components using only the entire text, including brackets and later sentences. Do not correct facts or add outside knowledge.
+
+Include all locations stated for the requested person's birth/death, including uncertain alternatives, aliases and geographic/historical descriptions of those places. Ignore other people/events, burial, residence or hospital admission alone. Exclude political control, spheres of influence, affiliations, era-only descriptions and unnamed political domains.
+
+Do not miss unnamed homes/hospitals, contained rooms/cells, or addresses and their numbers. For a named venue, keep its name instead of its generic description. Keep regional units and spatial qualifiers intact, such as "near Cambridge" or "off the coast of Lisbon". Preserve incomplete names without completing them.
+
+Output components once, semicolon-separated, in first event-relevant appearance order. Preserve commas within names/addresses; split slash-listed names and possessive geography. Remove identical repetitions, but retain distinct aliases and unit-qualified names. Output "IDK" only when no requested location is stated. Then stop.
+
+Text: {answer}

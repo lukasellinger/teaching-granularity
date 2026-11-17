@@ -1,0 +1,45 @@
+{
+  "generation": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "base_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "adapter_repo": "lukasellinger/teaching-granularity-adapters",
+    "adapter_revision": "9ab2f768173984455c71e9cf5d84b3baf8341bf7",
+    "adapter_subfolder": "pipeline/location-extractor",
+    "adapter_weights_sha256": "d9fb82bb56a64df14d0af1b895c677b57eb20da40e303582ee065e87a3064dc8",
+    "prompt_sha256": "15d3be5510ed524dba6a1acb3667e3a8bde8493ecdd50fa59d9bb6305f4efb5a",
+    "dtype": "bfloat16",
+    "attention_implementation": "sdpa",
+    "do_sample": false,
+    "batch_size": 1,
+    "max_input_tokens": 4096,
+    "max_new_tokens": 256,
+    "torch": "2.12.1+cu126",
+    "transformers": "5.17.0",
+    "device": "NVIDIA GeForce RTX 3080 Ti"
+  },
+  "original_predictions_path": "predictions.json",
+  "original_predictions_sha256": "a6d373dec2ca25c89105e4b15980474dbd497dac04426e8d2b5d25f21f47bea3",
+  "verification_method": "Fresh single-example greedy inference using the pinned cached base and checksum-verified released adapter; all original raw predictions reproduced.",
+  "cases": 100,
+  "exact_raw_prediction_matches": 100,
+  "comparison_fields": [
+    "status",
+    "raw_location",
+    "generated_tokens"
+  ],
+  "current_annotations_path": "annotations.jsonl",
+  "current_annotations_sha256": "e07d98932ad8575f0df890c0160dbcf71fbe45b54eab5ab1ab70df890af85944",
+  "reference_updates": [
+    {
+      "item_id": "12bc1c48d543db2eb2eda1aa",
+      "original_expected_output": "Tiberias; southern Galilee; Byzantine province",
+      "current_expected_output": "Tiberias; southern Galilee; Ottoman-controlled regions; Byzantine province"
+    },
+    {
+      "item_id": "79abe65a54658fb369125f59",
+      "original_expected_output": "Detroit; Michigan; USA; sponsor lodge; Salvation Army barracks",
+      "current_expected_output": "Detroit; Michigan; USA; sponsor lodge of a Salvation Army barracks"
+    }
+  ],
+  "heldout_used_for_checkpoint_selection": false
+}

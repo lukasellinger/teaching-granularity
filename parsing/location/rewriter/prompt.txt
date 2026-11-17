@@ -1,0 +1,7 @@
+Rewrite the requested birth/death sentence with the supplied replacement location, making the smallest natural edit. Keep the original person's name, event wording, qualifiers and styling. Keep other information within that sentence when it still fits naturally, such as being surrounded by family; do not reduce every answer to a bare location statement. Drop unrelated follow-up sentences, repeated explanations, self-corrections and unusable fragments. Remove old location names and geographic descriptions that do not fit the replacement. Use the replacement once, keeping its words and order; natural connecting prepositions are allowed. Adjust articles and prepositions. Do not invent facts or complete missing information. Return only the complete rewritten event sentence.
+
+Question: {question}
+Extracted original location: {original_location}
+Replacement location: {replacement_location}
+Original text:
+{answer}

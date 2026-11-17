@@ -1,0 +1,112 @@
+{
+  "items": 25,
+  "annotators": 1,
+  "by_model": {
+    "GEMMA4_31B": 8,
+    "LFM2_5_1_2B": 9,
+    "QWEN3_5_9B": 8
+  },
+  "answer_status": {
+    "Multiple requested values": 6,
+    "One clear requested value": 19
+  },
+  "reviews": {
+    "span_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "completeness_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "event_anchoring_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "normalization_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "granularity_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "multiple_values_review": {
+      "correct": 6,
+      "incorrect": 0,
+      "not_applicable": 19,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.6096657120978346,
+        "upper": 1.0
+      }
+    },
+    "overall_pipeline_review": {
+      "correct": 25,
+      "incorrect": 0,
+      "not_applicable": 0,
+      "cannot_determine": 0,
+      "rate": 1.0,
+      "wilson_95": {
+        "lower": 0.8668077490609515,
+        "upper": 0.9999999999999999
+      }
+    },
+    "wikidata_entity_review": {
+      "correct": 0,
+      "incorrect": 0,
+      "not_applicable": 25,
+      "cannot_determine": 0,
+      "rate": null,
+      "wilson_95": null
+    },
+    "wikidata_completion_review": {
+      "correct": 0,
+      "incorrect": 0,
+      "not_applicable": 25,
+      "cannot_determine": 0,
+      "rate": null,
+      "wilson_95": null
+    }
+  },
+  "parser_replay": {
+    "matching": 25,
+    "changed": []
+  }
+}

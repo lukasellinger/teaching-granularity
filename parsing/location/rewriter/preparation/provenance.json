@@ -1,0 +1,26 @@
+{
+  "seed": 43,
+  "eligible_answers": 1879,
+  "eligible_people": 471,
+  "people_per_model": 100,
+  "eligibility": "Completed known 80% consensus groups; successful non-IDK extraction; Single filter; usable within-answer consensus; no temporal expression; earlier source cohorts excluded.",
+  "snapshot_note": "Completed-cache availability is scheduler-biased; not population accuracy",
+  "population_contents": "Original eligible source answers and supplied replacement projections. No reference rewrites or split assignments.",
+  "annotation_method": "Source-reviewed event prefixes, fitting nongeographic tails and explicit context templates; frozen teacher references.",
+  "teacher_labels_are_human_gold": false,
+  "original_annotation_flags": {
+    "human_approved": false,
+    "heldout_predictions_viewed": false,
+    "user_approved_rewrite_decisions": {}
+  },
+  "files": {
+    "population.jsonl": "cef79ac02d8fc1ab2dd8501a88500ae72fc82dd3358025b71245c4e93d366ddb",
+    "annotations.jsonl": "62d9b5c4d1bde6675632a7e8ce2e3f5a1104213b2b100fc5c140f8057885ba4c"
+  },
+  "heldout_prediction_report": {
+    "path": "../human_validation/predictions.json",
+    "sha256": "12668b40610788a58b8276a94dd5e7d775e40ddb5d98a9de5a1122960074debe"
+  },
+  "path_base": "Paths are relative to this file directory.",
+  "preparation_script": "../prepare.py"
+}

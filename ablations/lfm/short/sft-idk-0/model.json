@@ -1,0 +1,15 @@
+{
+  "adapter_sha256": "de136511e2614c79feb5e04a325e3245b2d497248e8e4ec6bf0f00ebcdcfa7ec",
+  "files": {
+    "adapter_config.json": "792b429c5558f1e9f2dd93314fd0131fbd7609db8ee02b521acefc10245a6fa6",
+    "adapter_model.safetensors": "231014e92f03ced751f0f2581b3b3d70b0af903a09bd312ad40d922268f7e98d",
+    "chat_template.jinja": "ba551d58630afa3190b1be3602e28301f3d2e9bbac978dfc49d6d825171648b6",
+    "tokenizer.json": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+    "tokenizer_config.json": "8c84d1863ec834d490b8b9e50dfbca76c8908ab853cc03c67d83f753eff69f05"
+  },
+  "private": true,
+  "repo_id": "lukasellinger/teaching-granularity-adapters",
+  "revision": "660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe",
+  "subfolder": "ablations/lfm/short/sft-idk-0",
+  "url": "https://huggingface.co/lukasellinger/teaching-granularity-adapters/tree/660a44fb786c3cc5d9fa4a9ab522f9fb6eaf6efe/ablations/lfm/short/sft-idk-0"
+}
